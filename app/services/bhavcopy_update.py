@@ -1,4 +1,3 @@
-# app/services/bhavcopy_update.py
 import csv
 from datetime import datetime
 from sqlalchemy import exists
@@ -25,15 +24,16 @@ def process_bhavcopy(file):
             close_price = float(row['ClsPric']) if row['ClsPric'] else None
             volume = int(row['TtlTradgVol']) if row['TtlTradgVol'] else None
 
-            # Check if ISIN exists in stock_symbols
+            # Check if ISIN exists in stock_symbols and get corresponding symbol
             stock_symbol = StockSymbol.query.filter_by(isin=isin).first()
             if not stock_symbol:
-                skipped_records += 1  # Skip if ISIN is not found in stock_symbols
+                skipped_records += 1  # Skip if ISIN not found
                 continue
+            symbol = stock_symbol.symbol
 
             # Check if record for the trading day already exists
             record_exists = db.session.query(
-                exists().where(HistoricalData1D.symbol == isin).where(HistoricalData1D.date == date)
+                exists().where(HistoricalData1D.symbol == symbol).where(HistoricalData1D.date == date)
             ).scalar()
 
             if record_exists:
@@ -42,7 +42,7 @@ def process_bhavcopy(file):
 
             # Insert new record into historical_data_1d
             new_record = HistoricalData1D(
-                symbol=isin,
+                symbol=symbol,
                 date=date,
                 open_price=open_price,
                 high_price=high_price,
@@ -55,6 +55,7 @@ def process_bhavcopy(file):
 
         except Exception as e:
             print(f"Error processing row {row}: {e}")
+            skipped_records += 1
 
     db.session.commit()
 
