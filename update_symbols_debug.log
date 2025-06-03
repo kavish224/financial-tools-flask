@@ -4782,3 +4782,1536 @@ LINE 1: SELECT isin FROM stock_symbols
 LINE 1: SELECT isin FROM stock_symbols
                          ^
 
+2025-06-02 13:29:58,629 - INFO - 127.0.0.1 - - [02/Jun/2025 13:29:58] "POST /v1/update_all_symbols HTTP/1.1" 200 -
+2025-06-02 13:29:58,672 - WARNING - No ISINs found in the database.
+2025-06-03 01:12:33,152 - INFO - 127.0.0.1 - - [03/Jun/2025 01:12:33] "POST /v1/update_all_symbols HTTP/1.1" 200 -
+2025-06-03 01:12:33,200 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE423A01024/day/2025-06-03/2019-01-01
+2025-06-03 01:12:33,267 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:33,605 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE423A01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:33,629 - ERROR - Error updating data for ISIN INE423A01024: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:33,646 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE742F01042/day/2025-06-03/2019-01-01
+2025-06-03 01:12:33,648 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:33,912 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE742F01042/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:33,934 - ERROR - Error updating data for ISIN INE742F01042: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:33,959 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE437A01024/day/2025-06-03/2019-01-01
+2025-06-03 01:12:33,960 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:34,190 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE437A01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:34,205 - ERROR - Error updating data for ISIN INE437A01024: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:34,219 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE021A01026/day/2025-06-03/2019-01-01
+2025-06-03 01:12:34,220 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:34,486 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE021A01026/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:34,512 - ERROR - Error updating data for ISIN INE021A01026: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:34,529 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE238A01034/day/2025-06-03/2019-01-01
+2025-06-03 01:12:34,530 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:34,809 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE238A01034/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:34,819 - ERROR - Error updating data for ISIN INE238A01034: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:34,846 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE917I01010/day/2025-06-03/2019-01-01
+2025-06-03 01:12:34,847 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:35,093 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE917I01010/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:35,196 - ERROR - Error updating data for ISIN INE917I01010: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:35,224 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE296A01024/day/2025-06-03/2019-01-01
+2025-06-03 01:12:35,226 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:35,457 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE296A01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:35,479 - ERROR - Error updating data for ISIN INE296A01024: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:35,503 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE918I01026/day/2025-06-03/2019-01-01
+2025-06-03 01:12:35,504 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:35,714 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE918I01026/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:35,732 - ERROR - Error updating data for ISIN INE918I01026: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:35,754 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE263A01024/day/2025-06-03/2019-01-01
+2025-06-03 01:12:35,755 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:35,995 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE263A01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:36,014 - ERROR - Error updating data for ISIN INE263A01024: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:36,033 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE397D01024/day/2025-06-03/2019-01-01
+2025-06-03 01:12:36,034 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:36,280 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE397D01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:36,291 - ERROR - Error updating data for ISIN INE397D01024: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:36,308 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE059A01026/day/2025-06-03/2019-01-01
+2025-06-03 01:12:36,309 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:36,548 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE059A01026/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:36,563 - ERROR - Error updating data for ISIN INE059A01026: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:36,587 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE522F01014/day/2025-06-03/2019-01-01
+2025-06-03 01:12:36,588 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:36,835 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE522F01014/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:36,845 - ERROR - Error updating data for ISIN INE522F01014: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:36,866 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE089A01031/day/2025-06-03/2019-01-01
+2025-06-03 01:12:36,867 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:37,088 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE089A01031/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:37,096 - ERROR - Error updating data for ISIN INE089A01031: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:37,120 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE066A01021/day/2025-06-03/2019-01-01
+2025-06-03 01:12:37,121 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:37,357 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE066A01021/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:37,373 - ERROR - Error updating data for ISIN INE066A01021: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:37,389 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE758T01015/day/2025-06-03/2019-01-01
+2025-06-03 01:12:37,390 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:37,669 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE758T01015/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:37,680 - ERROR - Error updating data for ISIN INE758T01015: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:37,705 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE047A01021/day/2025-06-03/2019-01-01
+2025-06-03 01:12:37,707 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:37,971 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE047A01021/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:38,040 - ERROR - Error updating data for ISIN INE047A01021: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:38,063 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE860A01027/day/2025-06-03/2019-01-01
+2025-06-03 01:12:38,065 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:38,306 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE860A01027/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:38,317 - ERROR - Error updating data for ISIN INE860A01027: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:38,337 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE040A01034/day/2025-06-03/2019-01-01
+2025-06-03 01:12:38,338 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:38,572 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE040A01034/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:38,594 - ERROR - Error updating data for ISIN INE040A01034: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:38,616 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE795G01014/day/2025-06-03/2019-01-01
+2025-06-03 01:12:38,617 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:38,832 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE795G01014/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:38,848 - ERROR - Error updating data for ISIN INE795G01014: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:38,872 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE158A01026/day/2025-06-03/2019-01-01
+2025-06-03 01:12:38,874 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:39,121 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE158A01026/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:39,142 - ERROR - Error updating data for ISIN INE158A01026: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:39,167 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE038A01020/day/2025-06-03/2019-01-01
+2025-06-03 01:12:39,168 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:39,405 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE038A01020/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:39,421 - ERROR - Error updating data for ISIN INE038A01020: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:39,446 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE030A01027/day/2025-06-03/2019-01-01
+2025-06-03 01:12:39,447 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:39,678 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE030A01027/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:39,686 - ERROR - Error updating data for ISIN INE030A01027: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:39,711 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE090A01021/day/2025-06-03/2019-01-01
+2025-06-03 01:12:39,713 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:40,033 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE090A01021/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:40,044 - ERROR - Error updating data for ISIN INE090A01021: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:40,067 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE154A01025/day/2025-06-03/2019-01-01
+2025-06-03 01:12:40,068 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:40,311 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE154A01025/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:40,323 - ERROR - Error updating data for ISIN INE154A01025: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:40,339 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE095A01012/day/2025-06-03/2019-01-01
+2025-06-03 01:12:40,340 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:40,573 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE095A01012/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:40,606 - ERROR - Error updating data for ISIN INE095A01012: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:40,632 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE009A01021/day/2025-06-03/2019-01-01
+2025-06-03 01:12:40,634 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:40,889 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE009A01021/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:40,902 - ERROR - Error updating data for ISIN INE009A01021: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:40,927 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE019A01038/day/2025-06-03/2019-01-01
+2025-06-03 01:12:40,928 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:41,187 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE019A01038/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:41,204 - ERROR - Error updating data for ISIN INE019A01038: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:41,229 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE758E01017/day/2025-06-03/2019-01-01
+2025-06-03 01:12:41,230 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:41,446 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE758E01017/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:41,462 - ERROR - Error updating data for ISIN INE758E01017: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:41,485 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE237A01028/day/2025-06-03/2019-01-01
+2025-06-03 01:12:41,487 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:41,732 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE237A01028/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:41,743 - ERROR - Error updating data for ISIN INE237A01028: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:41,765 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE018A01030/day/2025-06-03/2019-01-01
+2025-06-03 01:12:41,766 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:42,001 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE018A01030/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:42,026 - ERROR - Error updating data for ISIN INE018A01030: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:42,050 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE101A01026/day/2025-06-03/2019-01-01
+2025-06-03 01:12:42,053 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:42,314 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE101A01026/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:42,328 - ERROR - Error updating data for ISIN INE101A01026: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:42,355 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE585B01010/day/2025-06-03/2019-01-01
+2025-06-03 01:12:42,356 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:42,597 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE585B01010/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:42,611 - ERROR - Error updating data for ISIN INE585B01010: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:42,634 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE733E01010/day/2025-06-03/2019-01-01
+2025-06-03 01:12:42,635 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:42,879 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE733E01010/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:42,891 - ERROR - Error updating data for ISIN INE733E01010: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:42,915 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE239A01024/day/2025-06-03/2019-01-01
+2025-06-03 01:12:42,917 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:43,189 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE239A01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:43,205 - ERROR - Error updating data for ISIN INE239A01024: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:43,224 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE213A01029/day/2025-06-03/2019-01-01
+2025-06-03 01:12:43,226 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:43,486 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE213A01029/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:43,500 - ERROR - Error updating data for ISIN INE213A01029: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:43,525 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE752E01010/day/2025-06-03/2019-01-01
+2025-06-03 01:12:43,526 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:43,795 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE752E01010/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:43,811 - ERROR - Error updating data for ISIN INE752E01010: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:43,834 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE002A01018/day/2025-06-03/2019-01-01
+2025-06-03 01:12:43,835 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:44,085 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE002A01018/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:44,100 - ERROR - Error updating data for ISIN INE002A01018: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:44,125 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE123W01016/day/2025-06-03/2019-01-01
+2025-06-03 01:12:44,127 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:44,346 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE123W01016/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:44,421 - ERROR - Error updating data for ISIN INE123W01016: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:44,443 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE721A01047/day/2025-06-03/2019-01-01
+2025-06-03 01:12:44,444 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:44,698 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE721A01047/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:44,718 - ERROR - Error updating data for ISIN INE721A01047: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:44,744 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE062A01020/day/2025-06-03/2019-01-01
+2025-06-03 01:12:44,745 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:44,958 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE062A01020/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:44,976 - ERROR - Error updating data for ISIN INE062A01020: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:45,002 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE044A01036/day/2025-06-03/2019-01-01
+2025-06-03 01:12:45,004 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:45,287 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE044A01036/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:45,298 - ERROR - Error updating data for ISIN INE044A01036: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:45,325 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE467B01029/day/2025-06-03/2019-01-01
+2025-06-03 01:12:45,327 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:45,592 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE467B01029/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:45,606 - ERROR - Error updating data for ISIN INE467B01029: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:45,632 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE192A01025/day/2025-06-03/2019-01-01
+2025-06-03 01:12:45,633 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:45,867 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE192A01025/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:45,884 - ERROR - Error updating data for ISIN INE192A01025: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:45,910 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE155A01022/day/2025-06-03/2019-01-01
+2025-06-03 01:12:45,912 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:46,160 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE155A01022/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:46,186 - ERROR - Error updating data for ISIN INE155A01022: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:46,238 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE081A01020/day/2025-06-03/2019-01-01
+2025-06-03 01:12:46,239 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:46,470 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE081A01020/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:46,488 - ERROR - Error updating data for ISIN INE081A01020: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:46,508 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE669C01036/day/2025-06-03/2019-01-01
+2025-06-03 01:12:46,509 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:46,726 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE669C01036/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:46,749 - ERROR - Error updating data for ISIN INE669C01036: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:46,774 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE280A01028/day/2025-06-03/2019-01-01
+2025-06-03 01:12:46,775 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:47,008 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE280A01028/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:47,027 - ERROR - Error updating data for ISIN INE280A01028: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:47,052 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE849A01020/day/2025-06-03/2019-01-01
+2025-06-03 01:12:47,054 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:47,307 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE849A01020/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:47,330 - ERROR - Error updating data for ISIN INE849A01020: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:47,356 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE481G01011/day/2025-06-03/2019-01-01
+2025-06-03 01:12:47,358 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:47,600 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE481G01011/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:47,613 - ERROR - Error updating data for ISIN INE481G01011: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:47,631 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE075A01022/day/2025-06-03/2019-01-01
+2025-06-03 01:12:47,632 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:12:47,849 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE075A01022/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:12:47,860 - ERROR - Error updating data for ISIN INE075A01022: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:12:47,860 - INFO - Batch 1 processed.
+2025-06-03 01:30:47,659 - INFO - 127.0.0.1 - - [03/Jun/2025 01:30:47] "POST /v1/update_all_symbols HTTP/1.1" 200 -
+2025-06-03 01:30:47,707 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE423A01024/day/2025-06-03/2019-01-01
+2025-06-03 01:30:47,709 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:48,024 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE423A01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:48,042 - ERROR - Error updating data for ISIN INE423A01024: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:48,071 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE742F01042/day/2025-06-03/2019-01-01
+2025-06-03 01:30:48,077 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:48,318 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE742F01042/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:48,339 - ERROR - Error updating data for ISIN INE742F01042: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:48,363 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE437A01024/day/2025-06-03/2019-01-01
+2025-06-03 01:30:48,365 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:48,583 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE437A01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:48,597 - ERROR - Error updating data for ISIN INE437A01024: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:48,625 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE021A01026/day/2025-06-03/2019-01-01
+2025-06-03 01:30:48,627 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:48,846 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE021A01026/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:48,871 - ERROR - Error updating data for ISIN INE021A01026: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:48,894 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE238A01034/day/2025-06-03/2019-01-01
+2025-06-03 01:30:48,895 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:49,145 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE238A01034/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:49,160 - ERROR - Error updating data for ISIN INE238A01034: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:49,185 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE917I01010/day/2025-06-03/2019-01-01
+2025-06-03 01:30:49,187 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:49,425 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE917I01010/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:49,440 - ERROR - Error updating data for ISIN INE917I01010: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:49,467 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE296A01024/day/2025-06-03/2019-01-01
+2025-06-03 01:30:49,469 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:49,703 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE296A01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:49,723 - ERROR - Error updating data for ISIN INE296A01024: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:49,746 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE918I01026/day/2025-06-03/2019-01-01
+2025-06-03 01:30:49,749 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:49,972 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE918I01026/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:50,006 - ERROR - Error updating data for ISIN INE918I01026: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:50,028 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE263A01024/day/2025-06-03/2019-01-01
+2025-06-03 01:30:50,030 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:50,240 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE263A01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:50,250 - ERROR - Error updating data for ISIN INE263A01024: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:50,266 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE397D01024/day/2025-06-03/2019-01-01
+2025-06-03 01:30:50,267 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:50,478 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE397D01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:50,494 - ERROR - Error updating data for ISIN INE397D01024: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:50,519 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE059A01026/day/2025-06-03/2019-01-01
+2025-06-03 01:30:50,521 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:50,725 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE059A01026/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:50,737 - ERROR - Error updating data for ISIN INE059A01026: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:50,758 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE522F01014/day/2025-06-03/2019-01-01
+2025-06-03 01:30:50,760 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:50,969 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE522F01014/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:50,993 - ERROR - Error updating data for ISIN INE522F01014: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:51,016 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE089A01031/day/2025-06-03/2019-01-01
+2025-06-03 01:30:51,018 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:51,223 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE089A01031/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:51,239 - ERROR - Error updating data for ISIN INE089A01031: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:51,260 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE066A01021/day/2025-06-03/2019-01-01
+2025-06-03 01:30:51,262 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:51,478 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE066A01021/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:51,490 - ERROR - Error updating data for ISIN INE066A01021: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:51,511 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE758T01015/day/2025-06-03/2019-01-01
+2025-06-03 01:30:51,512 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:51,728 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE758T01015/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:51,787 - ERROR - Error updating data for ISIN INE758T01015: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:51,808 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE047A01021/day/2025-06-03/2019-01-01
+2025-06-03 01:30:51,809 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:52,037 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE047A01021/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:52,109 - ERROR - Error updating data for ISIN INE047A01021: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:52,136 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE860A01027/day/2025-06-03/2019-01-01
+2025-06-03 01:30:52,138 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:52,321 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE860A01027/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:52,335 - ERROR - Error updating data for ISIN INE860A01027: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:52,354 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE040A01034/day/2025-06-03/2019-01-01
+2025-06-03 01:30:52,355 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:52,572 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE040A01034/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:52,596 - ERROR - Error updating data for ISIN INE040A01034: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:52,624 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE795G01014/day/2025-06-03/2019-01-01
+2025-06-03 01:30:52,626 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:52,843 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE795G01014/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:52,858 - ERROR - Error updating data for ISIN INE795G01014: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:52,882 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE158A01026/day/2025-06-03/2019-01-01
+2025-06-03 01:30:52,885 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:53,128 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE158A01026/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:53,142 - ERROR - Error updating data for ISIN INE158A01026: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:53,165 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE038A01020/day/2025-06-03/2019-01-01
+2025-06-03 01:30:53,166 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:53,393 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE038A01020/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:53,406 - ERROR - Error updating data for ISIN INE038A01020: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:53,431 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE030A01027/day/2025-06-03/2019-01-01
+2025-06-03 01:30:53,433 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:53,645 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE030A01027/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:53,659 - ERROR - Error updating data for ISIN INE030A01027: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:53,680 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE090A01021/day/2025-06-03/2019-01-01
+2025-06-03 01:30:53,681 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:53,903 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE090A01021/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:53,915 - ERROR - Error updating data for ISIN INE090A01021: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:53,944 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE154A01025/day/2025-06-03/2019-01-01
+2025-06-03 01:30:53,946 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:54,156 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE154A01025/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:54,163 - ERROR - Error updating data for ISIN INE154A01025: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:54,184 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE095A01012/day/2025-06-03/2019-01-01
+2025-06-03 01:30:54,186 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:54,375 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE095A01012/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:54,394 - ERROR - Error updating data for ISIN INE095A01012: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:54,413 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE009A01021/day/2025-06-03/2019-01-01
+2025-06-03 01:30:54,414 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:54,606 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE009A01021/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:54,627 - ERROR - Error updating data for ISIN INE009A01021: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:54,652 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE019A01038/day/2025-06-03/2019-01-01
+2025-06-03 01:30:54,654 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:54,879 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE019A01038/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:54,893 - ERROR - Error updating data for ISIN INE019A01038: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:54,914 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE758E01017/day/2025-06-03/2019-01-01
+2025-06-03 01:30:54,916 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:55,116 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE758E01017/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:55,131 - ERROR - Error updating data for ISIN INE758E01017: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:55,157 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE237A01028/day/2025-06-03/2019-01-01
+2025-06-03 01:30:55,160 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:55,370 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE237A01028/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:55,393 - ERROR - Error updating data for ISIN INE237A01028: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:55,440 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE018A01030/day/2025-06-03/2019-01-01
+2025-06-03 01:30:55,442 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:55,642 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE018A01030/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:55,658 - ERROR - Error updating data for ISIN INE018A01030: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:55,683 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE101A01026/day/2025-06-03/2019-01-01
+2025-06-03 01:30:55,685 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:55,910 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE101A01026/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:55,929 - ERROR - Error updating data for ISIN INE101A01026: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:55,949 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE585B01010/day/2025-06-03/2019-01-01
+2025-06-03 01:30:55,951 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:56,171 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE585B01010/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:56,194 - ERROR - Error updating data for ISIN INE585B01010: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:56,215 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE733E01010/day/2025-06-03/2019-01-01
+2025-06-03 01:30:56,217 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:56,437 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE733E01010/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:56,509 - ERROR - Error updating data for ISIN INE733E01010: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:56,536 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE239A01024/day/2025-06-03/2019-01-01
+2025-06-03 01:30:56,537 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:56,742 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE239A01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:56,764 - ERROR - Error updating data for ISIN INE239A01024: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:56,791 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE213A01029/day/2025-06-03/2019-01-01
+2025-06-03 01:30:56,793 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:57,039 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE213A01029/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:57,059 - ERROR - Error updating data for ISIN INE213A01029: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:57,084 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE752E01010/day/2025-06-03/2019-01-01
+2025-06-03 01:30:57,086 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:57,293 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE752E01010/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:57,322 - ERROR - Error updating data for ISIN INE752E01010: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:57,345 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE002A01018/day/2025-06-03/2019-01-01
+2025-06-03 01:30:57,346 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:57,562 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE002A01018/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:57,591 - ERROR - Error updating data for ISIN INE002A01018: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:57,615 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE123W01016/day/2025-06-03/2019-01-01
+2025-06-03 01:30:57,616 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:57,803 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE123W01016/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:57,814 - ERROR - Error updating data for ISIN INE123W01016: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:57,837 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE721A01047/day/2025-06-03/2019-01-01
+2025-06-03 01:30:57,839 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:58,075 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE721A01047/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:58,091 - ERROR - Error updating data for ISIN INE721A01047: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:58,115 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE062A01020/day/2025-06-03/2019-01-01
+2025-06-03 01:30:58,117 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:58,382 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE062A01020/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:58,397 - ERROR - Error updating data for ISIN INE062A01020: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:58,413 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE044A01036/day/2025-06-03/2019-01-01
+2025-06-03 01:30:58,414 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:58,622 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE044A01036/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:58,640 - ERROR - Error updating data for ISIN INE044A01036: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:58,665 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE467B01029/day/2025-06-03/2019-01-01
+2025-06-03 01:30:58,666 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:58,833 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE467B01029/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:58,847 - ERROR - Error updating data for ISIN INE467B01029: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:58,871 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE192A01025/day/2025-06-03/2019-01-01
+2025-06-03 01:30:58,872 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:59,090 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE192A01025/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:59,113 - ERROR - Error updating data for ISIN INE192A01025: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:59,140 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE155A01022/day/2025-06-03/2019-01-01
+2025-06-03 01:30:59,141 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:59,348 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE155A01022/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:59,361 - ERROR - Error updating data for ISIN INE155A01022: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:59,387 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE081A01020/day/2025-06-03/2019-01-01
+2025-06-03 01:30:59,389 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:59,640 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE081A01020/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:59,662 - ERROR - Error updating data for ISIN INE081A01020: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:30:59,689 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE669C01036/day/2025-06-03/2019-01-01
+2025-06-03 01:30:59,690 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:30:59,903 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE669C01036/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:30:59,986 - ERROR - Error updating data for ISIN INE669C01036: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:31:00,006 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE280A01028/day/2025-06-03/2019-01-01
+2025-06-03 01:31:00,007 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:31:00,247 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE280A01028/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:31:00,276 - ERROR - Error updating data for ISIN INE280A01028: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:31:00,301 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE849A01020/day/2025-06-03/2019-01-01
+2025-06-03 01:31:00,304 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:31:00,490 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE849A01020/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:31:00,499 - ERROR - Error updating data for ISIN INE849A01020: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:31:00,517 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE481G01011/day/2025-06-03/2019-01-01
+2025-06-03 01:31:00,518 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:31:00,724 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE481G01011/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:31:00,754 - ERROR - Error updating data for ISIN INE481G01011: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:31:00,778 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE075A01022/day/2025-06-03/2019-01-01
+2025-06-03 01:31:00,779 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:31:00,998 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE075A01022/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:31:01,016 - ERROR - Error updating data for ISIN INE075A01022: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:31:01,017 - INFO - Batch 1 processed.
+2025-06-03 01:37:57,458 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-03 01:37:57,458 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 01:38:06,071 - INFO - 127.0.0.1 - - [03/Jun/2025 01:38:06] "POST /v1/update_all_symbols HTTP/1.1" 200 -
+2025-06-03 01:38:06,224 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE423A01024/day/2025-06-03/2019-01-01
+2025-06-03 01:38:06,229 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:06,508 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE423A01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:06,531 - ERROR - Error updating data for ISIN INE423A01024: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:06,559 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE742F01042/day/2025-06-03/2019-01-01
+2025-06-03 01:38:06,560 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:06,760 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE742F01042/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:06,778 - ERROR - Error updating data for ISIN INE742F01042: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:06,804 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE437A01024/day/2025-06-03/2019-01-01
+2025-06-03 01:38:06,805 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:07,049 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE437A01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:07,076 - ERROR - Error updating data for ISIN INE437A01024: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:07,095 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE021A01026/day/2025-06-03/2019-01-01
+2025-06-03 01:38:07,096 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:07,315 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE021A01026/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:07,336 - ERROR - Error updating data for ISIN INE021A01026: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:07,362 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE238A01034/day/2025-06-03/2019-01-01
+2025-06-03 01:38:07,363 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:07,570 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE238A01034/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:07,599 - ERROR - Error updating data for ISIN INE238A01034: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:07,625 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE917I01010/day/2025-06-03/2019-01-01
+2025-06-03 01:38:07,627 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:07,873 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE917I01010/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:07,879 - ERROR - Error updating data for ISIN INE917I01010: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:07,900 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE296A01024/day/2025-06-03/2019-01-01
+2025-06-03 01:38:07,901 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:08,085 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE296A01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:08,116 - ERROR - Error updating data for ISIN INE296A01024: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:08,139 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE918I01026/day/2025-06-03/2019-01-01
+2025-06-03 01:38:08,141 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:08,326 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE918I01026/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:08,874 - ERROR - Error updating data for ISIN INE918I01026: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:08,897 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE263A01024/day/2025-06-03/2019-01-01
+2025-06-03 01:38:08,898 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:09,103 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE263A01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:09,117 - ERROR - Error updating data for ISIN INE263A01024: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:09,144 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE397D01024/day/2025-06-03/2019-01-01
+2025-06-03 01:38:09,146 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:09,365 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE397D01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:09,393 - ERROR - Error updating data for ISIN INE397D01024: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:09,422 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE059A01026/day/2025-06-03/2019-01-01
+2025-06-03 01:38:09,423 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:09,632 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE059A01026/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:09,652 - ERROR - Error updating data for ISIN INE059A01026: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:09,663 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE522F01014/day/2025-06-03/2019-01-01
+2025-06-03 01:38:09,664 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:09,844 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE522F01014/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:09,857 - ERROR - Error updating data for ISIN INE522F01014: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:09,870 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE089A01031/day/2025-06-03/2019-01-01
+2025-06-03 01:38:09,871 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:10,079 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE089A01031/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:10,097 - ERROR - Error updating data for ISIN INE089A01031: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:10,130 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE066A01021/day/2025-06-03/2019-01-01
+2025-06-03 01:38:10,131 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:10,312 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE066A01021/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:10,324 - ERROR - Error updating data for ISIN INE066A01021: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:10,351 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE758T01015/day/2025-06-03/2019-01-01
+2025-06-03 01:38:10,353 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:10,551 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE758T01015/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:10,569 - ERROR - Error updating data for ISIN INE758T01015: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:10,593 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE047A01021/day/2025-06-03/2019-01-01
+2025-06-03 01:38:10,594 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:10,808 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE047A01021/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:10,834 - ERROR - Error updating data for ISIN INE047A01021: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:10,861 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE860A01027/day/2025-06-03/2019-01-01
+2025-06-03 01:38:10,863 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:11,117 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE860A01027/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:11,134 - ERROR - Error updating data for ISIN INE860A01027: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:11,159 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE040A01034/day/2025-06-03/2019-01-01
+2025-06-03 01:38:11,160 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:11,384 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE040A01034/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:11,398 - ERROR - Error updating data for ISIN INE040A01034: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:11,423 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE795G01014/day/2025-06-03/2019-01-01
+2025-06-03 01:38:11,425 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:11,623 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE795G01014/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:11,639 - ERROR - Error updating data for ISIN INE795G01014: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:11,663 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE158A01026/day/2025-06-03/2019-01-01
+2025-06-03 01:38:11,664 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:11,911 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE158A01026/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:11,928 - ERROR - Error updating data for ISIN INE158A01026: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:11,953 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE038A01020/day/2025-06-03/2019-01-01
+2025-06-03 01:38:11,954 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:12,160 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE038A01020/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:12,177 - ERROR - Error updating data for ISIN INE038A01020: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:12,198 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE030A01027/day/2025-06-03/2019-01-01
+2025-06-03 01:38:12,201 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:12,462 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE030A01027/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:12,479 - ERROR - Error updating data for ISIN INE030A01027: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:12,499 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE090A01021/day/2025-06-03/2019-01-01
+2025-06-03 01:38:12,500 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:12,715 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE090A01021/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:12,734 - ERROR - Error updating data for ISIN INE090A01021: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:12,760 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE154A01025/day/2025-06-03/2019-01-01
+2025-06-03 01:38:12,762 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:12,953 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE154A01025/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:13,043 - ERROR - Error updating data for ISIN INE154A01025: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:13,070 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE095A01012/day/2025-06-03/2019-01-01
+2025-06-03 01:38:13,071 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:13,275 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE095A01012/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:13,295 - ERROR - Error updating data for ISIN INE095A01012: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:13,317 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE009A01021/day/2025-06-03/2019-01-01
+2025-06-03 01:38:13,318 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:13,542 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE009A01021/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:13,554 - ERROR - Error updating data for ISIN INE009A01021: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:13,576 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE019A01038/day/2025-06-03/2019-01-01
+2025-06-03 01:38:13,578 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:13,761 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE019A01038/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:13,785 - ERROR - Error updating data for ISIN INE019A01038: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:13,808 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE758E01017/day/2025-06-03/2019-01-01
+2025-06-03 01:38:13,810 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:14,005 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE758E01017/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:14,023 - ERROR - Error updating data for ISIN INE758E01017: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:14,040 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE237A01028/day/2025-06-03/2019-01-01
+2025-06-03 01:38:14,041 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:14,245 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE237A01028/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:14,254 - ERROR - Error updating data for ISIN INE237A01028: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:14,274 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE018A01030/day/2025-06-03/2019-01-01
+2025-06-03 01:38:14,275 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:14,484 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE018A01030/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:14,496 - ERROR - Error updating data for ISIN INE018A01030: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:14,519 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE101A01026/day/2025-06-03/2019-01-01
+2025-06-03 01:38:14,521 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:14,756 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE101A01026/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:14,770 - ERROR - Error updating data for ISIN INE101A01026: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:14,794 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE585B01010/day/2025-06-03/2019-01-01
+2025-06-03 01:38:14,795 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:15,007 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE585B01010/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:15,019 - ERROR - Error updating data for ISIN INE585B01010: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:15,044 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE733E01010/day/2025-06-03/2019-01-01
+2025-06-03 01:38:15,046 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:15,246 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE733E01010/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:15,260 - ERROR - Error updating data for ISIN INE733E01010: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:15,284 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE239A01024/day/2025-06-03/2019-01-01
+2025-06-03 01:38:15,297 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:15,524 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE239A01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:15,554 - ERROR - Error updating data for ISIN INE239A01024: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:15,577 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE213A01029/day/2025-06-03/2019-01-01
+2025-06-03 01:38:15,578 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:15,758 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE213A01029/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:15,770 - ERROR - Error updating data for ISIN INE213A01029: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:15,793 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE752E01010/day/2025-06-03/2019-01-01
+2025-06-03 01:38:15,795 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:16,029 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE752E01010/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:16,044 - ERROR - Error updating data for ISIN INE752E01010: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:16,060 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE002A01018/day/2025-06-03/2019-01-01
+2025-06-03 01:38:16,061 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:16,269 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE002A01018/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:16,279 - ERROR - Error updating data for ISIN INE002A01018: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:16,305 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE123W01016/day/2025-06-03/2019-01-01
+2025-06-03 01:38:16,306 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:16,512 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE123W01016/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:16,525 - ERROR - Error updating data for ISIN INE123W01016: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:16,550 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE721A01047/day/2025-06-03/2019-01-01
+2025-06-03 01:38:16,552 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:16,756 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE721A01047/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:16,828 - ERROR - Error updating data for ISIN INE721A01047: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:16,851 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE062A01020/day/2025-06-03/2019-01-01
+2025-06-03 01:38:16,852 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:17,044 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE062A01020/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:17,056 - ERROR - Error updating data for ISIN INE062A01020: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:17,081 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE044A01036/day/2025-06-03/2019-01-01
+2025-06-03 01:38:17,083 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:17,396 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE044A01036/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:17,410 - ERROR - Error updating data for ISIN INE044A01036: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:17,436 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE467B01029/day/2025-06-03/2019-01-01
+2025-06-03 01:38:17,438 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:17,663 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE467B01029/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:17,680 - ERROR - Error updating data for ISIN INE467B01029: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:17,704 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE192A01025/day/2025-06-03/2019-01-01
+2025-06-03 01:38:17,706 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:17,919 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE192A01025/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:17,932 - ERROR - Error updating data for ISIN INE192A01025: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:17,957 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE155A01022/day/2025-06-03/2019-01-01
+2025-06-03 01:38:17,958 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:18,152 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE155A01022/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:18,169 - ERROR - Error updating data for ISIN INE155A01022: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:18,188 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE081A01020/day/2025-06-03/2019-01-01
+2025-06-03 01:38:18,190 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:18,387 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE081A01020/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:18,405 - ERROR - Error updating data for ISIN INE081A01020: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:18,431 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE669C01036/day/2025-06-03/2019-01-01
+2025-06-03 01:38:18,434 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:18,639 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE669C01036/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:18,658 - ERROR - Error updating data for ISIN INE669C01036: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:18,686 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE280A01028/day/2025-06-03/2019-01-01
+2025-06-03 01:38:18,687 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:18,887 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE280A01028/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:18,908 - ERROR - Error updating data for ISIN INE280A01028: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:18,933 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE849A01020/day/2025-06-03/2019-01-01
+2025-06-03 01:38:18,935 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:19,157 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE849A01020/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:19,170 - ERROR - Error updating data for ISIN INE849A01020: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:19,197 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE481G01011/day/2025-06-03/2019-01-01
+2025-06-03 01:38:19,198 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:19,435 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE481G01011/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:19,450 - ERROR - Error updating data for ISIN INE481G01011: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:19,472 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE075A01022/day/2025-06-03/2019-01-01
+2025-06-03 01:38:19,474 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 01:38:19,677 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE075A01022/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 01:38:19,691 - ERROR - Error updating data for ISIN INE075A01022: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+2025-06-03 01:38:19,692 - INFO - Batch 1 processed.
+2025-06-03 02:20:17,626 - INFO - 127.0.0.1 - - [03/Jun/2025 02:20:17] "POST /v1/update_all_symbols HTTP/1.1" 200 -
+2025-06-03 02:20:17,661 - ERROR - Error during batch update: relation "stock_symbols" does not exist
+LINE 1: SELECT isin FROM stock_symbols
+                         ^
+
+2025-06-03 07:57:44,346 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-03 07:57:44,346 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 07:57:48,359 - INFO - 127.0.0.1 - - [03/Jun/2025 07:57:48] "POST /v1/update_all_symbols HTTP/1.1" 200 -
+2025-06-03 07:57:48,449 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CADANIENT/day/2025-06-03/2019-01-01
+2025-06-03 07:57:48,452 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:48,694 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CADANIENT/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:48,696 - ERROR - API error for ADANIENT: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:48,697 - ERROR - No data fetched for symbol ADANIENT. Skipping update.
+2025-06-03 07:57:48,724 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CADANIPORTS/day/2025-06-03/2019-01-01
+2025-06-03 07:57:48,726 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:48,837 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CADANIPORTS/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:48,839 - ERROR - API error for ADANIPORTS: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:48,840 - ERROR - No data fetched for symbol ADANIPORTS. Skipping update.
+2025-06-03 07:57:48,865 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CAPOLLOHOSP/day/2025-06-03/2019-01-01
+2025-06-03 07:57:48,866 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:48,980 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CAPOLLOHOSP/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:48,982 - ERROR - API error for APOLLOHOSP: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:48,982 - ERROR - No data fetched for symbol APOLLOHOSP. Skipping update.
+2025-06-03 07:57:49,009 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CASIANPAINT/day/2025-06-03/2019-01-01
+2025-06-03 07:57:49,011 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:49,112 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CASIANPAINT/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:49,113 - ERROR - API error for ASIANPAINT: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:49,113 - ERROR - No data fetched for symbol ASIANPAINT. Skipping update.
+2025-06-03 07:57:49,130 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CAXISBANK/day/2025-06-03/2019-01-01
+2025-06-03 07:57:49,131 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:49,241 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CAXISBANK/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:49,244 - ERROR - API error for AXISBANK: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:49,245 - ERROR - No data fetched for symbol AXISBANK. Skipping update.
+2025-06-03 07:57:49,272 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CBAJAJ-AUTO/day/2025-06-03/2019-01-01
+2025-06-03 07:57:49,274 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:49,382 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CBAJAJ-AUTO/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:49,384 - ERROR - API error for BAJAJ-AUTO: 400 - {"status":"error","errors":[{"errorCode":"UDAPI1021","message":"Instrument key is of invalid format","propertyPath":"getHistoricalCandleData.instrumentKey","invalidValue":"NSE_EQ|BAJAJ-AUTO","error_code":"UDAPI1021","property_path":"getHistoricalCandleData.instrumentKey","invalid_value":"NSE_EQ|BAJAJ-AUTO"}]}
+2025-06-03 07:57:49,384 - ERROR - No data fetched for symbol BAJAJ-AUTO. Skipping update.
+2025-06-03 07:57:49,414 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CBAJFINANCE/day/2025-06-03/2019-01-01
+2025-06-03 07:57:49,416 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:49,517 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CBAJFINANCE/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:49,519 - ERROR - API error for BAJFINANCE: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:49,519 - ERROR - No data fetched for symbol BAJFINANCE. Skipping update.
+2025-06-03 07:57:49,544 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CBAJAJFINSV/day/2025-06-03/2019-01-01
+2025-06-03 07:57:49,546 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:49,663 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CBAJAJFINSV/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:49,665 - ERROR - API error for BAJAJFINSV: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:49,665 - ERROR - No data fetched for symbol BAJAJFINSV. Skipping update.
+2025-06-03 07:57:49,693 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CBEL/day/2025-06-03/2019-01-01
+2025-06-03 07:57:49,695 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:49,805 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CBEL/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:49,807 - ERROR - API error for BEL: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:49,807 - ERROR - No data fetched for symbol BEL. Skipping update.
+2025-06-03 07:57:49,836 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CBHARTIARTL/day/2025-06-03/2019-01-01
+2025-06-03 07:57:49,838 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:49,962 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CBHARTIARTL/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:49,964 - ERROR - API error for BHARTIARTL: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:49,964 - ERROR - No data fetched for symbol BHARTIARTL. Skipping update.
+2025-06-03 07:57:49,988 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CCIPLA/day/2025-06-03/2019-01-01
+2025-06-03 07:57:49,989 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:50,093 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CCIPLA/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:50,095 - ERROR - API error for CIPLA: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:50,096 - ERROR - No data fetched for symbol CIPLA. Skipping update.
+2025-06-03 07:57:50,125 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CCOALINDIA/day/2025-06-03/2019-01-01
+2025-06-03 07:57:50,126 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:50,218 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CCOALINDIA/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:50,219 - ERROR - API error for COALINDIA: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:50,219 - ERROR - No data fetched for symbol COALINDIA. Skipping update.
+2025-06-03 07:57:50,236 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CDRREDDY/day/2025-06-03/2019-01-01
+2025-06-03 07:57:50,237 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:50,364 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CDRREDDY/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:50,365 - ERROR - API error for DRREDDY: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:50,365 - ERROR - No data fetched for symbol DRREDDY. Skipping update.
+2025-06-03 07:57:50,382 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CEICHERMOT/day/2025-06-03/2019-01-01
+2025-06-03 07:57:50,383 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:50,481 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CEICHERMOT/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:50,483 - ERROR - API error for EICHERMOT: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:50,483 - ERROR - No data fetched for symbol EICHERMOT. Skipping update.
+2025-06-03 07:57:50,511 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CETERNAL/day/2025-06-03/2019-01-01
+2025-06-03 07:57:50,512 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:50,628 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CETERNAL/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:50,629 - ERROR - API error for ETERNAL: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:50,630 - ERROR - No data fetched for symbol ETERNAL. Skipping update.
+2025-06-03 07:57:50,656 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CGRASIM/day/2025-06-03/2019-01-01
+2025-06-03 07:57:50,658 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:50,758 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CGRASIM/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:50,762 - ERROR - API error for GRASIM: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:50,764 - ERROR - No data fetched for symbol GRASIM. Skipping update.
+2025-06-03 07:57:50,792 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CHCLTECH/day/2025-06-03/2019-01-01
+2025-06-03 07:57:50,794 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:50,900 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CHCLTECH/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:50,902 - ERROR - API error for HCLTECH: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:50,902 - ERROR - No data fetched for symbol HCLTECH. Skipping update.
+2025-06-03 07:57:50,957 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CHDFCBANK/day/2025-06-03/2019-01-01
+2025-06-03 07:57:50,958 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:51,059 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CHDFCBANK/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:51,059 - ERROR - API error for HDFCBANK: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:51,059 - ERROR - No data fetched for symbol HDFCBANK. Skipping update.
+2025-06-03 07:57:51,077 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CHDFCLIFE/day/2025-06-03/2019-01-01
+2025-06-03 07:57:51,078 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:51,185 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CHDFCLIFE/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:51,186 - ERROR - API error for HDFCLIFE: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:51,186 - ERROR - No data fetched for symbol HDFCLIFE. Skipping update.
+2025-06-03 07:57:51,203 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CHEROMOTOCO/day/2025-06-03/2019-01-01
+2025-06-03 07:57:51,204 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:51,339 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CHEROMOTOCO/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:51,341 - ERROR - API error for HEROMOTOCO: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:51,341 - ERROR - No data fetched for symbol HEROMOTOCO. Skipping update.
+2025-06-03 07:57:51,365 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CHINDALCO/day/2025-06-03/2019-01-01
+2025-06-03 07:57:51,366 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:51,476 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CHINDALCO/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:51,478 - ERROR - API error for HINDALCO: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:51,478 - ERROR - No data fetched for symbol HINDALCO. Skipping update.
+2025-06-03 07:57:51,506 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CHINDUNILVR/day/2025-06-03/2019-01-01
+2025-06-03 07:57:51,507 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:51,598 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CHINDUNILVR/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:51,599 - ERROR - API error for HINDUNILVR: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:51,600 - ERROR - No data fetched for symbol HINDUNILVR. Skipping update.
+2025-06-03 07:57:51,624 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CICICIBANK/day/2025-06-03/2019-01-01
+2025-06-03 07:57:51,625 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:51,778 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CICICIBANK/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:51,779 - ERROR - API error for ICICIBANK: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:51,780 - ERROR - No data fetched for symbol ICICIBANK. Skipping update.
+2025-06-03 07:57:51,808 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CITC/day/2025-06-03/2019-01-01
+2025-06-03 07:57:51,810 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:51,924 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CITC/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:51,926 - ERROR - API error for ITC: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:51,926 - ERROR - No data fetched for symbol ITC. Skipping update.
+2025-06-03 07:57:51,955 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINDUSINDBK/day/2025-06-03/2019-01-01
+2025-06-03 07:57:51,956 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:52,056 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINDUSINDBK/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:52,058 - ERROR - API error for INDUSINDBK: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:52,058 - ERROR - No data fetched for symbol INDUSINDBK. Skipping update.
+2025-06-03 07:57:52,085 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINFY/day/2025-06-03/2019-01-01
+2025-06-03 07:57:52,087 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:52,199 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINFY/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:52,201 - ERROR - API error for INFY: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:52,202 - ERROR - No data fetched for symbol INFY. Skipping update.
+2025-06-03 07:57:52,226 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CJSWSTEEL/day/2025-06-03/2019-01-01
+2025-06-03 07:57:52,227 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:52,328 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CJSWSTEEL/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:52,330 - ERROR - API error for JSWSTEEL: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:52,330 - ERROR - No data fetched for symbol JSWSTEEL. Skipping update.
+2025-06-03 07:57:52,354 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CJIOFIN/day/2025-06-03/2019-01-01
+2025-06-03 07:57:52,355 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:52,499 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CJIOFIN/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:52,501 - ERROR - API error for JIOFIN: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:52,501 - ERROR - No data fetched for symbol JIOFIN. Skipping update.
+2025-06-03 07:57:52,525 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CKOTAKBANK/day/2025-06-03/2019-01-01
+2025-06-03 07:57:52,526 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:52,632 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CKOTAKBANK/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:52,634 - ERROR - API error for KOTAKBANK: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:52,634 - ERROR - No data fetched for symbol KOTAKBANK. Skipping update.
+2025-06-03 07:57:52,656 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CLT/day/2025-06-03/2019-01-01
+2025-06-03 07:57:52,657 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:52,765 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CLT/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:52,766 - ERROR - API error for LT: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:52,766 - ERROR - No data fetched for symbol LT. Skipping update.
+2025-06-03 07:57:52,787 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CM&M/day/2025-06-03/2019-01-01
+2025-06-03 07:57:52,788 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:52,900 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CM&M/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:52,902 - ERROR - API error for M&M: 400 - {"status":"error","errors":[{"errorCode":"UDAPI1021","message":"Instrument key is of invalid format","propertyPath":"getHistoricalCandleData.instrumentKey","invalidValue":"NSE_EQ|M&M","error_code":"UDAPI1021","property_path":"getHistoricalCandleData.instrumentKey","invalid_value":"NSE_EQ|M&M"}]}
+2025-06-03 07:57:52,902 - ERROR - No data fetched for symbol M&M. Skipping update.
+2025-06-03 07:57:52,928 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CMARUTI/day/2025-06-03/2019-01-01
+2025-06-03 07:57:52,929 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:53,035 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CMARUTI/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:53,037 - ERROR - API error for MARUTI: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:53,037 - ERROR - No data fetched for symbol MARUTI. Skipping update.
+2025-06-03 07:57:53,062 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CNTPC/day/2025-06-03/2019-01-01
+2025-06-03 07:57:53,063 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:53,167 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CNTPC/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:53,168 - ERROR - API error for NTPC: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:53,168 - ERROR - No data fetched for symbol NTPC. Skipping update.
+2025-06-03 07:57:53,182 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CNESTLEIND/day/2025-06-03/2019-01-01
+2025-06-03 07:57:53,183 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:53,298 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CNESTLEIND/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:53,299 - ERROR - API error for NESTLEIND: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:53,300 - ERROR - No data fetched for symbol NESTLEIND. Skipping update.
+2025-06-03 07:57:53,321 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CONGC/day/2025-06-03/2019-01-01
+2025-06-03 07:57:53,322 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:53,416 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CONGC/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:53,418 - ERROR - API error for ONGC: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:53,419 - ERROR - No data fetched for symbol ONGC. Skipping update.
+2025-06-03 07:57:53,443 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CPOWERGRID/day/2025-06-03/2019-01-01
+2025-06-03 07:57:53,444 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:53,538 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CPOWERGRID/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:53,540 - ERROR - API error for POWERGRID: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:53,541 - ERROR - No data fetched for symbol POWERGRID. Skipping update.
+2025-06-03 07:57:53,565 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CRELIANCE/day/2025-06-03/2019-01-01
+2025-06-03 07:57:53,566 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:53,647 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CRELIANCE/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:53,649 - ERROR - API error for RELIANCE: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:53,649 - ERROR - No data fetched for symbol RELIANCE. Skipping update.
+2025-06-03 07:57:53,672 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CSBILIFE/day/2025-06-03/2019-01-01
+2025-06-03 07:57:53,674 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:53,761 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CSBILIFE/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:53,763 - ERROR - API error for SBILIFE: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:53,763 - ERROR - No data fetched for symbol SBILIFE. Skipping update.
+2025-06-03 07:57:53,786 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CSHRIRAMFIN/day/2025-06-03/2019-01-01
+2025-06-03 07:57:53,787 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:53,899 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CSHRIRAMFIN/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:53,900 - ERROR - API error for SHRIRAMFIN: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:53,901 - ERROR - No data fetched for symbol SHRIRAMFIN. Skipping update.
+2025-06-03 07:57:53,926 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CSBIN/day/2025-06-03/2019-01-01
+2025-06-03 07:57:53,927 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:54,019 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CSBIN/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:54,020 - ERROR - API error for SBIN: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:54,021 - ERROR - No data fetched for symbol SBIN. Skipping update.
+2025-06-03 07:57:54,043 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CSUNPHARMA/day/2025-06-03/2019-01-01
+2025-06-03 07:57:54,044 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:54,140 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CSUNPHARMA/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:54,141 - ERROR - API error for SUNPHARMA: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:54,142 - ERROR - No data fetched for symbol SUNPHARMA. Skipping update.
+2025-06-03 07:57:54,166 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CTCS/day/2025-06-03/2019-01-01
+2025-06-03 07:57:54,167 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:54,262 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CTCS/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:54,263 - ERROR - API error for TCS: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:54,264 - ERROR - No data fetched for symbol TCS. Skipping update.
+2025-06-03 07:57:54,288 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CTATACONSUM/day/2025-06-03/2019-01-01
+2025-06-03 07:57:54,290 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:54,378 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CTATACONSUM/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:54,380 - ERROR - API error for TATACONSUM: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:54,380 - ERROR - No data fetched for symbol TATACONSUM. Skipping update.
+2025-06-03 07:57:54,403 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CTATAMOTORS/day/2025-06-03/2019-01-01
+2025-06-03 07:57:54,404 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:54,505 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CTATAMOTORS/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:54,507 - ERROR - API error for TATAMOTORS: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:54,508 - ERROR - No data fetched for symbol TATAMOTORS. Skipping update.
+2025-06-03 07:57:54,531 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CTATASTEEL/day/2025-06-03/2019-01-01
+2025-06-03 07:57:54,532 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:54,639 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CTATASTEEL/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:54,641 - ERROR - API error for TATASTEEL: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:54,642 - ERROR - No data fetched for symbol TATASTEEL. Skipping update.
+2025-06-03 07:57:54,665 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CTECHM/day/2025-06-03/2019-01-01
+2025-06-03 07:57:54,666 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:54,769 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CTECHM/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:54,771 - ERROR - API error for TECHM: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:54,772 - ERROR - No data fetched for symbol TECHM. Skipping update.
+2025-06-03 07:57:54,796 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CTITAN/day/2025-06-03/2019-01-01
+2025-06-03 07:57:54,797 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:54,905 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CTITAN/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:54,906 - ERROR - API error for TITAN: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:54,907 - ERROR - No data fetched for symbol TITAN. Skipping update.
+2025-06-03 07:57:54,931 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CTRENT/day/2025-06-03/2019-01-01
+2025-06-03 07:57:54,933 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:55,034 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CTRENT/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:55,036 - ERROR - API error for TRENT: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:55,037 - ERROR - No data fetched for symbol TRENT. Skipping update.
+2025-06-03 07:57:55,057 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CULTRACEMCO/day/2025-06-03/2019-01-01
+2025-06-03 07:57:55,058 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:55,148 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CULTRACEMCO/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:55,149 - ERROR - API error for ULTRACEMCO: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:55,149 - ERROR - No data fetched for symbol ULTRACEMCO. Skipping update.
+2025-06-03 07:57:55,164 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CWIPRO/day/2025-06-03/2019-01-01
+2025-06-03 07:57:55,167 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 07:57:55,272 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CWIPRO/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 07:57:55,273 - ERROR - API error for WIPRO: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 07:57:55,273 - ERROR - No data fetched for symbol WIPRO. Skipping update.
+2025-06-03 07:57:55,273 - INFO - 🟢 Batch 1 processed.
+2025-06-03 08:00:10,836 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-03 08:00:10,836 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 08:00:14,100 - INFO - 127.0.0.1 - - [03/Jun/2025 08:00:14] "POST /v1/update_all_symbols HTTP/1.1" 200 -
+2025-06-03 08:00:14,162 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CADANIENT/day/2025-06-03/2019-01-01
+2025-06-03 08:00:14,165 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:14,385 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CADANIENT/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:14,390 - ERROR - API error for ISIN ADANIENT: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:14,391 - ERROR - No data fetched for symbol ADANIENT. Skipping update.
+2025-06-03 08:00:14,415 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CADANIPORTS/day/2025-06-03/2019-01-01
+2025-06-03 08:00:14,417 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:14,520 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CADANIPORTS/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:14,521 - ERROR - API error for ISIN ADANIPORTS: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:14,523 - ERROR - No data fetched for symbol ADANIPORTS. Skipping update.
+2025-06-03 08:00:14,546 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CAPOLLOHOSP/day/2025-06-03/2019-01-01
+2025-06-03 08:00:14,547 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:14,781 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CAPOLLOHOSP/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:14,783 - ERROR - API error for ISIN APOLLOHOSP: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:14,783 - ERROR - No data fetched for symbol APOLLOHOSP. Skipping update.
+2025-06-03 08:00:14,816 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CASIANPAINT/day/2025-06-03/2019-01-01
+2025-06-03 08:00:14,817 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:14,952 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CASIANPAINT/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:14,954 - ERROR - API error for ISIN ASIANPAINT: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:14,954 - ERROR - No data fetched for symbol ASIANPAINT. Skipping update.
+2025-06-03 08:00:14,978 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CAXISBANK/day/2025-06-03/2019-01-01
+2025-06-03 08:00:14,979 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:15,113 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CAXISBANK/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:15,114 - ERROR - API error for ISIN AXISBANK: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:15,115 - ERROR - No data fetched for symbol AXISBANK. Skipping update.
+2025-06-03 08:00:15,143 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CBAJAJ-AUTO/day/2025-06-03/2019-01-01
+2025-06-03 08:00:15,144 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:15,274 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CBAJAJ-AUTO/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:15,276 - ERROR - API error for ISIN BAJAJ-AUTO: 400 - {"status":"error","errors":[{"errorCode":"UDAPI1021","message":"Instrument key is of invalid format","propertyPath":"getHistoricalCandleData.instrumentKey","invalidValue":"NSE_EQ|BAJAJ-AUTO","error_code":"UDAPI1021","property_path":"getHistoricalCandleData.instrumentKey","invalid_value":"NSE_EQ|BAJAJ-AUTO"}]}
+2025-06-03 08:00:15,276 - ERROR - No data fetched for symbol BAJAJ-AUTO. Skipping update.
+2025-06-03 08:00:15,302 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CBAJFINANCE/day/2025-06-03/2019-01-01
+2025-06-03 08:00:15,303 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:15,411 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CBAJFINANCE/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:15,412 - ERROR - API error for ISIN BAJFINANCE: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:15,413 - ERROR - No data fetched for symbol BAJFINANCE. Skipping update.
+2025-06-03 08:00:15,441 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CBAJAJFINSV/day/2025-06-03/2019-01-01
+2025-06-03 08:00:15,443 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:15,558 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CBAJAJFINSV/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:15,563 - ERROR - API error for ISIN BAJAJFINSV: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:15,564 - ERROR - No data fetched for symbol BAJAJFINSV. Skipping update.
+2025-06-03 08:00:15,597 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CBEL/day/2025-06-03/2019-01-01
+2025-06-03 08:00:15,598 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:15,701 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CBEL/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:15,702 - ERROR - API error for ISIN BEL: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:15,703 - ERROR - No data fetched for symbol BEL. Skipping update.
+2025-06-03 08:00:15,740 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CBHARTIARTL/day/2025-06-03/2019-01-01
+2025-06-03 08:00:15,741 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:15,850 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CBHARTIARTL/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:15,852 - ERROR - API error for ISIN BHARTIARTL: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:15,852 - ERROR - No data fetched for symbol BHARTIARTL. Skipping update.
+2025-06-03 08:00:15,878 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CCIPLA/day/2025-06-03/2019-01-01
+2025-06-03 08:00:15,879 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:15,979 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CCIPLA/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:15,981 - ERROR - API error for ISIN CIPLA: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:15,982 - ERROR - No data fetched for symbol CIPLA. Skipping update.
+2025-06-03 08:00:16,007 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CCOALINDIA/day/2025-06-03/2019-01-01
+2025-06-03 08:00:16,009 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:16,133 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CCOALINDIA/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:16,135 - ERROR - API error for ISIN COALINDIA: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:16,136 - ERROR - No data fetched for symbol COALINDIA. Skipping update.
+2025-06-03 08:00:16,163 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CDRREDDY/day/2025-06-03/2019-01-01
+2025-06-03 08:00:16,164 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:16,296 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CDRREDDY/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:16,297 - ERROR - API error for ISIN DRREDDY: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:16,298 - ERROR - No data fetched for symbol DRREDDY. Skipping update.
+2025-06-03 08:00:16,320 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CEICHERMOT/day/2025-06-03/2019-01-01
+2025-06-03 08:00:16,321 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:16,442 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CEICHERMOT/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:16,443 - ERROR - API error for ISIN EICHERMOT: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:16,443 - ERROR - No data fetched for symbol EICHERMOT. Skipping update.
+2025-06-03 08:00:16,465 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CETERNAL/day/2025-06-03/2019-01-01
+2025-06-03 08:00:16,466 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:16,568 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CETERNAL/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:16,569 - ERROR - API error for ISIN ETERNAL: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:16,569 - ERROR - No data fetched for symbol ETERNAL. Skipping update.
+2025-06-03 08:00:16,589 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CGRASIM/day/2025-06-03/2019-01-01
+2025-06-03 08:00:16,590 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:16,703 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CGRASIM/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:16,704 - ERROR - API error for ISIN GRASIM: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:16,705 - ERROR - No data fetched for symbol GRASIM. Skipping update.
+2025-06-03 08:00:16,728 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CHCLTECH/day/2025-06-03/2019-01-01
+2025-06-03 08:00:16,729 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:16,842 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CHCLTECH/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:16,844 - ERROR - API error for ISIN HCLTECH: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:16,844 - ERROR - No data fetched for symbol HCLTECH. Skipping update.
+2025-06-03 08:00:16,869 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CHDFCBANK/day/2025-06-03/2019-01-01
+2025-06-03 08:00:16,870 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:16,979 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CHDFCBANK/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:16,980 - ERROR - API error for ISIN HDFCBANK: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:16,981 - ERROR - No data fetched for symbol HDFCBANK. Skipping update.
+2025-06-03 08:00:17,006 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CHDFCLIFE/day/2025-06-03/2019-01-01
+2025-06-03 08:00:17,007 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:17,093 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CHDFCLIFE/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:17,095 - ERROR - API error for ISIN HDFCLIFE: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:17,095 - ERROR - No data fetched for symbol HDFCLIFE. Skipping update.
+2025-06-03 08:00:17,121 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CHEROMOTOCO/day/2025-06-03/2019-01-01
+2025-06-03 08:00:17,123 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:17,217 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CHEROMOTOCO/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:17,219 - ERROR - API error for ISIN HEROMOTOCO: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:17,219 - ERROR - No data fetched for symbol HEROMOTOCO. Skipping update.
+2025-06-03 08:00:17,244 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CHINDALCO/day/2025-06-03/2019-01-01
+2025-06-03 08:00:17,245 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:17,340 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CHINDALCO/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:17,341 - ERROR - API error for ISIN HINDALCO: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:17,341 - ERROR - No data fetched for symbol HINDALCO. Skipping update.
+2025-06-03 08:00:17,363 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CHINDUNILVR/day/2025-06-03/2019-01-01
+2025-06-03 08:00:17,364 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:17,444 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CHINDUNILVR/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:17,445 - ERROR - API error for ISIN HINDUNILVR: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:17,446 - ERROR - No data fetched for symbol HINDUNILVR. Skipping update.
+2025-06-03 08:00:17,470 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CICICIBANK/day/2025-06-03/2019-01-01
+2025-06-03 08:00:17,471 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:17,579 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CICICIBANK/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:17,581 - ERROR - API error for ISIN ICICIBANK: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:17,582 - ERROR - No data fetched for symbol ICICIBANK. Skipping update.
+2025-06-03 08:00:17,608 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CITC/day/2025-06-03/2019-01-01
+2025-06-03 08:00:17,609 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:17,710 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CITC/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:17,711 - ERROR - API error for ISIN ITC: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:17,712 - ERROR - No data fetched for symbol ITC. Skipping update.
+2025-06-03 08:00:17,737 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINDUSINDBK/day/2025-06-03/2019-01-01
+2025-06-03 08:00:17,739 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:17,941 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINDUSINDBK/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:17,943 - ERROR - API error for ISIN INDUSINDBK: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:17,944 - ERROR - No data fetched for symbol INDUSINDBK. Skipping update.
+2025-06-03 08:00:17,969 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINFY/day/2025-06-03/2019-01-01
+2025-06-03 08:00:17,971 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:18,056 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINFY/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:18,057 - ERROR - API error for ISIN INFY: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:18,058 - ERROR - No data fetched for symbol INFY. Skipping update.
+2025-06-03 08:00:18,083 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CJSWSTEEL/day/2025-06-03/2019-01-01
+2025-06-03 08:00:18,084 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:18,168 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CJSWSTEEL/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:18,170 - ERROR - API error for ISIN JSWSTEEL: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:18,171 - ERROR - No data fetched for symbol JSWSTEEL. Skipping update.
+2025-06-03 08:00:18,189 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CJIOFIN/day/2025-06-03/2019-01-01
+2025-06-03 08:00:18,190 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:18,274 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CJIOFIN/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:18,276 - ERROR - API error for ISIN JIOFIN: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:18,277 - ERROR - No data fetched for symbol JIOFIN. Skipping update.
+2025-06-03 08:00:18,300 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CKOTAKBANK/day/2025-06-03/2019-01-01
+2025-06-03 08:00:18,301 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:18,418 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CKOTAKBANK/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:18,420 - ERROR - API error for ISIN KOTAKBANK: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:18,420 - ERROR - No data fetched for symbol KOTAKBANK. Skipping update.
+2025-06-03 08:00:18,440 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CLT/day/2025-06-03/2019-01-01
+2025-06-03 08:00:18,442 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:18,547 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CLT/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:18,549 - ERROR - API error for ISIN LT: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:18,549 - ERROR - No data fetched for symbol LT. Skipping update.
+2025-06-03 08:00:18,606 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CM&M/day/2025-06-03/2019-01-01
+2025-06-03 08:00:18,607 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:18,697 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CM&M/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:18,698 - ERROR - API error for ISIN M&M: 400 - {"status":"error","errors":[{"errorCode":"UDAPI1021","message":"Instrument key is of invalid format","propertyPath":"getHistoricalCandleData.instrumentKey","invalidValue":"NSE_EQ|M&M","error_code":"UDAPI1021","property_path":"getHistoricalCandleData.instrumentKey","invalid_value":"NSE_EQ|M&M"}]}
+2025-06-03 08:00:18,698 - ERROR - No data fetched for symbol M&M. Skipping update.
+2025-06-03 08:00:18,716 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CMARUTI/day/2025-06-03/2019-01-01
+2025-06-03 08:00:18,717 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:18,809 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CMARUTI/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:18,810 - ERROR - API error for ISIN MARUTI: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:18,810 - ERROR - No data fetched for symbol MARUTI. Skipping update.
+2025-06-03 08:00:18,830 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CNTPC/day/2025-06-03/2019-01-01
+2025-06-03 08:00:18,831 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:18,933 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CNTPC/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:18,934 - ERROR - API error for ISIN NTPC: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:18,934 - ERROR - No data fetched for symbol NTPC. Skipping update.
+2025-06-03 08:00:18,951 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CNESTLEIND/day/2025-06-03/2019-01-01
+2025-06-03 08:00:18,951 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:20,038 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CNESTLEIND/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:20,040 - ERROR - API error for ISIN NESTLEIND: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:20,041 - ERROR - No data fetched for symbol NESTLEIND. Skipping update.
+2025-06-03 08:00:20,066 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CONGC/day/2025-06-03/2019-01-01
+2025-06-03 08:00:20,067 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:20,180 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CONGC/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:20,181 - ERROR - API error for ISIN ONGC: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:20,182 - ERROR - No data fetched for symbol ONGC. Skipping update.
+2025-06-03 08:00:20,207 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CPOWERGRID/day/2025-06-03/2019-01-01
+2025-06-03 08:00:20,208 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:20,322 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CPOWERGRID/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:20,324 - ERROR - API error for ISIN POWERGRID: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:20,325 - ERROR - No data fetched for symbol POWERGRID. Skipping update.
+2025-06-03 08:00:20,349 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CRELIANCE/day/2025-06-03/2019-01-01
+2025-06-03 08:00:20,351 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:20,445 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CRELIANCE/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:20,447 - ERROR - API error for ISIN RELIANCE: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:20,448 - ERROR - No data fetched for symbol RELIANCE. Skipping update.
+2025-06-03 08:00:20,472 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CSBILIFE/day/2025-06-03/2019-01-01
+2025-06-03 08:00:20,473 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:20,566 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CSBILIFE/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:20,568 - ERROR - API error for ISIN SBILIFE: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:20,568 - ERROR - No data fetched for symbol SBILIFE. Skipping update.
+2025-06-03 08:00:20,592 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CSHRIRAMFIN/day/2025-06-03/2019-01-01
+2025-06-03 08:00:20,593 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:20,704 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CSHRIRAMFIN/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:20,706 - ERROR - API error for ISIN SHRIRAMFIN: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:20,706 - ERROR - No data fetched for symbol SHRIRAMFIN. Skipping update.
+2025-06-03 08:00:20,729 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CSBIN/day/2025-06-03/2019-01-01
+2025-06-03 08:00:20,730 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:20,871 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CSBIN/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:20,873 - ERROR - API error for ISIN SBIN: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:20,874 - ERROR - No data fetched for symbol SBIN. Skipping update.
+2025-06-03 08:00:20,898 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CSUNPHARMA/day/2025-06-03/2019-01-01
+2025-06-03 08:00:20,899 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:21,008 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CSUNPHARMA/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:21,010 - ERROR - API error for ISIN SUNPHARMA: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:21,010 - ERROR - No data fetched for symbol SUNPHARMA. Skipping update.
+2025-06-03 08:00:21,033 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CTCS/day/2025-06-03/2019-01-01
+2025-06-03 08:00:21,034 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:21,146 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CTCS/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:21,148 - ERROR - API error for ISIN TCS: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:21,148 - ERROR - No data fetched for symbol TCS. Skipping update.
+2025-06-03 08:00:21,175 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CTATACONSUM/day/2025-06-03/2019-01-01
+2025-06-03 08:00:21,177 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:21,308 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CTATACONSUM/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:21,317 - ERROR - API error for ISIN TATACONSUM: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:21,318 - ERROR - No data fetched for symbol TATACONSUM. Skipping update.
+2025-06-03 08:00:21,343 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CTATAMOTORS/day/2025-06-03/2019-01-01
+2025-06-03 08:00:21,344 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:21,441 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CTATAMOTORS/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:21,443 - ERROR - API error for ISIN TATAMOTORS: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:21,443 - ERROR - No data fetched for symbol TATAMOTORS. Skipping update.
+2025-06-03 08:00:21,467 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CTATASTEEL/day/2025-06-03/2019-01-01
+2025-06-03 08:00:21,468 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:21,570 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CTATASTEEL/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:21,572 - ERROR - API error for ISIN TATASTEEL: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:21,572 - ERROR - No data fetched for symbol TATASTEEL. Skipping update.
+2025-06-03 08:00:21,595 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CTECHM/day/2025-06-03/2019-01-01
+2025-06-03 08:00:21,596 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:21,694 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CTECHM/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:21,696 - ERROR - API error for ISIN TECHM: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:21,697 - ERROR - No data fetched for symbol TECHM. Skipping update.
+2025-06-03 08:00:21,719 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CTITAN/day/2025-06-03/2019-01-01
+2025-06-03 08:00:21,721 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:21,828 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CTITAN/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:21,829 - ERROR - API error for ISIN TITAN: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:21,830 - ERROR - No data fetched for symbol TITAN. Skipping update.
+2025-06-03 08:00:21,854 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CTRENT/day/2025-06-03/2019-01-01
+2025-06-03 08:00:21,854 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:21,949 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CTRENT/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:21,950 - ERROR - API error for ISIN TRENT: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:21,951 - ERROR - No data fetched for symbol TRENT. Skipping update.
+2025-06-03 08:00:21,974 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CULTRACEMCO/day/2025-06-03/2019-01-01
+2025-06-03 08:00:21,976 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:22,076 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CULTRACEMCO/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:22,078 - ERROR - API error for ISIN ULTRACEMCO: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:22,078 - ERROR - No data fetched for symbol ULTRACEMCO. Skipping update.
+2025-06-03 08:00:22,102 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CWIPRO/day/2025-06-03/2019-01-01
+2025-06-03 08:00:22,104 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:00:22,202 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CWIPRO/day/2025-06-03/2019-01-01 HTTP/11" 400 None
+2025-06-03 08:00:22,204 - ERROR - API error for ISIN WIPRO: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-03 08:00:22,204 - ERROR - No data fetched for symbol WIPRO. Skipping update.
+2025-06-03 08:00:22,205 - INFO - 🟢 Batch 1 processed.
+2025-06-03 08:02:19,318 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-03 08:02:19,318 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 08:02:22,224 - INFO - 127.0.0.1 - - [03/Jun/2025 08:02:22] "POST /v1/update_all_symbols HTTP/1.1" 200 -
+2025-06-03 08:02:22,289 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE423A01024/day/2025-06-03/2019-01-01
+2025-06-03 08:02:22,292 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:22,552 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE423A01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:23,227 - INFO - ✅ Updated data for symbol ADANIENT.
+2025-06-03 08:02:23,246 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE742F01042/day/2025-06-03/2019-01-01
+2025-06-03 08:02:23,247 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:23,614 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE742F01042/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:24,218 - INFO - ✅ Updated data for symbol ADANIPORTS.
+2025-06-03 08:02:24,228 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE437A01024/day/2025-06-03/2019-01-01
+2025-06-03 08:02:24,228 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:24,477 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE437A01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:25,127 - INFO - ✅ Updated data for symbol APOLLOHOSP.
+2025-06-03 08:02:25,141 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE021A01026/day/2025-06-03/2019-01-01
+2025-06-03 08:02:25,143 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:25,383 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE021A01026/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:26,037 - INFO - ✅ Updated data for symbol ASIANPAINT.
+2025-06-03 08:02:26,050 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE238A01034/day/2025-06-03/2019-01-01
+2025-06-03 08:02:26,052 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:26,293 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE238A01034/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:26,818 - INFO - ✅ Updated data for symbol AXISBANK.
+2025-06-03 08:02:26,827 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE917I01010/day/2025-06-03/2019-01-01
+2025-06-03 08:02:26,828 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:27,081 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE917I01010/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:27,649 - INFO - ✅ Updated data for symbol BAJAJ-AUTO.
+2025-06-03 08:02:27,658 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE296A01024/day/2025-06-03/2019-01-01
+2025-06-03 08:02:27,659 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:27,770 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE296A01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:28,340 - INFO - ✅ Updated data for symbol BAJFINANCE.
+2025-06-03 08:02:28,354 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE918I01026/day/2025-06-03/2019-01-01
+2025-06-03 08:02:28,355 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:28,480 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE918I01026/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:29,055 - INFO - ✅ Updated data for symbol BAJAJFINSV.
+2025-06-03 08:02:29,064 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE263A01024/day/2025-06-03/2019-01-01
+2025-06-03 08:02:29,065 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:29,333 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE263A01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:29,999 - INFO - ✅ Updated data for symbol BEL.
+2025-06-03 08:02:30,013 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE397D01024/day/2025-06-03/2019-01-01
+2025-06-03 08:02:30,015 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:30,449 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE397D01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:31,141 - INFO - ✅ Updated data for symbol BHARTIARTL.
+2025-06-03 08:02:31,158 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE059A01026/day/2025-06-03/2019-01-01
+2025-06-03 08:02:31,161 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:31,548 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE059A01026/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:32,225 - INFO - ✅ Updated data for symbol CIPLA.
+2025-06-03 08:02:32,234 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE522F01014/day/2025-06-03/2019-01-01
+2025-06-03 08:02:32,235 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:32,571 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE522F01014/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:33,218 - INFO - ✅ Updated data for symbol COALINDIA.
+2025-06-03 08:02:33,233 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE089A01031/day/2025-06-03/2019-01-01
+2025-06-03 08:02:33,234 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:33,499 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE089A01031/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:34,176 - INFO - ✅ Updated data for symbol DRREDDY.
+2025-06-03 08:02:34,192 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE066A01021/day/2025-06-03/2019-01-01
+2025-06-03 08:02:34,194 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:34,516 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE066A01021/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:35,194 - INFO - ✅ Updated data for symbol EICHERMOT.
+2025-06-03 08:02:35,209 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE758T01015/day/2025-06-03/2019-01-01
+2025-06-03 08:02:35,210 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:35,346 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE758T01015/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:35,743 - INFO - ✅ Updated data for symbol ETERNAL.
+2025-06-03 08:02:35,758 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE047A01021/day/2025-06-03/2019-01-01
+2025-06-03 08:02:35,760 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:36,021 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE047A01021/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:36,612 - INFO - ✅ Updated data for symbol GRASIM.
+2025-06-03 08:02:36,629 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE860A01027/day/2025-06-03/2019-01-01
+2025-06-03 08:02:36,630 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:36,878 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE860A01027/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:37,542 - INFO - ✅ Updated data for symbol HCLTECH.
+2025-06-03 08:02:37,550 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE040A01034/day/2025-06-03/2019-01-01
+2025-06-03 08:02:37,550 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:37,808 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE040A01034/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:38,430 - INFO - ✅ Updated data for symbol HDFCBANK.
+2025-06-03 08:02:38,448 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE795G01014/day/2025-06-03/2019-01-01
+2025-06-03 08:02:38,450 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:38,669 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE795G01014/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:39,373 - INFO - ✅ Updated data for symbol HDFCLIFE.
+2025-06-03 08:02:39,390 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE158A01026/day/2025-06-03/2019-01-01
+2025-06-03 08:02:39,391 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:39,659 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE158A01026/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:40,339 - INFO - ✅ Updated data for symbol HEROMOTOCO.
+2025-06-03 08:02:40,348 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE038A01020/day/2025-06-03/2019-01-01
+2025-06-03 08:02:40,348 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:40,583 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE038A01020/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:41,201 - INFO - ✅ Updated data for symbol HINDALCO.
+2025-06-03 08:02:41,217 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE030A01027/day/2025-06-03/2019-01-01
+2025-06-03 08:02:41,218 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:41,466 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE030A01027/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:42,150 - INFO - ✅ Updated data for symbol HINDUNILVR.
+2025-06-03 08:02:42,166 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE090A01021/day/2025-06-03/2019-01-01
+2025-06-03 08:02:42,167 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:42,408 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE090A01021/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:43,064 - INFO - ✅ Updated data for symbol ICICIBANK.
+2025-06-03 08:02:43,081 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE154A01025/day/2025-06-03/2019-01-01
+2025-06-03 08:02:43,082 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:43,351 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE154A01025/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:44,006 - INFO - ✅ Updated data for symbol ITC.
+2025-06-03 08:02:44,022 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE095A01012/day/2025-06-03/2019-01-01
+2025-06-03 08:02:44,024 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:44,161 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE095A01012/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:44,677 - INFO - ✅ Updated data for symbol INDUSINDBK.
+2025-06-03 08:02:44,689 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE009A01021/day/2025-06-03/2019-01-01
+2025-06-03 08:02:44,690 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:44,817 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE009A01021/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:45,496 - INFO - ✅ Updated data for symbol INFY.
+2025-06-03 08:02:45,510 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE019A01038/day/2025-06-03/2019-01-01
+2025-06-03 08:02:45,512 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:45,771 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE019A01038/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:46,460 - INFO - ✅ Updated data for symbol JSWSTEEL.
+2025-06-03 08:02:46,468 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE758E01017/day/2025-06-03/2019-01-01
+2025-06-03 08:02:46,469 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:46,605 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE758E01017/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:46,794 - INFO - ✅ Updated data for symbol JIOFIN.
+2025-06-03 08:02:46,809 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE237A01028/day/2025-06-03/2019-01-01
+2025-06-03 08:02:46,810 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:47,056 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE237A01028/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:47,601 - INFO - ✅ Updated data for symbol KOTAKBANK.
+2025-06-03 08:02:47,609 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE018A01030/day/2025-06-03/2019-01-01
+2025-06-03 08:02:47,609 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:47,953 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE018A01030/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:48,595 - INFO - ✅ Updated data for symbol LT.
+2025-06-03 08:02:48,606 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE101A01026/day/2025-06-03/2019-01-01
+2025-06-03 08:02:48,607 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:49,062 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE101A01026/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:49,715 - INFO - ✅ Updated data for symbol M&M.
+2025-06-03 08:02:49,738 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE585B01010/day/2025-06-03/2019-01-01
+2025-06-03 08:02:49,739 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:49,980 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE585B01010/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:50,731 - INFO - ✅ Updated data for symbol MARUTI.
+2025-06-03 08:02:50,746 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE733E01010/day/2025-06-03/2019-01-01
+2025-06-03 08:02:50,747 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:50,886 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE733E01010/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:51,530 - INFO - ✅ Updated data for symbol NTPC.
+2025-06-03 08:02:51,545 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE239A01024/day/2025-06-03/2019-01-01
+2025-06-03 08:02:51,547 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:51,677 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE239A01024/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:52,357 - INFO - ✅ Updated data for symbol NESTLEIND.
+2025-06-03 08:02:52,368 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE213A01029/day/2025-06-03/2019-01-01
+2025-06-03 08:02:52,369 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:52,517 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE213A01029/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:53,147 - INFO - ✅ Updated data for symbol ONGC.
+2025-06-03 08:02:53,162 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE752E01010/day/2025-06-03/2019-01-01
+2025-06-03 08:02:53,163 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:53,416 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE752E01010/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:54,074 - INFO - ✅ Updated data for symbol POWERGRID.
+2025-06-03 08:02:54,106 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE002A01018/day/2025-06-03/2019-01-01
+2025-06-03 08:02:54,109 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:54,254 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE002A01018/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:54,919 - INFO - ✅ Updated data for symbol RELIANCE.
+2025-06-03 08:02:54,936 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE123W01016/day/2025-06-03/2019-01-01
+2025-06-03 08:02:54,938 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:55,058 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE123W01016/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:55,729 - INFO - ✅ Updated data for symbol SBILIFE.
+2025-06-03 08:02:55,744 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE721A01047/day/2025-06-03/2019-01-01
+2025-06-03 08:02:55,746 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:56,029 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE721A01047/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:56,683 - INFO - ✅ Updated data for symbol SHRIRAMFIN.
+2025-06-03 08:02:56,696 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE062A01020/day/2025-06-03/2019-01-01
+2025-06-03 08:02:56,697 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:57,056 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE062A01020/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:57,627 - INFO - ✅ Updated data for symbol SBIN.
+2025-06-03 08:02:57,637 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE044A01036/day/2025-06-03/2019-01-01
+2025-06-03 08:02:57,638 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:57,884 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE044A01036/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:58,565 - INFO - ✅ Updated data for symbol SUNPHARMA.
+2025-06-03 08:02:58,581 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE467B01029/day/2025-06-03/2019-01-01
+2025-06-03 08:02:58,582 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:58,718 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE467B01029/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:02:59,374 - INFO - ✅ Updated data for symbol TCS.
+2025-06-03 08:02:59,389 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE192A01025/day/2025-06-03/2019-01-01
+2025-06-03 08:02:59,390 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:02:59,661 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE192A01025/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:03:00,307 - INFO - ✅ Updated data for symbol TATACONSUM.
+2025-06-03 08:03:00,325 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE155A01022/day/2025-06-03/2019-01-01
+2025-06-03 08:03:00,326 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:03:00,626 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE155A01022/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:03:01,227 - INFO - ✅ Updated data for symbol TATAMOTORS.
+2025-06-03 08:03:01,240 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE081A01020/day/2025-06-03/2019-01-01
+2025-06-03 08:03:01,241 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:03:01,499 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE081A01020/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:03:02,158 - INFO - ✅ Updated data for symbol TATASTEEL.
+2025-06-03 08:03:02,173 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE669C01036/day/2025-06-03/2019-01-01
+2025-06-03 08:03:02,174 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:03:02,284 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE669C01036/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:03:02,807 - INFO - ✅ Updated data for symbol TECHM.
+2025-06-03 08:03:02,818 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE280A01028/day/2025-06-03/2019-01-01
+2025-06-03 08:03:02,820 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:03:03,186 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE280A01028/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:03:03,838 - INFO - ✅ Updated data for symbol TITAN.
+2025-06-03 08:03:03,853 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE849A01020/day/2025-06-03/2019-01-01
+2025-06-03 08:03:03,854 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:03:04,211 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE849A01020/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:03:04,842 - INFO - ✅ Updated data for symbol TRENT.
+2025-06-03 08:03:04,855 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE481G01011/day/2025-06-03/2019-01-01
+2025-06-03 08:03:04,856 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:03:04,980 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE481G01011/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:03:05,646 - INFO - ✅ Updated data for symbol ULTRACEMCO.
+2025-06-03 08:03:05,662 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE075A01022/day/2025-06-03/2019-01-01
+2025-06-03 08:03:05,663 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-03 08:03:05,786 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE075A01022/day/2025-06-03/2019-01-01 HTTP/11" 200 None
+2025-06-03 08:03:06,453 - INFO - ✅ Updated data for symbol WIPRO.
+2025-06-03 08:03:06,454 - INFO - 🟢 Batch 1 processed.
+2025-06-03 08:06:40,513 - INFO - 127.0.0.1 - - [03/Jun/2025 08:06:40] "POST /v1/update_all_symbols HTTP/1.1" 200 -
+2025-06-03 08:06:40,604 - ERROR - ❌ Error updating data for symbol ADANIENT: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,617 - ERROR - ❌ Error updating data for symbol ADANIPORTS: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,629 - ERROR - ❌ Error updating data for symbol APOLLOHOSP: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,639 - ERROR - ❌ Error updating data for symbol ASIANPAINT: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,649 - ERROR - ❌ Error updating data for symbol AXISBANK: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,659 - ERROR - ❌ Error updating data for symbol BAJAJ-AUTO: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,668 - ERROR - ❌ Error updating data for symbol BAJFINANCE: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,678 - ERROR - ❌ Error updating data for symbol BAJAJFINSV: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,687 - ERROR - ❌ Error updating data for symbol BEL: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,696 - ERROR - ❌ Error updating data for symbol BHARTIARTL: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,705 - ERROR - ❌ Error updating data for symbol CIPLA: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,713 - ERROR - ❌ Error updating data for symbol COALINDIA: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,721 - ERROR - ❌ Error updating data for symbol DRREDDY: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,729 - ERROR - ❌ Error updating data for symbol EICHERMOT: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,737 - ERROR - ❌ Error updating data for symbol ETERNAL: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,744 - ERROR - ❌ Error updating data for symbol GRASIM: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,753 - ERROR - ❌ Error updating data for symbol HCLTECH: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,760 - ERROR - ❌ Error updating data for symbol HDFCBANK: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,769 - ERROR - ❌ Error updating data for symbol HDFCLIFE: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,779 - ERROR - ❌ Error updating data for symbol HEROMOTOCO: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,791 - ERROR - ❌ Error updating data for symbol HINDALCO: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,798 - ERROR - ❌ Error updating data for symbol HINDUNILVR: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,807 - ERROR - ❌ Error updating data for symbol ICICIBANK: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,815 - ERROR - ❌ Error updating data for symbol ITC: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,824 - ERROR - ❌ Error updating data for symbol INDUSINDBK: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,832 - ERROR - ❌ Error updating data for symbol INFY: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,840 - ERROR - ❌ Error updating data for symbol JSWSTEEL: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,848 - ERROR - ❌ Error updating data for symbol JIOFIN: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,857 - ERROR - ❌ Error updating data for symbol KOTAKBANK: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,865 - ERROR - ❌ Error updating data for symbol LT: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,874 - ERROR - ❌ Error updating data for symbol M&M: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,882 - ERROR - ❌ Error updating data for symbol MARUTI: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,890 - ERROR - ❌ Error updating data for symbol NTPC: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,898 - ERROR - ❌ Error updating data for symbol NESTLEIND: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,906 - ERROR - ❌ Error updating data for symbol ONGC: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,915 - ERROR - ❌ Error updating data for symbol POWERGRID: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,923 - ERROR - ❌ Error updating data for symbol RELIANCE: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,931 - ERROR - ❌ Error updating data for symbol SBILIFE: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,939 - ERROR - ❌ Error updating data for symbol SHRIRAMFIN: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,947 - ERROR - ❌ Error updating data for symbol SBIN: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,955 - ERROR - ❌ Error updating data for symbol SUNPHARMA: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,962 - ERROR - ❌ Error updating data for symbol TCS: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,973 - ERROR - ❌ Error updating data for symbol TATACONSUM: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,988 - ERROR - ❌ Error updating data for symbol TATAMOTORS: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:40,997 - ERROR - ❌ Error updating data for symbol TATASTEEL: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:41,006 - ERROR - ❌ Error updating data for symbol TECHM: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:41,014 - ERROR - ❌ Error updating data for symbol TITAN: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:41,022 - ERROR - ❌ Error updating data for symbol TRENT: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:41,029 - ERROR - ❌ Error updating data for symbol ULTRACEMCO: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:41,037 - ERROR - ❌ Error updating data for symbol WIPRO: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-03 08:06:41,037 - INFO - 🟢 Batch 1 processed.
