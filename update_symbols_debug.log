@@ -6318,3 +6318,31 @@ LINE 1: SELECT isin FROM stock_symbols
 2025-06-03 10:38:01,113 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 2025-06-03 10:38:01,114 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 23:03:50,367 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-03 23:03:50,367 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 23:03:57,336 - INFO - 127.0.0.1 - - [03/Jun/2025 23:03:57] "[33mGET / HTTP/1.1[0m" 404 -
+2025-06-03 23:03:57,431 - INFO - 127.0.0.1 - - [03/Jun/2025 23:03:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-03 23:12:41,460 - INFO - 127.0.0.1 - - [03/Jun/2025 23:12:41] "POST /v1/bhavcopy HTTP/1.1" 200 -
+2025-06-03 23:25:08,129 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-03 23:25:08,129 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 23:25:45,972 - INFO - 127.0.0.1 - - [03/Jun/2025 23:25:45] "POST /v1/bhavcopy HTTP/1.1" 200 -
+2025-06-03 23:29:39,501 - INFO - 127.0.0.1 - - [03/Jun/2025 23:29:39] "POST /v1/bhavcopy HTTP/1.1" 200 -
+2025-06-03 23:36:29,478 - INFO - 127.0.0.1 - - [03/Jun/2025 23:36:29] "POST /v1/bhavcopy HTTP/1.1" 200 -
+2025-06-03 23:38:06,788 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-03 23:38:06,788 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 23:53:26,036 - INFO - 127.0.0.1 - - [03/Jun/2025 23:53:26] "POST /v1/bhavcopy HTTP/1.1" 200 -
+2025-06-03 23:55:58,938 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-03 23:55:58,938 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 23:56:03,586 - INFO - 127.0.0.1 - - [03/Jun/2025 23:56:03] "POST /v1/bhavcopy HTTP/1.1" 200 -
+2025-06-03 23:58:39,243 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-03 23:58:39,243 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-03 23:58:45,572 - INFO - 127.0.0.1 - - [03/Jun/2025 23:58:45] "POST /v1/bhavcopy HTTP/1.1" 200 -
+2025-06-04 00:01:02,072 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-04 00:01:02,072 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 00:01:09,792 - INFO - 127.0.0.1 - - [04/Jun/2025 00:01:09] "POST /v1/bhavcopy HTTP/1.1" 200 -
