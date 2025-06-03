@@ -7,3 +7,4 @@ gunicorn
 pytest
 flask-caching
 requests
+psycopg2-binary
