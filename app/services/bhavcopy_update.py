@@ -3,6 +3,18 @@ from datetime import datetime
 from sqlalchemy import exists
 from app.models import HistoricalData1D, StockSymbol, db
 
+def safe_float(value):
+    try:
+        return float(value) if value.strip() != '' else None
+    except (ValueError, AttributeError):
+        return None
+
+def safe_int(value):
+    try:
+        return int(value) if value.strip() != '' else None
+    except (ValueError, AttributeError):
+        return None
+
 def process_bhavcopy(file):
     """
     Processes the BhavCopy CSV file to update the database with new trading data.
@@ -15,48 +27,50 @@ def process_bhavcopy(file):
 
     for row in data:
         try:
-            # Extract data from the BhavCopy row
             date = datetime.strptime(row['TradDt'], '%Y-%m-%d').date()
-            isin = row['ISIN']
-            open_price = float(row['OpnPric']) if row['OpnPric'] else None
-            high_price = float(row['HghPric']) if row['HghPric'] else None
-            low_price = float(row['LwPric']) if row['LwPric'] else None
-            close_price = float(row['ClsPric']) if row['ClsPric'] else None
-            volume = int(row['TtlTradgVol']) if row['TtlTradgVol'] else None
+            isin = row['ISIN'].strip()
 
-            # Check if ISIN exists in stock_symbols and get corresponding symbol
+            open_price = safe_float(row['OpnPric'])
+            high_price = safe_float(row['HghPric'])
+            low_price = safe_float(row['LwPric'])
+            close_price = safe_float(row['ClsPric'])
+            volume = safe_int(row['TtlTradgVol'])
+
+            # Lookup StockSymbol by ISIN
             stock_symbol = StockSymbol.query.filter_by(isin=isin).first()
             if not stock_symbol:
-                skipped_records += 1  # Skip if ISIN not found
+                skipped_records += 1
                 continue
-            symbol = stock_symbol.symbol
 
-            # Check if record for the trading day already exists
+            symbol_fk = stock_symbol.symbol  # ✅ Use ticker symbol here, not ISIN
+
+            # Check if record already exists
             record_exists = db.session.query(
-                exists().where(HistoricalData1D.symbol == symbol).where(HistoricalData1D.date == date)
+                exists().where(HistoricalData1D.symbol == symbol_fk).where(HistoricalData1D.date == date)
             ).scalar()
 
             if record_exists:
-                skipped_records += 1  # Skip if record already exists
+                skipped_records += 1
                 continue
 
-            # Insert new record into historical_data_1d
+            # Insert new record
             new_record = HistoricalData1D(
-                symbol=symbol,
+                symbol=symbol_fk,
                 date=date,
                 open_price=open_price,
                 high_price=high_price,
                 low_price=low_price,
                 close_price=close_price,
-                volume=volume
+                volume=volume,
+                open_interest=None
             )
             db.session.add(new_record)
             records_inserted += 1
 
         except Exception as e:
             print(f"Error processing row {row}: {e}")
+            db.session.rollback()
             skipped_records += 1
 
     db.session.commit()
-
     return {"inserted": records_inserted, "skipped": skipped_records}
