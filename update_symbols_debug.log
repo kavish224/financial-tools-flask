@@ -6315,3 +6315,6 @@ LINE 1: SELECT isin FROM stock_symbols
 2025-06-03 08:06:41,029 - ERROR - ❌ Error updating data for symbol ULTRACEMCO: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
 2025-06-03 08:06:41,037 - ERROR - ❌ Error updating data for symbol WIPRO: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
 2025-06-03 08:06:41,037 - INFO - 🟢 Batch 1 processed.
+2025-06-03 10:38:01,113 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-03 10:38:01,114 - INFO - [33mPress CTRL+C to quit[0m
