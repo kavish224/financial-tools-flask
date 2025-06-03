@@ -5,6 +5,6 @@ Flask-Caching
 python-dotenv
 gunicorn
 pytest
-flask-caching
 requests
 psycopg2-binary
+pandas
