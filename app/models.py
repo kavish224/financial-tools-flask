@@ -25,6 +25,6 @@ class HistoricalData1D(db.Model):
     high_price = db.Column(db.Numeric, nullable=True)
     low_price = db.Column(db.Numeric, nullable=True)
     volume = db.Column(db.BigInteger, nullable=True)
-
+    open_interest = db.Column(db.BigInteger, nullable=True)
     # Use back_populates to define the reverse relationship
     stock_symbol = db.relationship('StockSymbol', back_populates='historical_data', lazy=True)
