@@ -5,3 +5,4 @@ Flask-Caching
 python-dotenv
 gunicorn
 pytest
+flask-caching
