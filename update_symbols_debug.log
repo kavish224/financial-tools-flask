@@ -6645,3 +6645,9 @@ LINE 1: SELECT isin FROM stock_symbols
 2025-06-05 14:19:19,589 - INFO - 127.0.0.1 - - [05/Jun/2025 14:19:19] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
 2025-06-05 14:19:22,908 - INFO - 127.0.0.1 - - [05/Jun/2025 14:19:22] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
 2025-06-05 14:19:22,909 - INFO - 127.0.0.1 - - [05/Jun/2025 14:19:22] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 16:05:15,794 - INFO - 127.0.0.1 - - [05/Jun/2025 16:05:15] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 16:05:24,381 - INFO - 127.0.0.1 - - [05/Jun/2025 16:05:24] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 22:28:38,307 - INFO - 127.0.0.1 - - [05/Jun/2025 22:28:38] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 22:28:38,308 - INFO - 127.0.0.1 - - [05/Jun/2025 22:28:38] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 22:28:41,991 - INFO - 127.0.0.1 - - [05/Jun/2025 22:28:41] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 22:28:42,013 - INFO - 127.0.0.1 - - [05/Jun/2025 22:28:42] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
