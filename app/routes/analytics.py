@@ -1,18 +1,14 @@
-# app/routes/analytics.py
-from flask import Blueprint, jsonify
-from app.services.sma_crossing import calculate_golden_cross
-
-analytics_bp = Blueprint('analytics', __name__)
-
-@analytics_bp.route('/golden-cross', methods=['GET'])
-def golden_cross_endpoint():
-    """
-    Endpoint to calculate Golden Cross and Death Cross events for all stocks.
-    """
+from flask import Blueprint,request, jsonify
+from app.models import db, HistoricalData1D
+from app.services.near_sma import get_stocks_near_sma
+analytics_bp = Blueprint("analytics", __name__)
+@analytics_bp.route("/analytics/sma-nearby", methods=["POST"])
+def sma_nearby():
     try:
-        results = calculate_golden_cross()
-        if not results:
-            return jsonify({"message": "No crossing events found."}), 404
-        return jsonify(results), 200
+        data = request.get_json()
+        sma_period = int(data.get("sma_period", 50))
+        threshold_pct = float(data.get("threshold_pct", 2.0))
+        results = get_stocks_near_sma(sma_period,threshold_pct)
+        return jsonify(results)
     except Exception as e:
         return jsonify({"error": str(e)}), 500

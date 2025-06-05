@@ -6346,3 +6346,302 @@ LINE 1: SELECT isin FROM stock_symbols
  * Running on http://127.0.0.1:5000
 2025-06-04 00:01:02,072 - INFO - [33mPress CTRL+C to quit[0m
 2025-06-04 00:01:09,792 - INFO - 127.0.0.1 - - [04/Jun/2025 00:01:09] "POST /v1/bhavcopy HTTP/1.1" 200 -
+2025-06-04 12:56:13,095 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-04 12:56:13,095 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 12:56:17,697 - INFO - 127.0.0.1 - - [04/Jun/2025 12:56:17] "[33mGET / HTTP/1.1[0m" 404 -
+2025-06-04 12:56:17,817 - INFO - 127.0.0.1 - - [04/Jun/2025 12:56:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-04 12:56:43,966 - INFO - 127.0.0.1 - - [04/Jun/2025 12:56:43] "[33mGET /v1/analytics/sma_nearby HTTP/1.1[0m" 404 -
+2025-06-04 12:56:55,873 - INFO - 127.0.0.1 - - [04/Jun/2025 12:56:55] "[35m[1mGET /v1/analytics/sma-nearby HTTP/1.1[0m" 500 -
+2025-06-04 12:58:52,115 - INFO - 127.0.0.1 - - [04/Jun/2025 12:58:52] "[35m[1mGET /v1/analytics/sma-nearby HTTP/1.1[0m" 500 -
+2025-06-04 13:02:44,146 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-04 13:02:44,146 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 13:02:48,547 - INFO - 127.0.0.1 - - [04/Jun/2025 13:02:48] "[35m[1mGET /v1/analytics/sma-nearby HTTP/1.1[0m" 500 -
+2025-06-04 13:05:53,330 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-04 13:05:53,330 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-04 13:05:57,951 - INFO - 127.0.0.1 - - [04/Jun/2025 13:05:57] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:40:45,165 - INFO - 127.0.0.1 - - [05/Jun/2025 08:40:45] "[33mGET / HTTP/1.1[0m" 404 -
+2025-06-05 08:40:45,228 - INFO - 127.0.0.1 - - [05/Jun/2025 08:40:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-05 08:41:08,094 - INFO - 127.0.0.1 - - [05/Jun/2025 08:41:08] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:53:33,392 - INFO - 127.0.0.1 - - [05/Jun/2025 08:53:33] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:54:57,864 - INFO - 127.0.0.1 - - [05/Jun/2025 08:54:57] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:55:14,721 - INFO - 127.0.0.1 - - [05/Jun/2025 08:55:14] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:55:17,383 - INFO - 127.0.0.1 - - [05/Jun/2025 08:55:17] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:55:36,288 - INFO - 127.0.0.1 - - [05/Jun/2025 08:55:36] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:58:19,536 - INFO - 127.0.0.1 - - [05/Jun/2025 08:58:19] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:58:20,720 - INFO - 127.0.0.1 - - [05/Jun/2025 08:58:20] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:58:32,409 - INFO - 127.0.0.1 - - [05/Jun/2025 08:58:32] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:58:33,613 - INFO - 127.0.0.1 - - [05/Jun/2025 08:58:33] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:04,986 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:04] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:06,215 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:06] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:09,147 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:09] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:10,777 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:10] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:12,191 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:12] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:13,400 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:13] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:17,339 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:17] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:19,078 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:19] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:21,966 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:21] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:22,903 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:22] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:25,538 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:25] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:26,155 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:26] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:27,278 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:27] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:43,191 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:43] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:44,259 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:44] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:44,270 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:44] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:47,377 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:47] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:48,728 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:48] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:51,028 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:51] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:51,160 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:51] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:52,295 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:52] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:54,883 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:54] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:56,183 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:56] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 08:59:57,408 - INFO - 127.0.0.1 - - [05/Jun/2025 08:59:57] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:00:18,203 - INFO - 127.0.0.1 - - [05/Jun/2025 09:00:18] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:00:19,561 - INFO - 127.0.0.1 - - [05/Jun/2025 09:00:19] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:00:22,544 - INFO - 127.0.0.1 - - [05/Jun/2025 09:00:22] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:00:23,819 - INFO - 127.0.0.1 - - [05/Jun/2025 09:00:23] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:00:50,455 - INFO - 127.0.0.1 - - [05/Jun/2025 09:00:50] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:00:51,748 - INFO - 127.0.0.1 - - [05/Jun/2025 09:00:51] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:00:57,764 - INFO - 127.0.0.1 - - [05/Jun/2025 09:00:57] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:00:58,923 - INFO - 127.0.0.1 - - [05/Jun/2025 09:00:58] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:01:05,861 - INFO - 127.0.0.1 - - [05/Jun/2025 09:01:05] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:01:07,650 - INFO - 127.0.0.1 - - [05/Jun/2025 09:01:07] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:01:08,421 - INFO - 127.0.0.1 - - [05/Jun/2025 09:01:08] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:01:09,540 - INFO - 127.0.0.1 - - [05/Jun/2025 09:01:09] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:01:12,891 - INFO - 127.0.0.1 - - [05/Jun/2025 09:01:12] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:01:14,034 - INFO - 127.0.0.1 - - [05/Jun/2025 09:01:14] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:01:20,552 - INFO - 127.0.0.1 - - [05/Jun/2025 09:01:20] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:01:21,739 - INFO - 127.0.0.1 - - [05/Jun/2025 09:01:21] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:01:26,954 - INFO - 127.0.0.1 - - [05/Jun/2025 09:01:26] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:01:28,042 - INFO - 127.0.0.1 - - [05/Jun/2025 09:01:28] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:01:35,533 - INFO - 127.0.0.1 - - [05/Jun/2025 09:01:35] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:01:36,936 - INFO - 127.0.0.1 - - [05/Jun/2025 09:01:36] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:01:45,220 - INFO - 127.0.0.1 - - [05/Jun/2025 09:01:45] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:01:46,560 - INFO - 127.0.0.1 - - [05/Jun/2025 09:01:46] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:01:49,445 - INFO - 127.0.0.1 - - [05/Jun/2025 09:01:49] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:01:51,250 - INFO - 127.0.0.1 - - [05/Jun/2025 09:01:51] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:01:51,280 - INFO - 127.0.0.1 - - [05/Jun/2025 09:01:51] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:02:10,109 - INFO - 127.0.0.1 - - [05/Jun/2025 09:02:10] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:02:11,371 - INFO - 127.0.0.1 - - [05/Jun/2025 09:02:11] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:02:21,753 - INFO - 127.0.0.1 - - [05/Jun/2025 09:02:21] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:02:23,007 - INFO - 127.0.0.1 - - [05/Jun/2025 09:02:23] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:02:27,566 - INFO - 127.0.0.1 - - [05/Jun/2025 09:02:27] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:02:28,816 - INFO - 127.0.0.1 - - [05/Jun/2025 09:02:28] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:02:30,228 - INFO - 127.0.0.1 - - [05/Jun/2025 09:02:30] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:02:31,407 - INFO - 127.0.0.1 - - [05/Jun/2025 09:02:31] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:02:33,785 - INFO - 127.0.0.1 - - [05/Jun/2025 09:02:33] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:02:34,925 - INFO - 127.0.0.1 - - [05/Jun/2025 09:02:34] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:02:37,819 - INFO - 127.0.0.1 - - [05/Jun/2025 09:02:37] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:02:38,955 - INFO - 127.0.0.1 - - [05/Jun/2025 09:02:38] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:02:47,931 - INFO - 127.0.0.1 - - [05/Jun/2025 09:02:47] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:02:49,136 - INFO - 127.0.0.1 - - [05/Jun/2025 09:02:49] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:02:50,982 - INFO - 127.0.0.1 - - [05/Jun/2025 09:02:50] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:02:52,168 - INFO - 127.0.0.1 - - [05/Jun/2025 09:02:52] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:02:53,561 - INFO - 127.0.0.1 - - [05/Jun/2025 09:02:53] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:02:54,845 - INFO - 127.0.0.1 - - [05/Jun/2025 09:02:54] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:02:56,893 - INFO - 127.0.0.1 - - [05/Jun/2025 09:02:56] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:02:58,759 - INFO - 127.0.0.1 - - [05/Jun/2025 09:02:58] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:02:59,464 - INFO - 127.0.0.1 - - [05/Jun/2025 09:02:59] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:03:00,618 - INFO - 127.0.0.1 - - [05/Jun/2025 09:03:00] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:04:09,052 - INFO - 127.0.0.1 - - [05/Jun/2025 09:04:09] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:04:10,350 - INFO - 127.0.0.1 - - [05/Jun/2025 09:04:10] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:04:19,932 - INFO - 127.0.0.1 - - [05/Jun/2025 09:04:19] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:04:22,525 - INFO - 127.0.0.1 - - [05/Jun/2025 09:04:22] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:04:23,079 - INFO - 127.0.0.1 - - [05/Jun/2025 09:04:23] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:04:26,432 - INFO - 127.0.0.1 - - [05/Jun/2025 09:04:26] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:04:28,883 - INFO - 127.0.0.1 - - [05/Jun/2025 09:04:28] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:04:28,885 - INFO - 127.0.0.1 - - [05/Jun/2025 09:04:28] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:04:43,914 - INFO - 127.0.0.1 - - [05/Jun/2025 09:04:43] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:04:45,049 - INFO - 127.0.0.1 - - [05/Jun/2025 09:04:45] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:04:56,518 - INFO - 127.0.0.1 - - [05/Jun/2025 09:04:56] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:04:58,486 - INFO - 127.0.0.1 - - [05/Jun/2025 09:04:58] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:04:59,150 - INFO - 127.0.0.1 - - [05/Jun/2025 09:04:59] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:05:00,284 - INFO - 127.0.0.1 - - [05/Jun/2025 09:05:00] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:05:02,417 - INFO - 127.0.0.1 - - [05/Jun/2025 09:05:02] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:05:03,569 - INFO - 127.0.0.1 - - [05/Jun/2025 09:05:03] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:05:13,553 - INFO - 127.0.0.1 - - [05/Jun/2025 09:05:13] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:05:14,763 - INFO - 127.0.0.1 - - [05/Jun/2025 09:05:14] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:05:34,429 - INFO - 127.0.0.1 - - [05/Jun/2025 09:05:34] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:05:36,302 - INFO - 127.0.0.1 - - [05/Jun/2025 09:05:36] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:05:36,889 - INFO - 127.0.0.1 - - [05/Jun/2025 09:05:36] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:05:38,014 - INFO - 127.0.0.1 - - [05/Jun/2025 09:05:38] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:05:42,757 - INFO - 127.0.0.1 - - [05/Jun/2025 09:05:42] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:05:43,952 - INFO - 127.0.0.1 - - [05/Jun/2025 09:05:43] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:05:47,382 - INFO - 127.0.0.1 - - [05/Jun/2025 09:05:47] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:05:48,749 - INFO - 127.0.0.1 - - [05/Jun/2025 09:05:48] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:05:55,301 - INFO - 127.0.0.1 - - [05/Jun/2025 09:05:55] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:05:56,508 - INFO - 127.0.0.1 - - [05/Jun/2025 09:05:56] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:06:01,466 - INFO - 127.0.0.1 - - [05/Jun/2025 09:06:01] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:06:02,734 - INFO - 127.0.0.1 - - [05/Jun/2025 09:06:02] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:06:15,913 - INFO - 127.0.0.1 - - [05/Jun/2025 09:06:15] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:06:17,059 - INFO - 127.0.0.1 - - [05/Jun/2025 09:06:17] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:06:37,902 - INFO - 127.0.0.1 - - [05/Jun/2025 09:06:37] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:06:39,208 - INFO - 127.0.0.1 - - [05/Jun/2025 09:06:39] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:06:41,396 - INFO - 127.0.0.1 - - [05/Jun/2025 09:06:41] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:06:42,556 - INFO - 127.0.0.1 - - [05/Jun/2025 09:06:42] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:06:53,774 - INFO - 127.0.0.1 - - [05/Jun/2025 09:06:53] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:06:56,031 - INFO - 127.0.0.1 - - [05/Jun/2025 09:06:56] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:06:56,050 - INFO - 127.0.0.1 - - [05/Jun/2025 09:06:56] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:06:56,842 - INFO - 127.0.0.1 - - [05/Jun/2025 09:06:56] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:06:58,016 - INFO - 127.0.0.1 - - [05/Jun/2025 09:06:58] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:07:10,786 - INFO - 127.0.0.1 - - [05/Jun/2025 09:07:10] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:07:11,886 - INFO - 127.0.0.1 - - [05/Jun/2025 09:07:11] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:07:17,545 - INFO - 127.0.0.1 - - [05/Jun/2025 09:07:17] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:07:19,769 - INFO - 127.0.0.1 - - [05/Jun/2025 09:07:19] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:07:19,772 - INFO - 127.0.0.1 - - [05/Jun/2025 09:07:19] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:08:57,854 - INFO - 127.0.0.1 - - [05/Jun/2025 09:08:57] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:08:59,029 - INFO - 127.0.0.1 - - [05/Jun/2025 09:08:59] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:09:09,854 - INFO - 127.0.0.1 - - [05/Jun/2025 09:09:09] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:09:12,225 - INFO - 127.0.0.1 - - [05/Jun/2025 09:09:12] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:09:12,254 - INFO - 127.0.0.1 - - [05/Jun/2025 09:09:12] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:09:13,355 - INFO - 127.0.0.1 - - [05/Jun/2025 09:09:13] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:39:19,363 - INFO - 127.0.0.1 - - [05/Jun/2025 09:39:19] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 09:39:20,474 - INFO - 127.0.0.1 - - [05/Jun/2025 09:39:20] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 12:38:02,470 - INFO - 127.0.0.1 - - [05/Jun/2025 12:38:02] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 12:38:03,632 - INFO - 127.0.0.1 - - [05/Jun/2025 12:38:03] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 12:38:14,265 - INFO - 127.0.0.1 - - [05/Jun/2025 12:38:14] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 12:38:15,707 - INFO - 127.0.0.1 - - [05/Jun/2025 12:38:15] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 12:38:40,751 - INFO - 127.0.0.1 - - [05/Jun/2025 12:38:40] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 12:38:42,040 - INFO - 127.0.0.1 - - [05/Jun/2025 12:38:42] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 12:40:01,795 - INFO - 127.0.0.1 - - [05/Jun/2025 12:40:01] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 12:40:03,255 - INFO - 127.0.0.1 - - [05/Jun/2025 12:40:03] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 12:40:06,445 - INFO - 127.0.0.1 - - [05/Jun/2025 12:40:06] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 12:40:07,583 - INFO - 127.0.0.1 - - [05/Jun/2025 12:40:07] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 12:44:37,374 - INFO - 127.0.0.1 - - [05/Jun/2025 12:44:37] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 12:44:38,483 - INFO - 127.0.0.1 - - [05/Jun/2025 12:44:38] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 12:45:05,276 - INFO - 127.0.0.1 - - [05/Jun/2025 12:45:05] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 12:45:07,457 - INFO - 127.0.0.1 - - [05/Jun/2025 12:45:07] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 12:45:07,890 - INFO - 127.0.0.1 - - [05/Jun/2025 12:45:07] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 12:45:08,971 - INFO - 127.0.0.1 - - [05/Jun/2025 12:45:08] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 12:45:23,110 - INFO - 127.0.0.1 - - [05/Jun/2025 12:45:23] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 12:45:24,217 - INFO - 127.0.0.1 - - [05/Jun/2025 12:45:24] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 12:45:29,600 - INFO - 127.0.0.1 - - [05/Jun/2025 12:45:29] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 12:45:30,791 - INFO - 127.0.0.1 - - [05/Jun/2025 12:45:30] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 12:48:17,964 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-05 12:48:17,964 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-05 12:50:31,238 - INFO - 127.0.0.1 - - [05/Jun/2025 12:50:31] "GET /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:22:07,276 - INFO - 127.0.0.1 - - [05/Jun/2025 13:22:07] "[31m[1mPOST /v1/analytics/sma-nearby HTTP/1.1[0m" 405 -
+2025-06-05 13:22:24,668 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-05 13:22:24,668 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-05 13:22:31,241 - INFO - 127.0.0.1 - - [05/Jun/2025 13:22:31] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:24:38,057 - INFO - 127.0.0.1 - - [05/Jun/2025 13:24:38] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:24:46,708 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-05 13:24:46,708 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-05 13:24:51,320 - INFO - 127.0.0.1 - - [05/Jun/2025 13:24:51] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:26:11,336 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-05 13:26:11,336 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-05 13:26:15,833 - INFO - 127.0.0.1 - - [05/Jun/2025 13:26:15] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:28:37,307 - INFO - 127.0.0.1 - - [05/Jun/2025 13:28:37] "[31m[1mGET /v1/analytics/sma-nearby HTTP/1.1[0m" 405 -
+2025-06-05 13:29:49,908 - INFO - 127.0.0.1 - - [05/Jun/2025 13:29:49] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:29:50,582 - INFO - 127.0.0.1 - - [05/Jun/2025 13:29:50] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:30:00,951 - INFO - 127.0.0.1 - - [05/Jun/2025 13:30:00] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:30:01,693 - INFO - 127.0.0.1 - - [05/Jun/2025 13:30:01] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:34:23,407 - INFO - 127.0.0.1 - - [05/Jun/2025 13:34:23] "[31m[1mGET /v1/analytics/sma-nearby HTTP/1.1[0m" 405 -
+2025-06-05 13:43:03,905 - INFO - 127.0.0.1 - - [05/Jun/2025 13:43:03] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:43:04,607 - INFO - 127.0.0.1 - - [05/Jun/2025 13:43:04] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:43:13,220 - INFO - 127.0.0.1 - - [05/Jun/2025 13:43:13] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:43:13,851 - INFO - 127.0.0.1 - - [05/Jun/2025 13:43:13] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:43:53,039 - INFO - 127.0.0.1 - - [05/Jun/2025 13:43:53] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:43:53,758 - INFO - 127.0.0.1 - - [05/Jun/2025 13:43:53] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:44:34,798 - INFO - 127.0.0.1 - - [05/Jun/2025 13:44:34] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:45:06,841 - INFO - 127.0.0.1 - - [05/Jun/2025 13:45:06] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:45:07,570 - INFO - 127.0.0.1 - - [05/Jun/2025 13:45:07] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:47:18,639 - INFO - 127.0.0.1 - - [05/Jun/2025 13:47:18] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:47:19,545 - INFO - 127.0.0.1 - - [05/Jun/2025 13:47:19] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:53:50,487 - INFO - 127.0.0.1 - - [05/Jun/2025 13:53:50] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:54:37,044 - INFO - 127.0.0.1 - - [05/Jun/2025 13:54:37] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:54:40,728 - INFO - 127.0.0.1 - - [05/Jun/2025 13:54:40] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:59:40,481 - INFO - 127.0.0.1 - - [05/Jun/2025 13:59:40] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:59:40,677 - INFO - 127.0.0.1 - - [05/Jun/2025 13:59:40] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:59:55,981 - INFO - 127.0.0.1 - - [05/Jun/2025 13:59:55] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 13:59:56,059 - INFO - 127.0.0.1 - - [05/Jun/2025 13:59:56] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:00:32,073 - INFO - 127.0.0.1 - - [05/Jun/2025 14:00:32] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:03:12,864 - INFO - 127.0.0.1 - - [05/Jun/2025 14:03:12] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:03:12,910 - INFO - 127.0.0.1 - - [05/Jun/2025 14:03:12] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:03:17,359 - INFO - 127.0.0.1 - - [05/Jun/2025 14:03:17] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:03:17,384 - INFO - 127.0.0.1 - - [05/Jun/2025 14:03:17] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:04:11,018 - INFO - 127.0.0.1 - - [05/Jun/2025 14:04:11] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:04:11,028 - INFO - 127.0.0.1 - - [05/Jun/2025 14:04:11] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:04:15,878 - INFO - 127.0.0.1 - - [05/Jun/2025 14:04:15] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:04:15,878 - INFO - 127.0.0.1 - - [05/Jun/2025 14:04:15] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:05:45,929 - INFO - 127.0.0.1 - - [05/Jun/2025 14:05:45] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:07:23,980 - INFO - 127.0.0.1 - - [05/Jun/2025 14:07:23] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:07:23,980 - INFO - 127.0.0.1 - - [05/Jun/2025 14:07:23] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:07:38,029 - INFO - 127.0.0.1 - - [05/Jun/2025 14:07:38] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:07:38,046 - INFO - 127.0.0.1 - - [05/Jun/2025 14:07:38] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:07:44,324 - INFO - 127.0.0.1 - - [05/Jun/2025 14:07:44] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:07:44,339 - INFO - 127.0.0.1 - - [05/Jun/2025 14:07:44] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:07:48,717 - INFO - 127.0.0.1 - - [05/Jun/2025 14:07:48] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:07:48,719 - INFO - 127.0.0.1 - - [05/Jun/2025 14:07:48] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:09:27,035 - INFO - 127.0.0.1 - - [05/Jun/2025 14:09:27] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:09:27,036 - INFO - 127.0.0.1 - - [05/Jun/2025 14:09:27] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:09:29,971 - INFO - 127.0.0.1 - - [05/Jun/2025 14:09:29] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:09:30,011 - INFO - 127.0.0.1 - - [05/Jun/2025 14:09:30] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:10:05,797 - INFO - 127.0.0.1 - - [05/Jun/2025 14:10:05] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:10:05,797 - INFO - 127.0.0.1 - - [05/Jun/2025 14:10:05] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:10:51,335 - INFO - 127.0.0.1 - - [05/Jun/2025 14:10:51] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:10:51,335 - INFO - 127.0.0.1 - - [05/Jun/2025 14:10:51] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:11:25,285 - INFO - 127.0.0.1 - - [05/Jun/2025 14:11:25] "POST /v1/update_all_symbols HTTP/1.1" 200 -
+2025-06-05 14:11:25,367 - ERROR - ❌ Error updating data for symbol ADANIENT: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,379 - ERROR - ❌ Error updating data for symbol ADANIPORTS: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,387 - ERROR - ❌ Error updating data for symbol APOLLOHOSP: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,396 - ERROR - ❌ Error updating data for symbol ASIANPAINT: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,407 - ERROR - ❌ Error updating data for symbol AXISBANK: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,419 - ERROR - ❌ Error updating data for symbol BAJAJ-AUTO: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,427 - ERROR - ❌ Error updating data for symbol BAJFINANCE: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,440 - ERROR - ❌ Error updating data for symbol BAJAJFINSV: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,450 - ERROR - ❌ Error updating data for symbol BEL: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,459 - ERROR - ❌ Error updating data for symbol BHARTIARTL: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,471 - ERROR - ❌ Error updating data for symbol CIPLA: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,483 - ERROR - ❌ Error updating data for symbol COALINDIA: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,492 - ERROR - ❌ Error updating data for symbol DRREDDY: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,500 - ERROR - ❌ Error updating data for symbol EICHERMOT: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,508 - ERROR - ❌ Error updating data for symbol ETERNAL: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,519 - ERROR - ❌ Error updating data for symbol GRASIM: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,527 - ERROR - ❌ Error updating data for symbol HCLTECH: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,534 - ERROR - ❌ Error updating data for symbol HDFCBANK: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,542 - ERROR - ❌ Error updating data for symbol HDFCLIFE: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,549 - ERROR - ❌ Error updating data for symbol HEROMOTOCO: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,557 - ERROR - ❌ Error updating data for symbol HINDALCO: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,564 - ERROR - ❌ Error updating data for symbol HINDUNILVR: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,571 - ERROR - ❌ Error updating data for symbol ICICIBANK: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,578 - ERROR - ❌ Error updating data for symbol ITC: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,587 - ERROR - ❌ Error updating data for symbol INDUSINDBK: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,594 - ERROR - ❌ Error updating data for symbol INFY: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,602 - ERROR - ❌ Error updating data for symbol JSWSTEEL: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,609 - ERROR - ❌ Error updating data for symbol JIOFIN: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,619 - ERROR - ❌ Error updating data for symbol KOTAKBANK: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,627 - ERROR - ❌ Error updating data for symbol LT: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,635 - ERROR - ❌ Error updating data for symbol M&M: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,643 - ERROR - ❌ Error updating data for symbol MARUTI: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,651 - ERROR - ❌ Error updating data for symbol NTPC: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,660 - ERROR - ❌ Error updating data for symbol NESTLEIND: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,668 - ERROR - ❌ Error updating data for symbol ONGC: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,676 - ERROR - ❌ Error updating data for symbol POWERGRID: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,684 - ERROR - ❌ Error updating data for symbol RELIANCE: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,692 - ERROR - ❌ Error updating data for symbol SBILIFE: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,701 - ERROR - ❌ Error updating data for symbol SHRIRAMFIN: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,709 - ERROR - ❌ Error updating data for symbol SBIN: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,716 - ERROR - ❌ Error updating data for symbol SUNPHARMA: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,724 - ERROR - ❌ Error updating data for symbol TCS: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,733 - ERROR - ❌ Error updating data for symbol TATACONSUM: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,742 - ERROR - ❌ Error updating data for symbol TATAMOTORS: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,750 - ERROR - ❌ Error updating data for symbol TATASTEEL: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,757 - ERROR - ❌ Error updating data for symbol TECHM: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,766 - ERROR - ❌ Error updating data for symbol TITAN: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,774 - ERROR - ❌ Error updating data for symbol TRENT: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,781 - ERROR - ❌ Error updating data for symbol ULTRACEMCO: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,788 - ERROR - ❌ Error updating data for symbol WIPRO: '>' not supported between instances of 'datetime.datetime' and 'datetime.date'
+2025-06-05 14:11:25,788 - INFO - 🟢 Batch 1 processed.
+2025-06-05 14:17:18,951 - INFO - 127.0.0.1 - - [05/Jun/2025 14:17:18] "[31m[1mPOST /v1/bhavcopy HTTP/1.1[0m" 400 -
+2025-06-05 14:17:38,178 - INFO - 127.0.0.1 - - [05/Jun/2025 14:17:38] "POST /v1/bhavcopy HTTP/1.1" 200 -
+2025-06-05 14:19:19,574 - INFO - 127.0.0.1 - - [05/Jun/2025 14:19:19] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:19:19,589 - INFO - 127.0.0.1 - - [05/Jun/2025 14:19:19] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:19:22,908 - INFO - 127.0.0.1 - - [05/Jun/2025 14:19:22] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-05 14:19:22,909 - INFO - 127.0.0.1 - - [05/Jun/2025 14:19:22] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
