@@ -61,7 +61,11 @@ def update_stock_data(symbol):
         )
         latest_date = cursor.fetchone()[0]
 
-        start_date = (latest_date + timedelta(days=1)) if latest_date else datetime(2019, 1, 1).date()
+        if latest_date:
+            start_date = latest_date.date() + timedelta(days=1)
+        else:
+            start_date = datetime(2019, 1, 1).date()
+
         end_date = datetime.today().date()
 
         if start_date > end_date:
