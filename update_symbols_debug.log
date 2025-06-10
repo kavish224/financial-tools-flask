@@ -6857,3 +6857,838 @@ LINE 1: SELECT isin FROM stock_symbols
 2025-06-06 09:25:26,530 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE075A01022/day/2025-06-06/2025-06-05 HTTP/11" 200 None
 2025-06-06 09:25:26,540 - INFO - ✅ Updated data for symbol WIPRO.
 2025-06-06 09:25:26,540 - INFO - 🟢 Batch 1 processed.
+2025-06-06 09:53:43,291 - INFO - 127.0.0.1 - - [06/Jun/2025 09:53:43] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-06 09:53:43,291 - INFO - 127.0.0.1 - - [06/Jun/2025 09:53:43] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-06 13:25:38,179 - INFO - 127.0.0.1 - - [06/Jun/2025 13:25:38] "POST /v1/update_all_symbols HTTP/1.1" 200 -
+2025-06-06 13:25:38,254 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE117A01022/day/2025-06-06/2019-01-01
+2025-06-06 13:25:38,279 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:25:38,641 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE117A01022/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:25:39,326 - INFO - ✅ Updated data for symbol ABB.
+2025-06-06 13:25:39,336 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE012A01025/day/2025-06-06/2019-01-01
+2025-06-06 13:25:39,337 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:25:39,640 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE012A01025/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:25:40,402 - INFO - ✅ Updated data for symbol ACC.
+2025-06-06 13:25:40,423 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE702C01027/day/2025-06-06/2019-01-01
+2025-06-06 13:25:40,430 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:25:40,781 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE702C01027/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:25:41,337 - INFO - ✅ Updated data for symbol APLAPOLLO.
+2025-06-06 13:25:41,351 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE949L01017/day/2025-06-06/2019-01-01
+2025-06-06 13:25:41,352 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:25:41,800 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE949L01017/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:25:42,238 - INFO - ✅ Updated data for symbol AUBANK.
+2025-06-06 13:25:42,256 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE931S01010/day/2025-06-06/2019-01-01
+2025-06-06 13:25:42,256 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:25:42,550 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE931S01010/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:25:43,457 - INFO - ✅ Updated data for symbol ADANIENSOL.
+2025-06-06 13:25:43,486 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE423A01024/day/2025-06-06/2019-01-01
+2025-06-06 13:25:43,492 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:25:43,814 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE423A01024/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:25:44,420 - INFO - ✅ Updated data for symbol ADANIENT.
+2025-06-06 13:25:44,430 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE364U01010/day/2025-06-06/2019-01-01
+2025-06-06 13:25:44,430 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:25:44,829 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE364U01010/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:25:45,453 - INFO - ✅ Updated data for symbol ADANIGREEN.
+2025-06-06 13:25:45,465 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE742F01042/day/2025-06-06/2019-01-01
+2025-06-06 13:25:45,466 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:25:45,835 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE742F01042/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:25:46,451 - INFO - ✅ Updated data for symbol ADANIPORTS.
+2025-06-06 13:25:46,466 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE814H01011/day/2025-06-06/2019-01-01
+2025-06-06 13:25:46,467 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:25:46,845 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE814H01011/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:25:47,383 - INFO - ✅ Updated data for symbol ADANIPOWER.
+2025-06-06 13:25:47,394 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE399L01023/day/2025-06-06/2019-01-01
+2025-06-06 13:25:47,395 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:25:47,660 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE399L01023/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:25:48,322 - INFO - ✅ Updated data for symbol ATGL.
+2025-06-06 13:25:48,338 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE674K01013/day/2025-06-06/2019-01-01
+2025-06-06 13:25:48,339 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:25:48,655 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE674K01013/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:25:49,222 - INFO - ✅ Updated data for symbol ABCAPITAL.
+2025-06-06 13:25:49,232 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE647O01011/day/2025-06-06/2019-01-01
+2025-06-06 13:25:49,232 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:25:49,555 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE647O01011/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:25:50,222 - INFO - ✅ Updated data for symbol ABFRL.
+2025-06-06 13:25:50,237 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE540L01014/day/2025-06-06/2019-01-01
+2025-06-06 13:25:50,239 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:25:50,505 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE540L01014/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:25:51,099 - INFO - ✅ Updated data for symbol ALKEM.
+2025-06-06 13:25:51,113 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE079A01024/day/2025-06-06/2019-01-01
+2025-06-06 13:25:51,114 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:25:51,365 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE079A01024/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:25:51,970 - INFO - ✅ Updated data for symbol AMBUJACEM.
+2025-06-06 13:25:52,013 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE437A01024/day/2025-06-06/2019-01-01
+2025-06-06 13:25:52,014 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:25:52,365 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE437A01024/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:25:52,940 - INFO - ✅ Updated data for symbol APOLLOHOSP.
+2025-06-06 13:25:52,951 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE438A01022/day/2025-06-06/2019-01-01
+2025-06-06 13:25:52,951 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:25:53,209 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE438A01022/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:25:53,761 - INFO - ✅ Updated data for symbol APOLLOTYRE.
+2025-06-06 13:25:53,772 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE208A01029/day/2025-06-06/2019-01-01
+2025-06-06 13:25:53,773 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:25:54,128 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE208A01029/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:25:54,715 - INFO - ✅ Updated data for symbol ASHOKLEY.
+2025-06-06 13:25:54,730 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE021A01026/day/2025-06-06/2019-01-01
+2025-06-06 13:25:54,734 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:25:55,188 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE021A01026/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:25:55,880 - INFO - ✅ Updated data for symbol ASIANPAINT.
+2025-06-06 13:25:55,896 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE006I01046/day/2025-06-06/2019-01-01
+2025-06-06 13:25:55,897 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:25:56,293 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE006I01046/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:25:56,991 - INFO - ✅ Updated data for symbol ASTRAL.
+2025-06-06 13:25:57,003 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE406A01037/day/2025-06-06/2019-01-01
+2025-06-06 13:25:57,003 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:25:57,293 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE406A01037/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:25:57,901 - INFO - ✅ Updated data for symbol AUROPHARMA.
+2025-06-06 13:25:57,920 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE192R01011/day/2025-06-06/2019-01-01
+2025-06-06 13:25:57,921 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:25:58,209 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE192R01011/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:25:58,771 - INFO - ✅ Updated data for symbol DMART.
+2025-06-06 13:25:58,784 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE238A01034/day/2025-06-06/2019-01-01
+2025-06-06 13:25:58,785 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:25:59,248 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE238A01034/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:25:59,786 - INFO - ✅ Updated data for symbol AXISBANK.
+2025-06-06 13:25:59,800 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE118H01025/day/2025-06-06/2019-01-01
+2025-06-06 13:25:59,801 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:00,233 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE118H01025/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:00,914 - INFO - ✅ Updated data for symbol BSE.
+2025-06-06 13:26:00,924 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE917I01010/day/2025-06-06/2019-01-01
+2025-06-06 13:26:00,924 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:01,315 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE917I01010/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:01,985 - INFO - ✅ Updated data for symbol BAJAJ-AUTO.
+2025-06-06 13:26:02,000 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE296A01024/day/2025-06-06/2019-01-01
+2025-06-06 13:26:02,001 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:02,286 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE296A01024/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:02,923 - INFO - ✅ Updated data for symbol BAJFINANCE.
+2025-06-06 13:26:02,962 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE918I01026/day/2025-06-06/2019-01-01
+2025-06-06 13:26:02,963 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:03,332 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE918I01026/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:03,994 - INFO - ✅ Updated data for symbol BAJAJFINSV.
+2025-06-06 13:26:04,008 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE118A01012/day/2025-06-06/2019-01-01
+2025-06-06 13:26:04,010 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:04,337 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE118A01012/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:05,026 - INFO - ✅ Updated data for symbol BAJAJHLDNG.
+2025-06-06 13:26:05,034 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE377Y01014/day/2025-06-06/2019-01-01
+2025-06-06 13:26:05,035 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:05,324 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE377Y01014/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:05,416 - INFO - ✅ Updated data for symbol BAJAJHFL.
+2025-06-06 13:26:05,429 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE545U01014/day/2025-06-06/2019-01-01
+2025-06-06 13:26:05,430 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:05,718 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE545U01014/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:06,373 - INFO - ✅ Updated data for symbol BANDHANBNK.
+2025-06-06 13:26:06,381 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE028A01039/day/2025-06-06/2019-01-01
+2025-06-06 13:26:06,383 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:06,681 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE028A01039/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:07,326 - INFO - ✅ Updated data for symbol BANKBARODA.
+2025-06-06 13:26:07,346 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE084A01016/day/2025-06-06/2019-01-01
+2025-06-06 13:26:07,347 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:07,610 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE084A01016/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:08,314 - INFO - ✅ Updated data for symbol BANKINDIA.
+2025-06-06 13:26:08,328 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE457A01014/day/2025-06-06/2019-01-01
+2025-06-06 13:26:08,330 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:08,605 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE457A01014/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:09,260 - INFO - ✅ Updated data for symbol MAHABANK.
+2025-06-06 13:26:09,268 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE171Z01026/day/2025-06-06/2019-01-01
+2025-06-06 13:26:09,268 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:09,543 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE171Z01026/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:09,996 - INFO - ✅ Updated data for symbol BDL.
+2025-06-06 13:26:10,010 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE263A01024/day/2025-06-06/2019-01-01
+2025-06-06 13:26:10,010 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:10,398 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE263A01024/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:11,039 - INFO - ✅ Updated data for symbol BEL.
+2025-06-06 13:26:11,055 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE465A01025/day/2025-06-06/2019-01-01
+2025-06-06 13:26:11,055 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:11,368 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE465A01025/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:12,015 - INFO - ✅ Updated data for symbol BHARATFORG.
+2025-06-06 13:26:12,030 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE257A01026/day/2025-06-06/2019-01-01
+2025-06-06 13:26:12,032 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:12,394 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE257A01026/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:13,044 - INFO - ✅ Updated data for symbol BHEL.
+2025-06-06 13:26:13,059 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE029A01011/day/2025-06-06/2019-01-01
+2025-06-06 13:26:13,060 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:13,423 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE029A01011/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:14,056 - INFO - ✅ Updated data for symbol BPCL.
+2025-06-06 13:26:14,067 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE397D01024/day/2025-06-06/2019-01-01
+2025-06-06 13:26:14,068 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:14,437 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE397D01024/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:15,151 - INFO - ✅ Updated data for symbol BHARTIARTL.
+2025-06-06 13:26:15,161 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE343G01021/day/2025-06-06/2019-01-01
+2025-06-06 13:26:15,161 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:15,453 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE343G01021/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:15,565 - INFO - ✅ Updated data for symbol BHARTIHEXA.
+2025-06-06 13:26:15,574 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE376G01013/day/2025-06-06/2019-01-01
+2025-06-06 13:26:15,574 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:15,843 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE376G01013/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:16,397 - INFO - ✅ Updated data for symbol BIOCON.
+2025-06-06 13:26:16,412 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE323A01026/day/2025-06-06/2019-01-01
+2025-06-06 13:26:16,414 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:16,724 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE323A01026/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:17,412 - INFO - ✅ Updated data for symbol BOSCHLTD.
+2025-06-06 13:26:17,424 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE216A01030/day/2025-06-06/2019-01-01
+2025-06-06 13:26:17,425 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:17,727 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE216A01030/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:18,385 - INFO - ✅ Updated data for symbol BRITANNIA.
+2025-06-06 13:26:18,399 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE067A01029/day/2025-06-06/2019-01-01
+2025-06-06 13:26:18,401 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:18,724 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE067A01029/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:19,359 - INFO - ✅ Updated data for symbol CGPOWER.
+2025-06-06 13:26:19,369 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE476A01022/day/2025-06-06/2019-01-01
+2025-06-06 13:26:19,369 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:19,694 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE476A01022/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:20,356 - INFO - ✅ Updated data for symbol CANBK.
+2025-06-06 13:26:20,371 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE121A01024/day/2025-06-06/2019-01-01
+2025-06-06 13:26:20,372 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:20,652 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE121A01024/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:21,303 - INFO - ✅ Updated data for symbol CHOLAFIN.
+2025-06-06 13:26:21,318 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE059A01026/day/2025-06-06/2019-01-01
+2025-06-06 13:26:21,320 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:21,572 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE059A01026/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:22,226 - INFO - ✅ Updated data for symbol CIPLA.
+2025-06-06 13:26:22,241 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE522F01014/day/2025-06-06/2019-01-01
+2025-06-06 13:26:22,243 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:22,555 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE522F01014/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:23,224 - INFO - ✅ Updated data for symbol COALINDIA.
+2025-06-06 13:26:23,240 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE704P01025/day/2025-06-06/2019-01-01
+2025-06-06 13:26:23,241 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:23,519 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE704P01025/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:24,173 - INFO - ✅ Updated data for symbol COCHINSHIP.
+2025-06-06 13:26:24,188 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE591G01025/day/2025-06-06/2019-01-01
+2025-06-06 13:26:24,190 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:24,486 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE591G01025/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:25,169 - INFO - ✅ Updated data for symbol COFORGE.
+2025-06-06 13:26:25,183 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE259A01022/day/2025-06-06/2019-01-01
+2025-06-06 13:26:25,185 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:25,483 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE259A01022/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:26,088 - INFO - ✅ Updated data for symbol COLPAL.
+2025-06-06 13:26:26,089 - INFO - 🟢 Batch 1 processed.
+2025-06-06 13:26:27,119 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE111A01025/day/2025-06-06/2019-01-01
+2025-06-06 13:26:27,122 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:27,558 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE111A01025/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:28,167 - INFO - ✅ Updated data for symbol CONCOR.
+2025-06-06 13:26:28,182 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE298A01020/day/2025-06-06/2019-01-01
+2025-06-06 13:26:28,184 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:28,528 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE298A01020/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:29,168 - INFO - ✅ Updated data for symbol CUMMINSIND.
+2025-06-06 13:26:29,184 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE271C01023/day/2025-06-06/2019-01-01
+2025-06-06 13:26:29,185 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:29,534 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE271C01023/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:30,109 - INFO - ✅ Updated data for symbol DLF.
+2025-06-06 13:26:30,123 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE016A01026/day/2025-06-06/2019-01-01
+2025-06-06 13:26:30,125 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:30,533 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE016A01026/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:31,195 - INFO - ✅ Updated data for symbol DABUR.
+2025-06-06 13:26:31,210 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE361B01024/day/2025-06-06/2019-01-01
+2025-06-06 13:26:31,211 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:31,657 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE361B01024/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:32,304 - INFO - ✅ Updated data for symbol DIVISLAB.
+2025-06-06 13:26:32,320 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE935N01020/day/2025-06-06/2019-01-01
+2025-06-06 13:26:32,321 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:32,650 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE935N01020/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:33,317 - INFO - ✅ Updated data for symbol DIXON.
+2025-06-06 13:26:33,333 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE089A01031/day/2025-06-06/2019-01-01
+2025-06-06 13:26:33,334 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:33,640 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE089A01031/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:34,221 - INFO - ✅ Updated data for symbol DRREDDY.
+2025-06-06 13:26:34,236 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CDUM647O01011/day/2025-06-06/2019-01-01
+2025-06-06 13:26:34,237 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:34,564 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CDUM647O01011/day/2025-06-06/2019-01-01 HTTP/11" 400 None
+2025-06-06 13:26:34,566 - ERROR - API error for ISIN DUM647O01011: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-06 13:26:34,567 - ERROR - ❌ No data fetched for symbol DUMMYABFRL. Skipping update.
+2025-06-06 13:26:34,592 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CDUM003A01024/day/2025-06-06/2019-01-01
+2025-06-06 13:26:34,594 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:34,851 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CDUM003A01024/day/2025-06-06/2019-01-01 HTTP/11" 400 None
+2025-06-06 13:26:34,853 - ERROR - API error for ISIN DUM003A01024: 400 - {"status":"error","errors":[{"errorCode":"UDAPI100011","message":"Invalid Instrument key","propertyPath":null,"invalidValue":null,"error_code":"UDAPI100011","property_path":null,"invalid_value":null}]}
+2025-06-06 13:26:34,853 - ERROR - ❌ No data fetched for symbol DUMMYSIEMS. Skipping update.
+2025-06-06 13:26:34,879 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE066A01021/day/2025-06-06/2019-01-01
+2025-06-06 13:26:34,880 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:35,133 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE066A01021/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:35,806 - INFO - ✅ Updated data for symbol EICHERMOT.
+2025-06-06 13:26:35,815 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE042A01014/day/2025-06-06/2019-01-01
+2025-06-06 13:26:35,816 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:36,072 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE042A01014/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:36,718 - INFO - ✅ Updated data for symbol ESCORTS.
+2025-06-06 13:26:36,734 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE758T01015/day/2025-06-06/2019-01-01
+2025-06-06 13:26:36,736 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:37,104 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE758T01015/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:37,514 - INFO - ✅ Updated data for symbol ETERNAL.
+2025-06-06 13:26:37,529 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE302A01020/day/2025-06-06/2019-01-01
+2025-06-06 13:26:37,531 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:37,849 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE302A01020/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:38,509 - INFO - ✅ Updated data for symbol EXIDEIND.
+2025-06-06 13:26:38,524 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE388Y01029/day/2025-06-06/2019-01-01
+2025-06-06 13:26:38,526 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:38,898 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE388Y01029/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:39,261 - INFO - ✅ Updated data for symbol NYKAA.
+2025-06-06 13:26:39,270 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE171A01029/day/2025-06-06/2019-01-01
+2025-06-06 13:26:39,270 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:39,683 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE171A01029/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:40,295 - INFO - ✅ Updated data for symbol FEDERALBNK.
+2025-06-06 13:26:40,313 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE129A01019/day/2025-06-06/2019-01-01
+2025-06-06 13:26:40,314 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:40,739 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE129A01019/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:41,418 - INFO - ✅ Updated data for symbol GAIL.
+2025-06-06 13:26:41,432 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE776C01039/day/2025-06-06/2019-01-01
+2025-06-06 13:26:41,433 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:41,707 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE776C01039/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:42,341 - INFO - ✅ Updated data for symbol GMRAIRPORT.
+2025-06-06 13:26:42,358 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE935A01035/day/2025-06-06/2019-01-01
+2025-06-06 13:26:42,360 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:42,684 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE935A01035/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:43,330 - INFO - ✅ Updated data for symbol GLENMARK.
+2025-06-06 13:26:43,345 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE102D01028/day/2025-06-06/2019-01-01
+2025-06-06 13:26:43,346 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:43,782 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE102D01028/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:44,393 - INFO - ✅ Updated data for symbol GODREJCP.
+2025-06-06 13:26:44,402 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE484J01027/day/2025-06-06/2019-01-01
+2025-06-06 13:26:44,402 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:44,775 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE484J01027/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:45,461 - INFO - ✅ Updated data for symbol GODREJPROP.
+2025-06-06 13:26:45,477 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE047A01021/day/2025-06-06/2019-01-01
+2025-06-06 13:26:45,479 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:45,821 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE047A01021/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:46,448 - INFO - ✅ Updated data for symbol GRASIM.
+2025-06-06 13:26:46,460 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE860A01027/day/2025-06-06/2019-01-01
+2025-06-06 13:26:46,461 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:46,799 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE860A01027/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:47,464 - INFO - ✅ Updated data for symbol HCLTECH.
+2025-06-06 13:26:47,478 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE127D01025/day/2025-06-06/2019-01-01
+2025-06-06 13:26:47,480 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:47,740 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE127D01025/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:48,363 - INFO - ✅ Updated data for symbol HDFCAMC.
+2025-06-06 13:26:48,377 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE040A01034/day/2025-06-06/2019-01-01
+2025-06-06 13:26:48,378 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:48,819 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE040A01034/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:49,430 - INFO - ✅ Updated data for symbol HDFCBANK.
+2025-06-06 13:26:49,439 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE795G01014/day/2025-06-06/2019-01-01
+2025-06-06 13:26:49,440 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:49,774 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE795G01014/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:50,359 - INFO - ✅ Updated data for symbol HDFCLIFE.
+2025-06-06 13:26:50,367 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE176B01034/day/2025-06-06/2019-01-01
+2025-06-06 13:26:50,368 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:50,733 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE176B01034/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:51,360 - INFO - ✅ Updated data for symbol HAVELLS.
+2025-06-06 13:26:51,374 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE158A01026/day/2025-06-06/2019-01-01
+2025-06-06 13:26:51,375 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:51,720 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE158A01026/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:52,339 - INFO - ✅ Updated data for symbol HEROMOTOCO.
+2025-06-06 13:26:52,351 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE038A01020/day/2025-06-06/2019-01-01
+2025-06-06 13:26:52,351 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:52,679 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE038A01020/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:53,337 - INFO - ✅ Updated data for symbol HINDALCO.
+2025-06-06 13:26:53,352 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE066F01020/day/2025-06-06/2019-01-01
+2025-06-06 13:26:53,354 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:53,695 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE066F01020/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:54,291 - INFO - ✅ Updated data for symbol HAL.
+2025-06-06 13:26:54,301 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE094A01015/day/2025-06-06/2019-01-01
+2025-06-06 13:26:54,302 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:54,571 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE094A01015/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:55,239 - INFO - ✅ Updated data for symbol HINDPETRO.
+2025-06-06 13:26:55,254 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE030A01027/day/2025-06-06/2019-01-01
+2025-06-06 13:26:55,256 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:55,570 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE030A01027/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:56,217 - INFO - ✅ Updated data for symbol HINDUNILVR.
+2025-06-06 13:26:56,225 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE267A01025/day/2025-06-06/2019-01-01
+2025-06-06 13:26:56,226 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:56,582 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE267A01025/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:57,216 - INFO - ✅ Updated data for symbol HINDZINC.
+2025-06-06 13:26:57,230 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE031A01017/day/2025-06-06/2019-01-01
+2025-06-06 13:26:57,231 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:57,593 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE031A01017/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:58,244 - INFO - ✅ Updated data for symbol HUDCO.
+2025-06-06 13:26:58,252 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE0V6F01027/day/2025-06-06/2019-01-01
+2025-06-06 13:26:58,252 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:58,603 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE0V6F01027/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:58,694 - INFO - ✅ Updated data for symbol HYUNDAI.
+2025-06-06 13:26:58,707 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE090A01021/day/2025-06-06/2019-01-01
+2025-06-06 13:26:58,709 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:59,018 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE090A01021/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:26:59,545 - INFO - ✅ Updated data for symbol ICICIBANK.
+2025-06-06 13:26:59,555 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE765G01017/day/2025-06-06/2019-01-01
+2025-06-06 13:26:59,556 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:26:59,952 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE765G01017/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:00,564 - INFO - ✅ Updated data for symbol ICICIGI.
+2025-06-06 13:27:00,575 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE726G01019/day/2025-06-06/2019-01-01
+2025-06-06 13:27:00,575 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:00,911 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE726G01019/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:01,554 - INFO - ✅ Updated data for symbol ICICIPRULI.
+2025-06-06 13:27:01,568 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE092T01019/day/2025-06-06/2019-01-01
+2025-06-06 13:27:01,570 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:01,908 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE092T01019/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:02,511 - INFO - ✅ Updated data for symbol IDFCFIRSTB.
+2025-06-06 13:27:02,520 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE821I01022/day/2025-06-06/2019-01-01
+2025-06-06 13:27:02,521 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:02,933 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE821I01022/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:03,526 - INFO - ✅ Updated data for symbol IRB.
+2025-06-06 13:27:03,535 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE154A01025/day/2025-06-06/2019-01-01
+2025-06-06 13:27:03,536 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:03,979 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE154A01025/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:04,552 - INFO - ✅ Updated data for symbol ITC.
+2025-06-06 13:27:04,585 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE562A01011/day/2025-06-06/2019-01-01
+2025-06-06 13:27:04,586 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:04,888 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE562A01011/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:05,569 - INFO - ✅ Updated data for symbol INDIANB.
+2025-06-06 13:27:05,584 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE053A01029/day/2025-06-06/2019-01-01
+2025-06-06 13:27:05,585 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:05,964 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE053A01029/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:06,608 - INFO - ✅ Updated data for symbol INDHOTEL.
+2025-06-06 13:27:06,622 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE242A01010/day/2025-06-06/2019-01-01
+2025-06-06 13:27:06,623 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:07,009 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE242A01010/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:07,644 - INFO - ✅ Updated data for symbol IOC.
+2025-06-06 13:27:07,660 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE335Y01020/day/2025-06-06/2019-01-01
+2025-06-06 13:27:07,661 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:08,056 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE335Y01020/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:08,623 - INFO - ✅ Updated data for symbol IRCTC.
+2025-06-06 13:27:08,635 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE053F01010/day/2025-06-06/2019-01-01
+2025-06-06 13:27:08,636 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:09,039 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE053F01010/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:09,419 - INFO - ✅ Updated data for symbol IRFC.
+2025-06-06 13:27:09,428 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE202E01016/day/2025-06-06/2019-01-01
+2025-06-06 13:27:09,429 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:09,912 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE202E01016/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:10,070 - INFO - ✅ Updated data for symbol IREDA.
+2025-06-06 13:27:10,085 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE203G01027/day/2025-06-06/2019-01-01
+2025-06-06 13:27:10,086 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:10,386 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE203G01027/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:10,972 - INFO - ✅ Updated data for symbol IGL.
+2025-06-06 13:27:11,026 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE121J01017/day/2025-06-06/2019-01-01
+2025-06-06 13:27:11,026 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:11,378 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE121J01017/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:12,049 - INFO - ✅ Updated data for symbol INDUSTOWER.
+2025-06-06 13:27:12,074 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE095A01012/day/2025-06-06/2019-01-01
+2025-06-06 13:27:12,075 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:12,389 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE095A01012/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:13,007 - INFO - ✅ Updated data for symbol INDUSINDBK.
+2025-06-06 13:27:13,023 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE663F01032/day/2025-06-06/2019-01-01
+2025-06-06 13:27:13,025 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:13,329 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE663F01032/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:14,011 - INFO - ✅ Updated data for symbol NAUKRI.
+2025-06-06 13:27:14,012 - INFO - 🟢 Batch 2 processed.
+2025-06-06 13:27:15,045 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE009A01021/day/2025-06-06/2019-01-01
+2025-06-06 13:27:15,048 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:15,360 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE009A01021/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:16,024 - INFO - ✅ Updated data for symbol INFY.
+2025-06-06 13:27:16,038 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE646L01027/day/2025-06-06/2019-01-01
+2025-06-06 13:27:16,040 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:16,331 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE646L01027/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:16,993 - INFO - ✅ Updated data for symbol INDIGO.
+2025-06-06 13:27:17,013 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE121E01018/day/2025-06-06/2019-01-01
+2025-06-06 13:27:17,014 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:17,332 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE121E01018/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:18,011 - INFO - ✅ Updated data for symbol JSWENERGY.
+2025-06-06 13:27:18,027 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE019A01038/day/2025-06-06/2019-01-01
+2025-06-06 13:27:18,029 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:18,339 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE019A01038/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:18,967 - INFO - ✅ Updated data for symbol JSWSTEEL.
+2025-06-06 13:27:19,051 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE749A01030/day/2025-06-06/2019-01-01
+2025-06-06 13:27:19,052 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:19,335 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE749A01030/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:19,936 - INFO - ✅ Updated data for symbol JINDALSTEL.
+2025-06-06 13:27:19,952 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE758E01017/day/2025-06-06/2019-01-01
+2025-06-06 13:27:19,953 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:20,223 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE758E01017/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:20,417 - INFO - ✅ Updated data for symbol JIOFIN.
+2025-06-06 13:27:20,430 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE797F01020/day/2025-06-06/2019-01-01
+2025-06-06 13:27:20,431 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:20,693 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE797F01020/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:21,285 - INFO - ✅ Updated data for symbol JUBLFOOD.
+2025-06-06 13:27:21,301 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE04I401011/day/2025-06-06/2019-01-01
+2025-06-06 13:27:21,302 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:21,562 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE04I401011/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:22,204 - INFO - ✅ Updated data for symbol KPITTECH.
+2025-06-06 13:27:22,220 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE303R01014/day/2025-06-06/2019-01-01
+2025-06-06 13:27:22,221 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:22,552 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE303R01014/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:22,967 - INFO - ✅ Updated data for symbol KALYANKJIL.
+2025-06-06 13:27:22,982 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE237A01028/day/2025-06-06/2019-01-01
+2025-06-06 13:27:22,983 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:23,294 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE237A01028/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:23,931 - INFO - ✅ Updated data for symbol KOTAKBANK.
+2025-06-06 13:27:23,946 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE498L01015/day/2025-06-06/2019-01-01
+2025-06-06 13:27:23,948 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:24,220 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE498L01015/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:24,796 - INFO - ✅ Updated data for symbol LTF.
+2025-06-06 13:27:24,805 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE115A01026/day/2025-06-06/2019-01-01
+2025-06-06 13:27:24,806 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:25,129 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE115A01026/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:25,823 - INFO - ✅ Updated data for symbol LICHSGFIN.
+2025-06-06 13:27:25,838 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE214T01019/day/2025-06-06/2019-01-01
+2025-06-06 13:27:25,839 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:26,175 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE214T01019/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:26,842 - INFO - ✅ Updated data for symbol LTIM.
+2025-06-06 13:27:26,851 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE018A01030/day/2025-06-06/2019-01-01
+2025-06-06 13:27:26,851 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:27,201 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE018A01030/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:27,877 - INFO - ✅ Updated data for symbol LT.
+2025-06-06 13:27:27,892 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE0J1Y01017/day/2025-06-06/2019-01-01
+2025-06-06 13:27:27,893 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:28,291 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE0J1Y01017/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:28,627 - INFO - ✅ Updated data for symbol LICI.
+2025-06-06 13:27:28,641 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE326A01037/day/2025-06-06/2019-01-01
+2025-06-06 13:27:28,644 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:29,080 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE326A01037/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:29,621 - INFO - ✅ Updated data for symbol LUPIN.
+2025-06-06 13:27:29,635 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE883A01011/day/2025-06-06/2019-01-01
+2025-06-06 13:27:29,637 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:29,929 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE883A01011/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:30,591 - INFO - ✅ Updated data for symbol MRF.
+2025-06-06 13:27:30,607 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE670K01029/day/2025-06-06/2019-01-01
+2025-06-06 13:27:30,609 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:30,942 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE670K01029/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:31,342 - INFO - ✅ Updated data for symbol LODHA.
+2025-06-06 13:27:31,357 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE774D01024/day/2025-06-06/2019-01-01
+2025-06-06 13:27:31,359 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:31,647 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE774D01024/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:32,319 - INFO - ✅ Updated data for symbol M&MFIN.
+2025-06-06 13:27:32,336 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE101A01026/day/2025-06-06/2019-01-01
+2025-06-06 13:27:32,337 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:32,635 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE101A01026/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:33,291 - INFO - ✅ Updated data for symbol M&M.
+2025-06-06 13:27:33,306 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE634S01028/day/2025-06-06/2019-01-01
+2025-06-06 13:27:33,307 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:33,579 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE634S01028/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:33,786 - INFO - ✅ Updated data for symbol MANKIND.
+2025-06-06 13:27:33,799 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE196A01026/day/2025-06-06/2019-01-01
+2025-06-06 13:27:33,800 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:34,176 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE196A01026/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:34,762 - INFO - ✅ Updated data for symbol MARICO.
+2025-06-06 13:27:34,778 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE585B01010/day/2025-06-06/2019-01-01
+2025-06-06 13:27:34,780 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:35,204 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE585B01010/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:35,879 - INFO - ✅ Updated data for symbol MARUTI.
+2025-06-06 13:27:35,887 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE180A01020/day/2025-06-06/2019-01-01
+2025-06-06 13:27:35,888 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:36,216 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE180A01020/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:36,898 - INFO - ✅ Updated data for symbol MFSL.
+2025-06-06 13:27:36,913 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE027H01010/day/2025-06-06/2019-01-01
+2025-06-06 13:27:36,915 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:37,292 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE027H01010/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:37,793 - INFO - ✅ Updated data for symbol MAXHEALTH.
+2025-06-06 13:27:37,810 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE249Z01020/day/2025-06-06/2019-01-01
+2025-06-06 13:27:37,811 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:38,232 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE249Z01020/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:38,731 - INFO - ✅ Updated data for symbol MAZDOCK.
+2025-06-06 13:27:38,747 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE338I01027/day/2025-06-06/2019-01-01
+2025-06-06 13:27:38,749 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:39,024 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE338I01027/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:39,554 - INFO - ✅ Updated data for symbol MOTILALOFS.
+2025-06-06 13:27:39,564 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE356A01018/day/2025-06-06/2019-01-01
+2025-06-06 13:27:39,565 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:39,843 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE356A01018/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:40,498 - INFO - ✅ Updated data for symbol MPHASIS.
+2025-06-06 13:27:40,514 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE414G01012/day/2025-06-06/2019-01-01
+2025-06-06 13:27:40,515 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:40,786 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE414G01012/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:41,416 - INFO - ✅ Updated data for symbol MUTHOOTFIN.
+2025-06-06 13:27:41,432 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/day/2025-06-06/2019-01-01
+2025-06-06 13:27:41,434 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:41,727 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE848E01016/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:42,441 - INFO - ✅ Updated data for symbol NHPC.
+2025-06-06 13:27:42,456 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE584A01023/day/2025-06-06/2019-01-01
+2025-06-06 13:27:42,457 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:42,747 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE584A01023/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:43,362 - INFO - ✅ Updated data for symbol NMDC.
+2025-06-06 13:27:43,373 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE0ONG01011/day/2025-06-06/2019-01-01
+2025-06-06 13:27:43,373 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:43,714 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE0ONG01011/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:43,795 - INFO - ✅ Updated data for symbol NTPCGREEN.
+2025-06-06 13:27:43,810 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE733E01010/day/2025-06-06/2019-01-01
+2025-06-06 13:27:43,811 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:44,124 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE733E01010/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:44,775 - INFO - ✅ Updated data for symbol NTPC.
+2025-06-06 13:27:44,795 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE139A01034/day/2025-06-06/2019-01-01
+2025-06-06 13:27:44,796 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:45,091 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE139A01034/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:45,700 - INFO - ✅ Updated data for symbol NATIONALUM.
+2025-06-06 13:27:45,716 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE239A01024/day/2025-06-06/2019-01-01
+2025-06-06 13:27:45,717 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:46,106 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE239A01024/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:46,761 - INFO - ✅ Updated data for symbol NESTLEIND.
+2025-06-06 13:27:46,776 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE093I01010/day/2025-06-06/2019-01-01
+2025-06-06 13:27:46,777 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:47,111 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE093I01010/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:47,712 - INFO - ✅ Updated data for symbol OBEROIRLTY.
+2025-06-06 13:27:47,730 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE213A01029/day/2025-06-06/2019-01-01
+2025-06-06 13:27:47,732 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:48,125 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE213A01029/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:48,758 - INFO - ✅ Updated data for symbol ONGC.
+2025-06-06 13:27:48,774 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE274J01014/day/2025-06-06/2019-01-01
+2025-06-06 13:27:48,775 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:49,138 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE274J01014/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:49,754 - INFO - ✅ Updated data for symbol OIL.
+2025-06-06 13:27:49,767 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE0LXG01040/day/2025-06-06/2019-01-01
+2025-06-06 13:27:49,769 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:50,259 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE0LXG01040/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:50,356 - INFO - ✅ Updated data for symbol OLAELEC.
+2025-06-06 13:27:50,369 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE982J01020/day/2025-06-06/2019-01-01
+2025-06-06 13:27:50,371 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:50,826 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE982J01020/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:51,210 - INFO - ✅ Updated data for symbol PAYTM.
+2025-06-06 13:27:51,226 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE881D01027/day/2025-06-06/2019-01-01
+2025-06-06 13:27:51,228 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:51,792 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE881D01027/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:52,471 - INFO - ✅ Updated data for symbol OFSS.
+2025-06-06 13:27:52,486 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE417T01026/day/2025-06-06/2019-01-01
+2025-06-06 13:27:52,487 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:52,780 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE417T01026/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:53,199 - INFO - ✅ Updated data for symbol POLICYBZR.
+2025-06-06 13:27:53,215 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE603J01030/day/2025-06-06/2019-01-01
+2025-06-06 13:27:53,216 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:53,471 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE603J01030/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:54,107 - INFO - ✅ Updated data for symbol PIIND.
+2025-06-06 13:27:54,123 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE761H01022/day/2025-06-06/2019-01-01
+2025-06-06 13:27:54,124 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:54,477 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE761H01022/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:55,147 - INFO - ✅ Updated data for symbol PAGEIND.
+2025-06-06 13:27:55,161 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE619A01035/day/2025-06-06/2019-01-01
+2025-06-06 13:27:55,162 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:55,550 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE619A01035/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:56,096 - INFO - ✅ Updated data for symbol PATANJALI.
+2025-06-06 13:27:56,110 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE262H01021/day/2025-06-06/2019-01-01
+2025-06-06 13:27:56,112 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:56,554 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE262H01021/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:57,209 - INFO - ✅ Updated data for symbol PERSISTENT.
+2025-06-06 13:27:57,226 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE347G01014/day/2025-06-06/2019-01-01
+2025-06-06 13:27:57,227 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:57,531 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE347G01014/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:58,187 - INFO - ✅ Updated data for symbol PETRONET.
+2025-06-06 13:27:58,203 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE211B01039/day/2025-06-06/2019-01-01
+2025-06-06 13:27:58,204 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:58,502 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE211B01039/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:27:59,196 - INFO - ✅ Updated data for symbol PHOENIXLTD.
+2025-06-06 13:27:59,213 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE318A01026/day/2025-06-06/2019-01-01
+2025-06-06 13:27:59,214 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:27:59,620 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE318A01026/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:00,319 - INFO - ✅ Updated data for symbol PIDILITIND.
+2025-06-06 13:28:00,335 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE455K01017/day/2025-06-06/2019-01-01
+2025-06-06 13:28:00,336 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:00,619 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE455K01017/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:01,260 - INFO - ✅ Updated data for symbol POLYCAB.
+2025-06-06 13:28:01,261 - INFO - 🟢 Batch 3 processed.
+2025-06-06 13:28:02,291 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE134E01011/day/2025-06-06/2019-01-01
+2025-06-06 13:28:02,294 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:02,584 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE134E01011/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:03,228 - INFO - ✅ Updated data for symbol PFC.
+2025-06-06 13:28:03,243 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE752E01010/day/2025-06-06/2019-01-01
+2025-06-06 13:28:03,244 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:03,518 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE752E01010/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:04,145 - INFO - ✅ Updated data for symbol POWERGRID.
+2025-06-06 13:28:04,161 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE0BS701011/day/2025-06-06/2019-01-01
+2025-06-06 13:28:04,162 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:04,605 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE0BS701011/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:04,700 - INFO - ✅ Updated data for symbol PREMIERENE.
+2025-06-06 13:28:04,714 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE811K01011/day/2025-06-06/2019-01-01
+2025-06-06 13:28:04,716 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:06,319 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE811K01011/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:07,021 - INFO - ✅ Updated data for symbol PRESTIGE.
+2025-06-06 13:28:07,037 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE160A01022/day/2025-06-06/2019-01-01
+2025-06-06 13:28:07,039 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:08,703 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE160A01022/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:09,362 - INFO - ✅ Updated data for symbol PNB.
+2025-06-06 13:28:09,372 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE020B01018/day/2025-06-06/2019-01-01
+2025-06-06 13:28:09,372 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:09,956 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE020B01018/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:10,642 - INFO - ✅ Updated data for symbol RECLTD.
+2025-06-06 13:28:10,657 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE415G01027/day/2025-06-06/2019-01-01
+2025-06-06 13:28:10,659 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:11,365 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE415G01027/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:11,965 - INFO - ✅ Updated data for symbol RVNL.
+2025-06-06 13:28:11,977 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE002A01018/day/2025-06-06/2019-01-01
+2025-06-06 13:28:11,978 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:12,249 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE002A01018/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:13,047 - INFO - ✅ Updated data for symbol RELIANCE.
+2025-06-06 13:28:13,065 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE018E01016/day/2025-06-06/2019-01-01
+2025-06-06 13:28:13,066 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:13,389 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE018E01016/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:13,917 - INFO - ✅ Updated data for symbol SBICARD.
+2025-06-06 13:28:13,929 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE123W01016/day/2025-06-06/2019-01-01
+2025-06-06 13:28:13,930 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:14,209 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE123W01016/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:14,816 - INFO - ✅ Updated data for symbol SBILIFE.
+2025-06-06 13:28:14,831 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE002L01015/day/2025-06-06/2019-01-01
+2025-06-06 13:28:14,832 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:15,050 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE002L01015/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:15,718 - INFO - ✅ Updated data for symbol SJVN.
+2025-06-06 13:28:15,735 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE647A01010/day/2025-06-06/2019-01-01
+2025-06-06 13:28:15,737 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:15,992 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE647A01010/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:16,657 - INFO - ✅ Updated data for symbol SRF.
+2025-06-06 13:28:16,672 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE775A01035/day/2025-06-06/2019-01-01
+2025-06-06 13:28:16,673 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:16,991 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE775A01035/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:17,684 - INFO - ✅ Updated data for symbol MOTHERSON.
+2025-06-06 13:28:17,700 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE070A01015/day/2025-06-06/2019-01-01
+2025-06-06 13:28:17,701 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:17,964 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE070A01015/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:18,590 - INFO - ✅ Updated data for symbol SHREECEM.
+2025-06-06 13:28:18,605 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE721A01047/day/2025-06-06/2019-01-01
+2025-06-06 13:28:18,606 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:18,911 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE721A01047/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:19,526 - INFO - ✅ Updated data for symbol SHRIRAMFIN.
+2025-06-06 13:28:19,537 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE003A01024/day/2025-06-06/2019-01-01
+2025-06-06 13:28:19,537 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:19,855 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE003A01024/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:20,463 - INFO - ✅ Updated data for symbol SIEMENS.
+2025-06-06 13:28:20,478 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE343H01029/day/2025-06-06/2019-01-01
+2025-06-06 13:28:20,480 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:20,732 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE343H01029/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:21,434 - INFO - ✅ Updated data for symbol SOLARINDS.
+2025-06-06 13:28:21,454 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE073K01018/day/2025-06-06/2019-01-01
+2025-06-06 13:28:21,455 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:21,840 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE073K01018/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:22,204 - INFO - ✅ Updated data for symbol SONACOMS.
+2025-06-06 13:28:22,220 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE062A01020/day/2025-06-06/2019-01-01
+2025-06-06 13:28:22,221 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:22,557 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE062A01020/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:23,279 - INFO - ✅ Updated data for symbol SBIN.
+2025-06-06 13:28:23,301 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE114A01011/day/2025-06-06/2019-01-01
+2025-06-06 13:28:23,302 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:23,601 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE114A01011/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:24,273 - INFO - ✅ Updated data for symbol SAIL.
+2025-06-06 13:28:24,288 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE044A01036/day/2025-06-06/2019-01-01
+2025-06-06 13:28:24,289 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:24,611 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE044A01036/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:25,300 - INFO - ✅ Updated data for symbol SUNPHARMA.
+2025-06-06 13:28:25,315 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE195A01028/day/2025-06-06/2019-01-01
+2025-06-06 13:28:25,317 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:25,628 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE195A01028/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:26,224 - INFO - ✅ Updated data for symbol SUPREMEIND.
+2025-06-06 13:28:26,233 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE040H01021/day/2025-06-06/2019-01-01
+2025-06-06 13:28:26,233 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:26,530 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE040H01021/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:27,228 - INFO - ✅ Updated data for symbol SUZLON.
+2025-06-06 13:28:27,244 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE00H001014/day/2025-06-06/2019-01-01
+2025-06-06 13:28:27,245 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:27,553 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE00H001014/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:27,637 - INFO - ✅ Updated data for symbol SWIGGY.
+2025-06-06 13:28:27,652 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE494B01023/day/2025-06-06/2019-01-01
+2025-06-06 13:28:27,653 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:27,952 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE494B01023/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:28,573 - INFO - ✅ Updated data for symbol TVSMOTOR.
+2025-06-06 13:28:28,588 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE151A01013/day/2025-06-06/2019-01-01
+2025-06-06 13:28:28,590 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:28,927 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE151A01013/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:29,498 - INFO - ✅ Updated data for symbol TATACOMM.
+2025-06-06 13:28:29,508 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE467B01029/day/2025-06-06/2019-01-01
+2025-06-06 13:28:29,509 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:29,766 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE467B01029/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:30,344 - INFO - ✅ Updated data for symbol TCS.
+2025-06-06 13:28:30,356 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE192A01025/day/2025-06-06/2019-01-01
+2025-06-06 13:28:30,357 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:30,601 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE192A01025/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:31,286 - INFO - ✅ Updated data for symbol TATACONSUM.
+2025-06-06 13:28:31,301 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE670A01012/day/2025-06-06/2019-01-01
+2025-06-06 13:28:31,303 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:31,618 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE670A01012/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:32,290 - INFO - ✅ Updated data for symbol TATAELXSI.
+2025-06-06 13:28:32,298 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE155A01022/day/2025-06-06/2019-01-01
+2025-06-06 13:28:32,299 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:32,566 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE155A01022/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:33,243 - INFO - ✅ Updated data for symbol TATAMOTORS.
+2025-06-06 13:28:33,257 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE245A01021/day/2025-06-06/2019-01-01
+2025-06-06 13:28:33,259 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:33,579 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE245A01021/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:34,282 - INFO - ✅ Updated data for symbol TATAPOWER.
+2025-06-06 13:28:34,292 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE081A01020/day/2025-06-06/2019-01-01
+2025-06-06 13:28:34,293 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:34,593 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE081A01020/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:35,262 - INFO - ✅ Updated data for symbol TATASTEEL.
+2025-06-06 13:28:35,276 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE142M01025/day/2025-06-06/2019-01-01
+2025-06-06 13:28:35,278 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:35,600 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE142M01025/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:35,767 - INFO - ✅ Updated data for symbol TATATECH.
+2025-06-06 13:28:35,781 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE669C01036/day/2025-06-06/2019-01-01
+2025-06-06 13:28:35,783 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:36,104 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE669C01036/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:36,724 - INFO - ✅ Updated data for symbol TECHM.
+2025-06-06 13:28:36,740 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE280A01028/day/2025-06-06/2019-01-01
+2025-06-06 13:28:36,741 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:37,084 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE280A01028/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:37,820 - INFO - ✅ Updated data for symbol TITAN.
+2025-06-06 13:28:37,835 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE685A01028/day/2025-06-06/2019-01-01
+2025-06-06 13:28:37,836 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:38,082 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE685A01028/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:38,718 - INFO - ✅ Updated data for symbol TORNTPHARM.
+2025-06-06 13:28:38,734 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE813H01021/day/2025-06-06/2019-01-01
+2025-06-06 13:28:38,735 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:39,005 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE813H01021/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:39,583 - INFO - ✅ Updated data for symbol TORNTPOWER.
+2025-06-06 13:28:39,596 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE849A01020/day/2025-06-06/2019-01-01
+2025-06-06 13:28:39,597 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:39,856 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE849A01020/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:40,496 - INFO - ✅ Updated data for symbol TRENT.
+2025-06-06 13:28:40,508 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE974X01010/day/2025-06-06/2019-01-01
+2025-06-06 13:28:40,509 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:40,769 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE974X01010/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:41,437 - INFO - ✅ Updated data for symbol TIINDIA.
+2025-06-06 13:28:41,456 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE628A01036/day/2025-06-06/2019-01-01
+2025-06-06 13:28:41,457 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:41,806 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE628A01036/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:42,467 - INFO - ✅ Updated data for symbol UPL.
+2025-06-06 13:28:42,476 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE481G01011/day/2025-06-06/2019-01-01
+2025-06-06 13:28:42,477 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:42,771 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE481G01011/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:43,527 - INFO - ✅ Updated data for symbol ULTRACEMCO.
+2025-06-06 13:28:43,543 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE692A01016/day/2025-06-06/2019-01-01
+2025-06-06 13:28:43,545 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:43,808 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE692A01016/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:44,530 - INFO - ✅ Updated data for symbol UNIONBANK.
+2025-06-06 13:28:44,539 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE854D01024/day/2025-06-06/2019-01-01
+2025-06-06 13:28:44,540 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:44,815 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE854D01024/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:45,501 - INFO - ✅ Updated data for symbol UNITDSPR.
+2025-06-06 13:28:45,511 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE200M01039/day/2025-06-06/2019-01-01
+2025-06-06 13:28:45,511 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:45,769 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE200M01039/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:46,473 - INFO - ✅ Updated data for symbol VBL.
+2025-06-06 13:28:46,484 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE205A01025/day/2025-06-06/2019-01-01
+2025-06-06 13:28:46,484 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:46,809 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE205A01025/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:47,388 - INFO - ✅ Updated data for symbol VEDL.
+2025-06-06 13:28:47,404 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE01EA01019/day/2025-06-06/2019-01-01
+2025-06-06 13:28:47,405 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:47,821 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE01EA01019/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:47,899 - INFO - ✅ Updated data for symbol VMM.
+2025-06-06 13:28:47,913 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE669E01016/day/2025-06-06/2019-01-01
+2025-06-06 13:28:47,915 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:48,219 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE669E01016/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:48,809 - INFO - ✅ Updated data for symbol IDEA.
+2025-06-06 13:28:48,818 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE226A01021/day/2025-06-06/2019-01-01
+2025-06-06 13:28:48,819 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:49,149 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE226A01021/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:49,803 - INFO - ✅ Updated data for symbol VOLTAS.
+2025-06-06 13:28:49,819 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE377N01017/day/2025-06-06/2019-01-01
+2025-06-06 13:28:49,820 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:50,113 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE377N01017/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:50,180 - INFO - ✅ Updated data for symbol WAAREEENER.
+2025-06-06 13:28:50,192 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE075A01022/day/2025-06-06/2019-01-01
+2025-06-06 13:28:50,194 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:50,496 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE075A01022/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:51,127 - INFO - ✅ Updated data for symbol WIPRO.
+2025-06-06 13:28:51,128 - INFO - 🟢 Batch 4 processed.
+2025-06-06 13:28:52,158 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE528G01035/day/2025-06-06/2019-01-01
+2025-06-06 13:28:52,161 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:52,514 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE528G01035/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:53,123 - INFO - ✅ Updated data for symbol YESBANK.
+2025-06-06 13:28:53,137 - DEBUG - Request URL: https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE010B01027/day/2025-06-06/2019-01-01
+2025-06-06 13:28:53,139 - DEBUG - Starting new HTTPS connection (1): api.upstox.com:443
+2025-06-06 13:28:53,405 - DEBUG - https://api.upstox.com:443 "GET /v2/historical-candle/NSE_EQ%7CINE010B01027/day/2025-06-06/2019-01-01 HTTP/11" 200 None
+2025-06-06 13:28:54,092 - INFO - ✅ Updated data for symbol ZYDUSLIFE.
+2025-06-06 13:28:54,093 - INFO - 🟢 Batch 5 processed.
+2025-06-09 10:10:19,809 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-09 10:10:19,809 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-09 10:10:39,992 - INFO - 127.0.0.1 - - [09/Jun/2025 10:10:39] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-09 10:10:39,992 - INFO - 127.0.0.1 - - [09/Jun/2025 10:10:39] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-09 10:11:00,458 - INFO - 127.0.0.1 - - [09/Jun/2025 10:11:00] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-09 10:11:00,459 - INFO - 127.0.0.1 - - [09/Jun/2025 10:11:00] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-09 10:17:09,138 - INFO - 127.0.0.1 - - [09/Jun/2025 10:17:09] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-09 10:17:09,205 - INFO - 127.0.0.1 - - [09/Jun/2025 10:17:09] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-09 10:34:13,519 - INFO - 127.0.0.1 - - [09/Jun/2025 10:34:13] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-09 10:34:13,595 - INFO - 127.0.0.1 - - [09/Jun/2025 10:34:13] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-09 14:46:16,491 - INFO - 127.0.0.1 - - [09/Jun/2025 14:46:16] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-09 14:46:16,504 - INFO - 127.0.0.1 - - [09/Jun/2025 14:46:16] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-09 14:53:16,487 - INFO - 127.0.0.1 - - [09/Jun/2025 14:53:16] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-09 14:53:16,490 - INFO - 127.0.0.1 - - [09/Jun/2025 14:53:16] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-10 01:53:08,537 - INFO - 127.0.0.1 - - [10/Jun/2025 01:53:08] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
+2025-06-10 01:53:08,540 - INFO - 127.0.0.1 - - [10/Jun/2025 01:53:08] "POST /v1/analytics/sma-nearby HTTP/1.1" 200 -
