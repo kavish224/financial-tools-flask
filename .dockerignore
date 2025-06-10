@@ -8,3 +8,5 @@ venv/
 .git/
 .gitignore
 *.sqlite3
+Dockerfile
+docker-compose.yml
