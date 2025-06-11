@@ -39,3 +39,15 @@ class HistoricalData1D(db.Model):
         back_populates='historical_data',
         lazy=True
     )
+
+class SMAResult(db.Model):
+    __tablename__ = 'SMA_Results'
+
+    id = db.Column(db.Integer, primary_key=True)
+    symbol = db.Column(db.String, nullable=False)
+    sma_period = db.Column(db.Integer, nullable=False)
+    threshold_pct = db.Column(db.Float, nullable=False)
+    close_price = db.Column(db.Float, nullable=False)
+    sma_value = db.Column(db.Float, nullable=False)
+    deviation_pct = db.Column(db.Float, nullable=False)
+    date_generated = db.Column(db.DateTime(timezone=True), default=db.func.now())
