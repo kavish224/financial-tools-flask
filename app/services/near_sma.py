@@ -1,10 +1,34 @@
-# ✅ services/near_sma.py
-import pandas as pd
+from flask import Flask
+from flask_cors import CORS
+from flask_apscheduler import APScheduler
+from app.routes.analytics import sma_nearby
 from app.models import HistoricalData1D
-from app.extensions import db
+from app.extensions import db, migrate
+from app.routes import register_routes
+from config import Config
+import pandas as pd
 import ta
+from app.models import db, SMAResult
+from app.services.near_sma import get_stocks_near_sma
 
-def get_stocks_near_sma(sma_window=50, threshold_pct=2.0):
+def update_sma_results(sma_period, threshold_pct):
+    results = get_stocks_near_sma(sma_period, threshold_pct)
+    
+    SMAResult.query.filter_by(sma_period=sma_period).delete()
+
+    for r in results:
+        entry = SMAResult(
+            symbol=r["symbol"],
+            sma_period=sma_period,
+            threshold_pct=threshold_pct,
+            close_price=r["close"],
+            sma_value=r["sma"],
+            deviation_pct=r["proximity_pct"]
+        )
+        db.session.add(entry)
+    db.session.commit()
+
+def get_stocks_near_sma(sma_window, threshold_pct):
     # Fetch all symbols
     symbols = db.session.query(HistoricalData1D.symbol).distinct().all()
     symbols = [s[0] for s in symbols]
