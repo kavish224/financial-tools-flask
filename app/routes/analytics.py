@@ -1,5 +1,4 @@
 from flask import Blueprint,request, jsonify
-from app.models import db, HistoricalData1D
 from app.services.near_sma import get_stocks_near_sma
 analytics_bp = Blueprint("analytics", __name__)
 @analytics_bp.route("/analytics/sma-nearby", methods=["POST"])
