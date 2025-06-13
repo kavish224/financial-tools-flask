@@ -3,128 +3,151 @@ import requests
 from datetime import datetime, timedelta
 from app.services.database import get_db_connection
 import time
+from typing import Optional, List
 
-logging.basicConfig(
-    level=logging.DEBUG,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler('update_symbols_debug.log'),
-        logging.StreamHandler()
-    ]
-)
+logger = logging.getLogger(__name__)
 
+class StockDataUpdater:
+    """Class to handle stock data updates"""
+    
+    def __init__(self, batch_size: int = 50, delay: float = 1.0):
+        self.batch_size = batch_size
+        self.delay = delay
+        self.base_url = "https://api.upstox.com/v2/historical-candle"
+        self.headers = {'Accept': 'application/json'}
 
-def fetch_historical_data(isin, start_date, end_date):
-    """
-    Fetch historical data from the API for a specific ISIN.
-    """
-    try:
-        encoded_symbol = f"NSE_EQ%7C{isin}"
-        url = f'https://api.upstox.com/v2/historical-candle/{encoded_symbol}/day/{end_date}/{start_date}'
-        headers = {'Accept': 'application/json'}
-
-        logging.debug(f"Request URL: {url}")
-        response = requests.get(url, headers=headers)
-
-        if response.status_code == 200:
+    def fetch_historical_data(self, isin: str, start_date: str, end_date: str) -> Optional[List]:
+        """Fetch historical data from the API for a specific ISIN."""
+        try:
+            encoded_symbol = f"NSE_EQ%7C{isin}"
+            url = f'{self.base_url}/{encoded_symbol}/day/{end_date}/{start_date}'
+            
+            logger.debug(f"Fetching data for ISIN {isin}: {url}")
+            
+            response = requests.get(url, headers=self.headers, timeout=30)
+            response.raise_for_status()
+            
             data = response.json()
             if 'data' in data and 'candles' in data['data']:
                 return data['data']['candles']
             else:
-                logging.error(f"Invalid response structure for ISIN {isin}: {data}")
-                return None
-        else:
-            logging.error(f"API error for ISIN {isin}: {response.status_code} - {response.text}")
+                logger.warning(f"No candle data found for ISIN {isin}")
+                return []
+                
+        except requests.RequestException as e:
+            logger.error(f"API request failed for ISIN {isin}: {str(e)}")
             return None
-    except Exception as e:
-        logging.error(f"Unexpected error fetching data for ISIN {isin}: {str(e)}")
-        return None
+        except Exception as e:
+            logger.error(f"Unexpected error fetching data for ISIN {isin}: {str(e)}")
+            return None
 
+    def update_stock_data(self, symbol: str) -> bool:
+        """Update historical data for a single stock symbol."""
+        try:
+            with get_db_connection() as conn:
+                cursor = conn.cursor()
 
-def update_stock_data(symbol):
-    try:
-        conn = get_db_connection()
-        cursor = conn.cursor()
+                cursor.execute('SELECT "isin" FROM "StockSymbol" WHERE "symbol" = %s', (symbol,))
+                result = cursor.fetchone()
+                if not result:
+                    logger.warning(f"No ISIN found for symbol {symbol}")
+                    return False
+                
+                isin = result[0]
 
-        # Get ISIN for the symbol
-        cursor.execute('SELECT "isin" FROM "StockSymbol" WHERE "symbol" = %s', (symbol,))
-        result = cursor.fetchone()
-        if not result:
-            logging.error(f"❌ No ISIN found for symbol {symbol}. Skipping.")
-            return
-        isin = result[0]
-
-        # Get latest date for this symbol in historical data
-        cursor.execute(
-            'SELECT MAX("date") FROM "HistoricalData1D" WHERE "symbol" = %s',
-            (symbol,)
-        )
-        latest_date = cursor.fetchone()[0]
-
-        if latest_date:
-            start_date = latest_date.date() + timedelta(days=1)
-        else:
-            start_date = datetime(2019, 1, 1).date()
-
-        end_date = datetime.today().date()
-
-        if start_date > end_date:
-            logging.info(f"🟡 No new data for symbol {symbol}.")
-            return
-
-        # Fetch candles using ISIN
-        candles = fetch_historical_data(isin, start_date.isoformat(), end_date.isoformat())
-        if not candles:
-            logging.error(f"❌ No data fetched for symbol {symbol}. Skipping update.")
-            return
-
-        # Insert data into the database
-        for candle in candles:
-            timestamp = datetime.strptime(candle[0], '%Y-%m-%dT%H:%M:%S%z').date()
-            open_price, high_price, low_price, close_price, volume = candle[1:6]
-
-            cursor.execute(
-                '''
-                INSERT INTO "HistoricalData1D" (
-                    "symbol", "date", "openPrice", "highPrice",
-                    "lowPrice", "closePrice", "volume"
+                cursor.execute(
+                    'SELECT MAX("date") FROM "HistoricalData1D" WHERE "symbol" = %s',
+                    (symbol,)
                 )
-                VALUES (%s, %s, %s, %s, %s, %s, %s)
-                ON CONFLICT ("symbol", "date") DO NOTHING
-                ''',
-                (symbol, timestamp, open_price, high_price, low_price, close_price, volume)
-            )
+                latest_date_result = cursor.fetchone()
+                latest_date = latest_date_result[0] if latest_date_result[0] else None
 
-        conn.commit()
-        logging.info(f"✅ Updated data for symbol {symbol}.")
+                if latest_date:
+                    start_date = latest_date.date() + timedelta(days=1)
+                else:
+                    start_date = datetime(2019, 1, 1).date()
 
-    except Exception as e:
-        logging.error(f"❌ Error updating data for symbol {symbol}: {str(e)}")
-    finally:
-        conn.close()
+                end_date = datetime(2025, 6, 11).date()
 
+                if start_date > end_date:
+                    logger.debug(f"No new data needed for symbol {symbol}")
+                    return True
 
-def update_all_symbols(batch_size=50, delay=1):
+                candles = self.fetch_historical_data(isin, start_date.isoformat(), end_date.isoformat())
+                if candles is None:
+                    return False
+                
+                if not candles:
+                    logger.debug(f"No new candles for symbol {symbol}")
+                    return True
+
+                inserted_count = 0
+                for candle in candles:
+                    try:
+                        timestamp = datetime.strptime(candle[0], '%Y-%m-%dT%H:%M:%S%z').date()
+                        open_price, high_price, low_price, close_price, volume = candle[1:6]
+
+                        cursor.execute(
+                            '''
+                            INSERT INTO "HistoricalData1D" (
+                                "symbol", "date", "openPrice", "highPrice",
+                                "lowPrice", "closePrice", "volume"
+                            )
+                            VALUES (%s, %s, %s, %s, %s, %s, %s)
+                            ON CONFLICT ("symbol", "date") DO NOTHING
+                            ''',
+                            (symbol, timestamp, open_price, high_price, low_price, close_price, volume)
+                        )
+                        inserted_count += 1
+                    except Exception as e:
+                        logger.error(f"Error processing candle for {symbol}: {str(e)}")
+                        continue
+
+                conn.commit()
+                logger.info(f"Updated {inserted_count} records for symbol {symbol}")
+                return True
+
+        except Exception as e:
+            logger.error(f"Error updating data for symbol {symbol}: {str(e)}")
+            return False
+
+def update_all_symbols(batch_size: int = 50, delay: float = 1.0):
+    """Update historical data for all symbols in the database."""
+    updater = StockDataUpdater(batch_size, delay)
+    
     try:
-        conn = get_db_connection()
-        cursor = conn.cursor()
-
-        cursor.execute('SELECT "symbol" FROM "StockSymbol"')
-        symbols = [row[0] for row in cursor.fetchall()]
-        cursor.close()
+        with get_db_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute('SELECT "symbol" FROM "StockSymbol" ORDER BY "symbol"')
+            symbols = [row[0] for row in cursor.fetchall()]
 
         if not symbols:
-            logging.warning("⚠️ No symbols found in the database.")
+            logger.warning("No symbols found in the database")
             return
 
+        logger.info(f"Starting update for {len(symbols)} symbols")
+        
+        successful_updates = 0
+        failed_updates = 0
+        
         for i in range(0, len(symbols), batch_size):
             batch = symbols[i:i + batch_size]
+            batch_start_time = time.time()
+            
             for symbol in batch:
-                update_stock_data(symbol)
-            logging.info(f"🟢 Batch {i // batch_size + 1} processed.")
-            time.sleep(delay)
+                if updater.update_stock_data(symbol):
+                    successful_updates += 1
+                else:
+                    failed_updates += 1
+            
+            batch_time = time.time() - batch_start_time
+            logger.info(f"Batch {i // batch_size + 1} completed in {batch_time:.2f}s")
+            
+            if i + batch_size < len(symbols):
+                time.sleep(delay)
+
+        logger.info(f"Update completed: {successful_updates} successful, {failed_updates} failed")
 
     except Exception as e:
-        logging.error(f"❌ Error during batch update: {str(e)}")
-    finally:
-        conn.close()
+        logger.error(f"Error during batch update: {str(e)}")
+        raise
