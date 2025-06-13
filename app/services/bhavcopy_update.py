@@ -1,8 +1,12 @@
-import csv
-from datetime import datetime
-from sqlalchemy import exists
 from app.models import HistoricalData1D, StockSymbol, db
-
+from sqlalchemy import exists
+from io import BytesIO
+from datetime import datetime
+import csv
+import logging
+import requests
+import zipfile
+logger = logging.getLogger(__name__)
 def safe_float(value):
     try:
         return float(value) if value.strip() != '' else None
@@ -21,56 +25,150 @@ def process_bhavcopy(file):
     :param file: File object containing BhavCopy data.
     :return: Dictionary summarizing the update.
     """
-    data = csv.DictReader(file.read().decode('utf-8').splitlines())
-    records_inserted = 0
-    skipped_records = 0
+    try:
+        content = file.read().decode('utf-8')
+        data = csv.DictReader(content.splitlines())
+        records_inserted = 0
+        skipped_records = 0
+        error_records = 0
 
-    for row in data:
-        try:
-            date = datetime.strptime(row['TradDt'], '%Y-%m-%d').date()
-            isin = row['ISIN'].strip()
+        existing_isins = set(
+            isin[0] for isin in db.session.query(StockSymbol.isin).all()
+        )
+        
+        batch_size = 1000
+        batch_records = []
 
-            open_price = safe_float(row['OpnPric'])
-            high_price = safe_float(row['HghPric'])
-            low_price = safe_float(row['LwPric'])
-            close_price = safe_float(row['ClsPric'])
-            volume = safe_int(row['TtlTradgVol'])
+        for row_num, row in enumerate(data, 1):
+            try:
+                if row.get("SctySrs", "").strip() != "EQ":
+                    skipped_records += 1
+                    continue
+    
+                if not all(key in row for key in ['TradDt', 'ISIN']):
+                    logger.warning(f"Row {row_num}: Missing required fields")
+                    error_records += 1
+                    continue
+                
+                try:
+                    date = datetime.strptime(row['TradDt'], '%Y-%m-%d').date()
+                except ValueError:
+                    logger.warning(f"Row {row_num}: Invalid date format: {row['TradDt']}")
+                    error_records += 1
+                    continue
+                
+                isin = row['ISIN'].strip()
+                if not isin or isin not in existing_isins:
+                    skipped_records += 1
+                    continue
 
-            # Lookup StockSymbol by ISIN
-            stock_symbol = StockSymbol.query.filter_by(isin=isin).first()
-            if not stock_symbol:
-                skipped_records += 1
+                open_price = safe_float(row.get('OpnPric'))
+                high_price = safe_float(row.get('HghPric'))
+                low_price = safe_float(row.get('LwPric'))
+                close_price = safe_float(row.get('ClsPric'))
+                volume = safe_int(row.get('TtlTradgVol'))
+
+                stock_symbol = StockSymbol.query.filter_by(isin=isin).first()
+                if not stock_symbol:
+                    skipped_records += 1
+                    continue
+                symbol_fk = stock_symbol.symbol
+
+                record_exists = db.session.query(
+                    exists().where(
+                        (HistoricalData1D.symbol == symbol_fk) & 
+                        (HistoricalData1D.date == date)
+                    )
+                ).scalar()
+
+                if record_exists:
+                    skipped_records += 1
+                    continue
+
+                batch_records.append({
+                    'symbol': symbol_fk,
+                    'date': date,
+                    'open_price': open_price,
+                    'high_price': high_price,
+                    'low_price': low_price,
+                    'close_price': close_price,
+                    'volume': volume,
+                    'open_interest': None
+                })
+
+                if len(batch_records) >= batch_size:
+                    records_inserted += _insert_batch(batch_records)
+                    batch_records = []
+
+            except Exception as e:
+                logger.error(f"Error processing row {row_num}: {str(e)}")
+                error_records += 1
                 continue
 
-            symbol_fk = stock_symbol.symbol  # ✅ Use ticker symbol here, not ISIN
+        if batch_records:
+            records_inserted += _insert_batch(batch_records)
 
-            # Check if record already exists
-            record_exists = db.session.query(
-                exists().where(HistoricalData1D.symbol == symbol_fk).where(HistoricalData1D.date == date)
-            ).scalar()
+        db.session.commit()
+        
+        result = {
+            "inserted": records_inserted,
+            "skipped": skipped_records,
+            "errors": error_records,
+            "total_processed": records_inserted + skipped_records + error_records
+        }
+        
+        logger.info(f"BhavCopy processing completed: {result}")
+        return result
 
-            if record_exists:
-                skipped_records += 1
-                continue
+    except Exception as e:
+        db.session.rollback()
+        logger.error(f"Error processing BhavCopy file: {str(e)}")
+        raise
 
-            # Insert new record
-            new_record = HistoricalData1D(
-                symbol=symbol_fk,
-                date=date,
-                open_price=open_price,
-                high_price=high_price,
-                low_price=low_price,
-                close_price=close_price,
-                volume=volume,
-                open_interest=None
-            )
+def _insert_batch(batch_records):
+    """Insert a batch of records into the database."""
+    try:
+        for record_data in batch_records:
+            new_record = HistoricalData1D(**record_data)
             db.session.add(new_record)
-            records_inserted += 1
+        
+        db.session.flush() 
+        return len(batch_records)
+        
+    except Exception as e:
+        logger.error(f"Error inserting batch: {str(e)}")
+        db.session.rollback()
+        return 0
+    
+def download_and_process_bhavcopy_nse(target_date=None):
+    """
+    Downloads BhavCopy from NSE archive and processes only EQ segment.
+    """
+    if not target_date:
+        target_date = datetime.today()
 
-        except Exception as e:
-            print(f"Error processing row {row}: {e}")
-            db.session.rollback()
-            skipped_records += 1
+    yyyymmdd = target_date.strftime('%Y%m%d')
+    url = f"https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_{yyyymmdd}_F_0000.csv.zip"
 
-    db.session.commit()
-    return {"inserted": records_inserted, "skipped": skipped_records}
+    headers = {
+        "User-Agent": "Mozilla/5.0",
+        "Referer": "https://www.nseindia.com/"
+    }
+
+    try:
+        logger.info(f"Downloading BhavCopy: {url}")
+        response = requests.get(url, headers=headers, timeout=20)
+
+        if response.status_code != 200:
+            logger.warning(f"BhavCopy download failed: {response.status_code}")
+            return {"status": "error", "reason": "File not found or inaccessible"}
+
+        with zipfile.ZipFile(BytesIO(response.content)) as zip_ref:
+            file_name = zip_ref.namelist()[0]
+            with zip_ref.open(file_name) as csv_file:
+                result = process_bhavcopy(csv_file)
+                return result
+
+    except Exception as e:
+        logger.error(f"Error downloading or processing BhavCopy: {str(e)}")
+        return {"status": "error", "reason": str(e)}
