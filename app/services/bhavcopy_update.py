@@ -147,7 +147,8 @@ def download_and_process_bhavcopy_nse(target_date=None):
     if not target_date:
         target_date = datetime.today()
 
-    yyyymmdd = target_date.strftime('%Y%m%d')
+    # yyyymmdd = target_date.strftime('%Y%m%d')
+    yyyymmdd = '20250612'
     url = f"https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_{yyyymmdd}_F_0000.csv.zip"
 
     headers = {
