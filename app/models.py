@@ -1,11 +1,11 @@
 from app.extensions import db
 
 class StockSymbol(db.Model):
-    __tablename__ = 'StockSymbol'  # Match actual table name
+    __tablename__ = 'StockSymbol'
 
     id = db.Column(db.Integer, primary_key=True)
     isin = db.Column(db.String, unique=True, nullable=False)
-    symbol = db.Column(db.String, unique=True, nullable=False)  # FK target
+    symbol = db.Column(db.String, unique=True, nullable=False)
     company_name = db.Column('companyName', db.Text, nullable=True)
     industry = db.Column('industry', db.Text, nullable=True)
     series = db.Column('series', db.String(10), nullable=True)
@@ -19,9 +19,8 @@ class StockSymbol(db.Model):
         primaryjoin='StockSymbol.symbol == foreign(HistoricalData1D.symbol)'
     )
 
-
 class HistoricalData1D(db.Model):
-    __tablename__ = 'HistoricalData1D'  # Match actual table name
+    __tablename__ = 'HistoricalData1D'
 
     id = db.Column(db.Integer, primary_key=True)
     symbol = db.Column(db.String, db.ForeignKey('StockSymbol.symbol'), nullable=False)
