@@ -5,4 +5,4 @@ instance/
 *.sqlite3
 *.db
 venv/
-update_symbols_debug.log
+*.log
