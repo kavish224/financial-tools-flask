@@ -66,8 +66,7 @@ class StockDataUpdater:
                     start_date = latest_date.date() + timedelta(days=1)
                 else:
                     start_date = datetime(2019, 1, 1).date()
-
-                end_date = datetime(2025, 6, 11).date()
+                end_date = datetime.now().date()
 
                 if start_date > end_date:
                     logger.debug(f"No new data needed for symbol {symbol}")
