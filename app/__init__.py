@@ -1,30 +1,26 @@
-from flask import Flask
-from app.extensions import db, migrate
+from flask import Flask, jsonify
+from app.extensions import db, migrate, cache
 from app.routes import register_routes
 from config import Config
 from flask_cors import CORS
-from flask_apscheduler import APScheduler
-from app.services.near_sma import update_sma_results
+import logging
 def create_app():
     app = Flask(__name__)
-
-    # Apply configuration to the Flask app
     app.config.from_object(Config)
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    )
     CORS(app)
-    # Initialize extensions
+    
     db.init_app(app)
     migrate.init_app(app, db)
+    cache.init_app(app)
 
-    # Register routes
     register_routes(app)
-    scheduler = APScheduler()
-    scheduler.init_app(app)
-    scheduler.start()
-    scheduler.add_job(
-        id="daily_sma_job",
-        func=lambda: update_sma_results(50, 2.0),
-        trigger="cron",
-        hour=18,
-        minute=00
-    )
+    @app.route('/', methods=['GET'])
+    def home():
+        print("App started and home route registered")
+        return jsonify({"service": "stock-analytics"})
+    
     return app
