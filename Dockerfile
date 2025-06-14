@@ -27,4 +27,4 @@ COPY --from=builder /install /usr/local
 COPY . .
 
 EXPOSE 5000
-CMD ["gunicorn", "-b", "0.0.0.0:5000", "run:app"]
+CMD ["gunicorn", "-b", "0.0.0.0:5000", "run:app", "--timeout", "180"]
