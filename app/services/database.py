@@ -7,10 +7,15 @@ from dotenv import load_dotenv
 from contextlib import contextmanager
 
 logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 load_dotenv()
 
 DATABASE_URL = os.getenv("DATABASE_URL")
+if not DATABASE_URL:
+    logger.error("DATABASE_URL environment variable not set.")
+    raise ValueError("DATABASE_URL environment variable not set.")
+
 engine = create_engine(
     DATABASE_URL,
     pool_size=10,
