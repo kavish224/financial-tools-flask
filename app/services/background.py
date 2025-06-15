@@ -6,10 +6,11 @@ import time
 from typing import Optional, List
 
 logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 class StockDataUpdater:
     """Class to handle stock data updates"""
-    
+
     def __init__(self, batch_size: int = 50, delay: float = 1.0):
         self.batch_size = batch_size
         self.delay = delay
@@ -21,19 +22,19 @@ class StockDataUpdater:
         try:
             encoded_symbol = f"NSE_EQ%7C{isin}"
             url = f'{self.base_url}/{encoded_symbol}/day/{end_date}/{start_date}'
-            
+
             logger.debug(f"Fetching data for ISIN {isin}: {url}")
-            
-            response = requests.get(url, headers=self.headers, timeout=30)
+
+            response = requests.get(url, headers=self.headers, timeout=self.timeout)
             response.raise_for_status()
-            
+
             data = response.json()
             if 'data' in data and 'candles' in data['data']:
                 return data['data']['candles']
             else:
                 logger.warning(f"No candle data found for ISIN {isin}")
                 return []
-                
+
         except requests.RequestException as e:
             logger.error(f"API request failed for ISIN {isin}: {str(e)}")
             return None
@@ -52,7 +53,7 @@ class StockDataUpdater:
                 if not result:
                     logger.warning(f"No ISIN found for symbol {symbol}")
                     return False
-                
+
                 isin = result[0]
 
                 cursor.execute(
@@ -74,8 +75,9 @@ class StockDataUpdater:
 
                 candles = self.fetch_historical_data(isin, start_date.isoformat(), end_date.isoformat())
                 if candles is None:
+                    logger.error(f"Failed to fetch candles for symbol {symbol}")
                     return False
-                
+
                 if not candles:
                     logger.debug(f"No new candles for symbol {symbol}")
                     return True
@@ -113,7 +115,7 @@ class StockDataUpdater:
 def update_all_symbols(batch_size: int = 50, delay: float = 1.0):
     """Update historical data for all symbols in the database."""
     updater = StockDataUpdater(batch_size, delay)
-    
+
     try:
         with get_db_connection() as conn:
             cursor = conn.cursor()
@@ -125,23 +127,23 @@ def update_all_symbols(batch_size: int = 50, delay: float = 1.0):
             return
 
         logger.info(f"Starting update for {len(symbols)} symbols")
-        
+
         successful_updates = 0
         failed_updates = 0
-        
+
         for i in range(0, len(symbols), batch_size):
             batch = symbols[i:i + batch_size]
             batch_start_time = time.time()
-            
+
             for symbol in batch:
                 if updater.update_stock_data(symbol):
                     successful_updates += 1
                 else:
                     failed_updates += 1
-            
+
             batch_time = time.time() - batch_start_time
             logger.info(f"Batch {i // batch_size + 1} completed in {batch_time:.2f}s")
-            
+
             if i + batch_size < len(symbols):
                 time.sleep(delay)
 
