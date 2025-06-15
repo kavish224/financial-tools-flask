@@ -1,92 +1,172 @@
+from app.models import HistoricalData1D, SMACrossResult
+from app.extensions import db
+from sqlalchemy import func
 import pandas as pd
-from sqlalchemy import text
-from app.services.database import db_session
+import ta
+import logging
+from datetime import datetime, timedelta
+from typing import List, Dict, Any
 
-def calculate_sma_crossings():
+logger = logging.getLogger(__name__)
+
+
+def sanitize_result(r: Dict[str, Any]) -> Dict[str, Any]:
+    return {
+        "symbol": str(r["symbol"]),
+        "sma_short": float(r["sma_short"]),
+        "sma_long": float(r["sma_long"]),
+        "signal": str(r["signal"])
+    }
+
+
+def update_sma_cross_results(short_window: int, long_window: int) -> int:
     """
-    Calculate SMA50 crossings for all stocks and include stock names in the results.
+    Updates today's SMA cross results.
     """
-    query = text("""
-        SELECT hd.symbol, hd.date, hd.close_price, ss."Company Name" AS company_name
-        FROM historical_data_1d hd
-        JOIN stock_symbols ss ON hd.symbol = ss.isin
-        ORDER BY hd.symbol, hd.date
-    """)
-    
-    data = pd.read_sql(query, db_session.bind)
-    
-    if data.empty:
-        return []
-    
-    results = []
-    grouped = data.groupby("symbol")
-    
-    for group in grouped:
-        group = group.sort_values("date")
-        group["SMA50"] = group["close_price"].rolling(window=50).mean()
-        group["Crossings"] = 0
-        
-        cross_below_indexes = (group["close_price"].shift(1) > group["SMA50"].shift(1)) & (group["close_price"] < group["SMA50"])
-        cross_above_indexes = (group["close_price"].shift(1) < group["SMA50"].shift(1)) & (group["close_price"] > group["SMA50"])
-        
-        group.loc[cross_below_indexes, "Crossings"] = -1
-        group.loc[cross_above_indexes, "Crossings"] = 1
-        
-        crossings = group[group["Crossings"] != 0]
-        for _, row in crossings.iterrows():
-            results.append({
-                "symbol": row["symbol"],
-                "stock_name": row["company_name"],
-                "date": row["date"].strftime("%Y-%m-%d"),
-                "price": round(float(row["close_price"]), 2),
-                "sma50": round(float(row["SMA50"]), 2),
-                "crossing": "above" if row["Crossings"] == 1 else "below"
-            })
-    
-    return results
+    try:
+        logger.info(f"Updating SMA cross results for short_window={short_window}, long_window={long_window}")
+        results = get_sma_cross_signals(short_window, long_window)
+
+        today_start = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
+        tomorrow_start = today_start + timedelta(days=1)
+
+        inserted_count = 0
+
+        for r in results:
+            try:
+                r = sanitize_result(r)
+
+                existing = SMACrossResult.query.filter(
+                    SMACrossResult.symbol == r["symbol"],
+                    SMACrossResult.short_window == short_window,
+                    SMACrossResult.long_window == long_window,
+                    SMACrossResult.date_generated >= today_start,
+                    SMACrossResult.date_generated < tomorrow_start
+                ).first()
+
+                if existing:
+                    logger.debug(f"Skipping duplicate for {r['symbol']} on {today_start.date()}")
+                    continue
+
+                entry = SMACrossResult(
+                    symbol=r["symbol"],
+                    short_window=short_window,
+                    long_window=long_window,
+                    sma_short=r["sma_short"],
+                    sma_long=r["sma_long"],
+                    signal=r["signal"]
+                )
+
+                db.session.add(entry)
+                inserted_count += 1
+
+            except Exception as e:
+                logger.exception(f"Error processing result for {r.get('symbol', 'unknown')}", exc_info=True)
+                continue
+
+        # Clean up old results
+        cutoff_datetime = datetime.utcnow() - timedelta(days=7)
+        deleted = SMACrossResult.query.filter(
+            SMACrossResult.short_window == short_window,
+            SMACrossResult.long_window == long_window,
+            SMACrossResult.date_generated < cutoff_datetime
+        ).delete()
+        logger.info(f"Deleted {deleted} old SMA cross results older than {cutoff_datetime.date()}")
+
+        db.session.commit()
+        logger.info(f"Inserted {inserted_count} new SMA cross results")
+        return inserted_count
+
+    except Exception as e:
+        db.session.rollback()
+        logger.exception("Error updating SMA cross results", exc_info=True)
+        raise
 
 
-def calculate_golden_cross():
+
+def get_sma_cross_signals(short_window: int, long_window: int) -> List[Dict[str, Any]]:
     """
-    Calculate Golden Cross and Death Cross for all stocks and include stock names in the results.
+    Get SMA crossing signals for all eligible stocks.
+
+    Args:
+        short_window (int): Short period SMA window.
+        long_window (int): Long period SMA window.
+
+    Returns:
+        List: List of SMA crossing signals.
     """
-    query = text("""
-        SELECT hd.symbol, hd.date, hd.close_price, ss."Company Name" AS company_name
-        FROM historical_data_1d hd
-        JOIN stock_symbols ss ON hd.symbol = ss.isin
-        ORDER BY hd.symbol, hd.date
-    """)
+    try:
+        logger.info(f"Calculating SMA crossing signals with short_window={short_window} and long_window={long_window}")
 
-    data = pd.read_sql(query, db_session.bind)
+        symbols_with_count = (
+            db.session.query(HistoricalData1D.symbol)
+            .group_by(HistoricalData1D.symbol)
+            .having(func.count(HistoricalData1D.id) >= long_window)
+            .all()
+        )
 
-    if data.empty:
-        return []
+        logger.info(f"Found {len(symbols_with_count)} symbols with sufficient data")
 
-    results = []
-    grouped = data.groupby("symbol")
+        results = []
+        processed_count = 0
 
-    for symbol, group in grouped:
-        group = group.sort_values("date")
-        group["SMA50"] = group["close_price"].rolling(window=50).mean()
-        group["SMA200"] = group["close_price"].rolling(window=200).mean()
-        group["Crossings"] = 0
+        for (symbol,) in symbols_with_count:
+            try:
+                rows = (
+                    db.session.query(HistoricalData1D)
+                    .filter(HistoricalData1D.symbol == symbol)
+                    .filter(HistoricalData1D.close_price.isnot(None))
+                    .order_by(HistoricalData1D.date.asc())
+                    .all()
+                )
 
-        cross_below_indexes = (group["SMA50"].shift(1) > group["SMA200"].shift(1)) & (group["SMA50"] < group["SMA200"])
-        cross_above_indexes = (group["SMA50"].shift(1) < group["SMA200"].shift(1)) & (group["SMA50"] > group["SMA200"])
+                if len(rows) < long_window:
+                    continue
 
-        group.loc[cross_below_indexes, "Crossings"] = -1
-        group.loc[cross_above_indexes, "Crossings"] = 1
+                df = pd.DataFrame([
+                    {"date": r.date, "close": float(r.close_price)}
+                    for r in rows if r.close_price is not None
+                ])
 
-        crossings = group[group["Crossings"] != 0]
-        for _, row in crossings.iterrows():
-            results.append({
-                "symbol": row["symbol"],
-                "stock_name": row["company_name"],
-                "date": row["date"].strftime("%Y-%m-%d"),
-                "price": round(float(row["close_price"]), 2),
-                "sma50": round(float(row["SMA50"]), 2) if pd.notna(row["SMA50"]) else None,
-                "sma200": round(float(row["SMA200"]), 2) if pd.notna(row["SMA200"]) else None,
-                "crossing": "golden" if row["Crossings"] == 1 else "death"
-            })
+                if df.empty or df['close'].isnull().any():
+                    continue
 
-    return results
+                df["sma_short"] = ta.trend.sma_indicator(df['close'], window=short_window)
+                df["sma_long"] = ta.trend.sma_indicator(df['close'], window=long_window)
+
+                if len(df) < 2 or pd.isna(df.iloc[-1]['sma_short']) or pd.isna(df.iloc[-1]['sma_long']):
+                    continue
+
+                yesterday = df.iloc[-2]
+                today = df.iloc[-1]
+
+                if yesterday['sma_short'] < yesterday['sma_long'] and today['sma_short'] > today['sma_long']:
+                    signal = "bullish"
+                elif yesterday['sma_short'] > yesterday['sma_long'] and today['sma_short'] < today['sma_long']:
+                    signal = "bearish"
+                else:
+                    continue
+
+                result = {
+                    "symbol": symbol,
+                    "sma_short": round(float(today['sma_short']), 2),
+                    "sma_long": round(float(today['sma_long']), 2),
+                    "signal": signal
+                }
+                results.append(result)
+
+                processed_count += 1
+
+                if processed_count % 100 == 0:
+                    logger.info(f"Processed {processed_count} symbols...")
+
+            except Exception as e:
+                logger.exception(f"Error processing symbol {symbol}", exc_info=True)
+                continue
+
+        logger.info(f"Found {len(results)} SMA crossing signals")
+        return results
+
+    except Exception as e:
+        logger.exception("Error in get_sma_cross_signals", exc_info=True)
+        raise
