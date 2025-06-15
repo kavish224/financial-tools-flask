@@ -92,7 +92,7 @@ def get_stocks_near_sma(sma_window: int, threshold_pct: float) -> List[Dict[str,
     """
     try:
         logger.info(f"Calculating stocks near SMA{sma_window} within {threshold_pct}%")
-        
+
         symbols_with_count = (
             db.session.query(HistoricalData1D.symbol)
             .group_by(HistoricalData1D.symbol)
@@ -172,7 +172,17 @@ def backfill_sma_results(sma_period: int, threshold_pct: float, days: int = 7) -
     """
     try:
         logger.info(f"Backfilling SMA results for the last {days} days")
-
+        trading_dates = (
+            db.session.query(HistoricalData1D.date)
+            .distinct()
+            .order_by(HistoricalData1D.date.desc())
+            .limit(days)
+            .all()
+        )
+        unique_dates = sorted({row[0].date() for row in trading_dates})
+        if not unique_dates:
+            logger.warning("No trading dates found for backfill")
+            return
         symbols_with_count = (
             db.session.query(HistoricalData1D.symbol)
             .group_by(HistoricalData1D.symbol)
@@ -180,12 +190,11 @@ def backfill_sma_results(sma_period: int, threshold_pct: float, days: int = 7) -
             .all()
         )
 
-        for i in range(days):
-            target_date = datetime.utcnow().date() - timedelta(days=i)
+        for target_date in unique_dates:
             day_start = datetime.combine(target_date, datetime.min.time())
             day_end = day_start + timedelta(days=1)
 
-            logger.info(f"Processing SMA for date: {target_date}")
+            logger.info(f"Processing SMA for trading date: {target_date}")
 
             for (symbol,) in symbols_with_count:
                 try:
@@ -253,9 +262,9 @@ def backfill_sma_results(sma_period: int, threshold_pct: float, days: int = 7) -
                     continue
 
             db.session.commit()
-            logger.info(f"Finished inserting SMA results for {target_date}")
+            logger.info(f"✅ Finished inserting SMA results for {target_date}")
 
     except Exception as e:
         db.session.rollback()
-        logger.exception("Error in backfill_sma_results", exc_info=True)
+        logger.exception("❌ Error in backfill_sma_results", exc_info=True)
         raise
