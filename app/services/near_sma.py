@@ -5,10 +5,11 @@ import pandas as pd
 import ta
 import logging
 from datetime import datetime, timedelta
+from typing import List, Dict, Any
 
 logger = logging.getLogger(__name__)
 
-def sanitize_result(r):
+def sanitize_result(r: Dict[str, Any]) -> Dict[str, Any]:
     return {
         "symbol": str(r["symbol"]),
         "close": float(r["close"]),
@@ -16,19 +17,27 @@ def sanitize_result(r):
         "proximity_pct": float(r["proximity_pct"])
     }
 
-def update_sma_results(sma_period, threshold_pct):
+
+def update_sma_results(sma_period: int, threshold_pct: float) -> int:
+    """
+    Updates today's SMA results.
+    """
     try:
         logger.info(f"Updating SMA results for period {sma_period}, threshold {threshold_pct}%")
         results = get_stocks_near_sma(sma_period, threshold_pct)
+
         today_start = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
         tomorrow_start = today_start + timedelta(days=1)
+
         inserted_count = 0
+
         for r in results:
             try:
                 r = sanitize_result(r)
+
                 existing = SMAResult.query.filter(
                     SMAResult.symbol == r["symbol"],
-                    SMAResult.sma_period == int(sma_period),
+                    SMAResult.sma_period == sma_period,
                     SMAResult.date_generated >= today_start,
                     SMAResult.date_generated < tomorrow_start
                 ).first()
@@ -39,45 +48,51 @@ def update_sma_results(sma_period, threshold_pct):
 
                 entry = SMAResult(
                     symbol=r["symbol"],
-                    sma_period=int(sma_period),
-                    threshold_pct=float(threshold_pct),
+                    sma_period=sma_period,
+                    threshold_pct=threshold_pct,
                     close_price=r["close"],
                     sma_value=r["sma"],
                     deviation_pct=r["proximity_pct"]
                 )
                 db.session.add(entry)
                 inserted_count += 1
+
             except Exception as e:
-                logger.error(f"Error processing result for {r.get('symbol', 'unknown')}: {str(e)}")
+                logger.exception(f"Error processing result for {r.get('symbol', 'unknown')}", exc_info=True)
                 continue
+
+        # Clean up old results
         cutoff_datetime = datetime.utcnow() - timedelta(days=7)
-        deleted = SMAResult.query.filter(SMAResult.sma_period == sma_period,
-                                          SMAResult.date_generated < cutoff_datetime).delete()
+        deleted = SMAResult.query.filter(
+            SMAResult.sma_period == sma_period,
+            SMAResult.date_generated < cutoff_datetime
+        ).delete()
         logger.info(f"Deleted {deleted} old SMA results older than {cutoff_datetime.date()}")
 
         db.session.commit()
         logger.info(f"Inserted {inserted_count} new SMA results")
         return inserted_count
-        
+
     except Exception as e:
         db.session.rollback()
-        logger.error(f"Error updating SMA results: {str(e)}")
+        logger.exception("Error updating SMA results", exc_info=True)
         raise
 
-def get_stocks_near_sma(sma_window, threshold_pct):
+
+def get_stocks_near_sma(sma_window: int, threshold_pct: float) -> List[Dict[str, Any]]:
     """
     Get stocks that are near their SMA.
 
     Args:
-        sma_window (int): SMA window period
-        threshold_pct (float): Threshold percentage
+        sma_window (int): SMA window period.
+        threshold_pct (float): Threshold percentage.
 
     Returns:
-        list: List of stocks near SMA
+        List: List of stocks near SMA.
     """
     try:
         logger.info(f"Calculating stocks near SMA{sma_window} within {threshold_pct}%")
-
+        
         symbols_with_count = (
             db.session.query(HistoricalData1D.symbol)
             .group_by(HistoricalData1D.symbol)
@@ -90,7 +105,7 @@ def get_stocks_near_sma(sma_window, threshold_pct):
         results = []
         processed_count = 0
 
-        for (symbol,) in symbols_with_count:  # correctly unpacking
+        for (symbol,) in symbols_with_count:
             try:
                 rows = (
                     db.session.query(HistoricalData1D)
@@ -103,10 +118,10 @@ def get_stocks_near_sma(sma_window, threshold_pct):
                 if len(rows) < sma_window:
                     continue
 
-                df = pd.DataFrame([{
-                    'date': r.date,
-                    'close': float(r.close_price)
-                } for r in rows if r.close_price is not None])
+                df = pd.DataFrame([
+                    {'date': r.date, 'close': float(r.close_price)}
+                    for r in rows if r.close_price is not None
+                ])
 
                 if df.empty or df['close'].isnull().any():
                     continue
@@ -135,24 +150,25 @@ def get_stocks_near_sma(sma_window, threshold_pct):
                     logger.info(f"Processed {processed_count} symbols...")
 
             except Exception as e:
-                logger.error(f"Error processing symbol {symbol}: {str(e)}")
+                logger.exception(f"Error processing symbol {symbol}", exc_info=True)
                 continue
 
         logger.info(f"Found {len(results)} stocks near SMA{sma_window}")
         return results
 
     except Exception as e:
-        logger.error(f"Error in get_stocks_near_sma: {str(e)}")
+        logger.exception("Error in get_stocks_near_sma", exc_info=True)
         raise
 
-def backfill_sma_results(sma_period: int, threshold_pct: float, days: int = 7):
+
+def backfill_sma_results(sma_period: int, threshold_pct: float, days: int = 7) -> None:
     """
     Backfill SMA results for the past `days` number of days.
 
     Args:
-        sma_period (int): SMA window period
-        threshold_pct (float): Proximity threshold
-        days (int): How many days to backfill (default: 7)
+        sma_period (int): SMA window period.
+        threshold_pct (float): Proximity threshold.
+        days (int): Number of days to backfill.
     """
     try:
         logger.info(f"Backfilling SMA results for the last {days} days")
@@ -185,10 +201,10 @@ def backfill_sma_results(sma_period: int, threshold_pct: float, days: int = 7):
                     if len(rows) < sma_period:
                         continue
 
-                    df = pd.DataFrame([{
-                        'date': r.date,
-                        'close': float(r.close_price)
-                    } for r in rows if r.date <= day_end])
+                    df = pd.DataFrame([
+                        {'date': r.date, 'close': float(r.close_price)}
+                        for r in rows if r.date <= day_end
+                    ])
 
                     df = df[df['date'] <= pd.Timestamp(day_end)]
 
@@ -197,8 +213,8 @@ def backfill_sma_results(sma_period: int, threshold_pct: float, days: int = 7):
 
                     df["sma"] = ta.trend.sma_indicator(df['close'], window=sma_period)
 
-                    # get row matching target_date
                     match = df[df['date'].dt.date == target_date]
+
                     if match.empty:
                         continue
 
@@ -211,7 +227,6 @@ def backfill_sma_results(sma_period: int, threshold_pct: float, days: int = 7):
                     if proximity_pct > threshold_pct:
                         continue
 
-                    # Prevent duplicates
                     existing = SMAResult.query.filter(
                         SMAResult.symbol == symbol,
                         SMAResult.sma_period == sma_period,
@@ -229,12 +244,12 @@ def backfill_sma_results(sma_period: int, threshold_pct: float, days: int = 7):
                         close_price=round(float(latest['close']), 2),
                         sma_value=round(float(latest['sma']), 2),
                         deviation_pct=round(float(proximity_pct), 2),
-                        date_generated=day_start  # use the historical day
+                        date_generated=day_start
                     )
                     db.session.add(entry)
 
                 except Exception as e:
-                    logger.error(f"Error processing symbol {symbol} on {target_date}: {str(e)}")
+                    logger.exception(f"Error processing symbol {symbol} on {target_date}", exc_info=True)
                     continue
 
             db.session.commit()
@@ -242,5 +257,5 @@ def backfill_sma_results(sma_period: int, threshold_pct: float, days: int = 7):
 
     except Exception as e:
         db.session.rollback()
-        logger.error(f"Error in backfill_sma_results: {str(e)}")
+        logger.exception("Error in backfill_sma_results", exc_info=True)
         raise
