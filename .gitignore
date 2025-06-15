@@ -6,3 +6,4 @@ instance/
 *.db
 venv/
 *.log
+flask_structure.txt
