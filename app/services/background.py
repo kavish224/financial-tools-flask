@@ -11,9 +11,10 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 class StockDataUpdater:
     """Class to handle stock data updates"""
 
-    def __init__(self, batch_size: int = 50, delay: float = 1.0):
+    def __init__(self, batch_size: int = 50, delay: float = 1.0, timeout: float = 10.0):
         self.batch_size = batch_size
         self.delay = delay
+        self.timeout = timeout
         self.base_url = "https://api.upstox.com/v2/historical-candle"
         self.headers = {'Accept': 'application/json'}
 
@@ -114,7 +115,7 @@ class StockDataUpdater:
 
 def update_all_symbols(batch_size: int = 50, delay: float = 1.0):
     """Update historical data for all symbols in the database."""
-    updater = StockDataUpdater(batch_size, delay)
+    updater = StockDataUpdater(batch_size, delay, timeout=15.0)
 
     try:
         with get_db_connection() as conn:
