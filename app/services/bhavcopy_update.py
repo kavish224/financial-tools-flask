@@ -146,8 +146,8 @@ def download_and_process_bhavcopy_nse(target_date: Optional[date] = None) -> Dic
         target_date = datetime.today().date()
 
     yyyymmdd = target_date.strftime('%Y%m%d')
-    url = f"https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_{yyyymmdd}_F_0000.csv.zip"
-
+    # url = f"https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_{yyyymmdd}_F_0000.csv.zip"
+    url = f"https://kavish-bhavcopy.vercel.app/bhavcopy/{yyyymmdd}.zip"
     headers = {
         "User-Agent": "Mozilla/5.0",
         "Referer": "https://www.nseindia.com/"
